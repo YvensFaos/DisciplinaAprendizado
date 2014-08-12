@@ -212,8 +212,7 @@ public class Exec {
 		String ontologyName = "http://www.yvens.com.br/Music"; //TODO	
 		String owlPath = "ontology/music_ont.owl"; //TODO	
 		String uriDBpediaLinkedConcept = "http://dbpedia.org/ontology/Band"; //TODO
-		
-		
+			
 		Exec exec = new Exec(ontologyName, owlPath, uriDBpediaLinkedConcept);
 		exec.instanciarOntologia();
 		exec.gerarInferencias();
