@@ -1,0 +1,10 @@
+SELECT ?filme  WHERE { 
+?filme <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film>
+}LIMIT 10
+
+SELECT ?filme ?director ?year ?runtime WHERE { 
+?filme <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film>.
+?filme <http://dbpedia.org/ontology/director> ?director.
+?filme <http://dbpedia.org/property/released> ?year.
+?filme <http://dbpedia.org/ontology/Work/runtime> ?runtime
+}LIMIT 10

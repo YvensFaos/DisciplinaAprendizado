@@ -1,4 +1,4 @@
-package ontology.model;
+package ontology.manager;
 
 import java.io.File;
 import java.io.FileInputStream;

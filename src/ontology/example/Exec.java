@@ -1,4 +1,4 @@
-package ontology.main;
+package ontology.example;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import ontology.model.LodManager;
-import ontology.model.OntologyManager;
+import ontology.manager.LodManager;
+import ontology.manager.OntologyManager;
 
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntClass;

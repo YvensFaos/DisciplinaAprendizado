@@ -1,6 +1,4 @@
-package ontology.model;
-
-
+package ontology.manager;
 
 import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
@@ -15,8 +13,7 @@ public class LodManager {
 	private QueryExecution queryExecution;
 	private ResultSet resultSet;
 
-	public  LodManager(){
-	}
+	public  LodManager(){ }
 	
 	public  LodManager(String endPointURL){
 		this.endPointURL=endPointURL;
