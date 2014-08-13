@@ -5,6 +5,16 @@ import java.util.List;
 
 public class AMovie {
 
+	private int index;
+	
+	public int getIndex() {
+		return index;
+	}
+
+	public void setIndex(int index) {
+		this.index = index;
+	}
+
 	private int year;
 	private String name;
 	private List<String> actors;
