@@ -58,3 +58,16 @@ select distinct ?album where
 {?album <http://dbpedia.org/ontology/artist> <http://dbpedia.org/resource/Job_for_a_Cowboy> . 
  ?album <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicAlbum> } 
 LIMIT 3
+
+SELECT distinct *
+WHERE { 
+  ?movie a dbpedia-owl:Film ;
+    dbpprop:author ?author ;
+    dbpprop:director ?director .
+  OPTIONAL {
+   ?movie dbpprop:duration ?duration ;
+     dbpprop:genre ?genre
+  }
+}
+LIMIT 100
+OFFSET 0
