@@ -1,5 +1,6 @@
 package model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class AMovie {
@@ -10,14 +11,17 @@ public class AMovie {
 	private String summary;
 	private String director;
 	private String genre;
+	private String country;
+	private String language;
 	private int duration;
 
 	public AMovie() {
-		this(0, "", null, "", "", "", 0);
+		this(0, "", new ArrayList<String>(), "", "", "", "", "", 0);
 	}
 
 	public AMovie(int year, String name, List<String> actors, String summary,
-			String director, String genre, int duration) {
+			String director, String genre, String country, String language,
+			int duration) {
 		super();
 		this.year = year;
 		this.name = name;
@@ -25,6 +29,8 @@ public class AMovie {
 		this.summary = summary;
 		this.director = director;
 		this.genre = genre;
+		this.country = country;
+		this.language = language;
 		this.duration = duration;
 	}
 
@@ -84,4 +90,19 @@ public class AMovie {
 		this.year = year;
 	}
 
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	public String getLanguage() {
+		return language;
+	}
+
+	public void setLanguage(String language) {
+		this.language = language;
+	}
 }
