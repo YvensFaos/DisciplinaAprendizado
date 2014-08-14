@@ -14,6 +14,11 @@ public class AActor {
 
 	private String name;
 
+	public AActor(String name)
+	{
+		this(-1, name);
+	}
+	
 	public AActor(int index, String name) {
 		super();
 		this.index = index;

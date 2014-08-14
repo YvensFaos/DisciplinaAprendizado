@@ -14,6 +14,11 @@ public class ADirector {
 
 	private String name;
 
+	public ADirector(String name)
+	{
+		this(-1, name);
+	}
+	
 	public ADirector(int index, String name) {
 		super();
 		this.index = index;

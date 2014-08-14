@@ -19,10 +19,10 @@ public class ConnectionDAO {
 
 	private ConnectionDAO()
 	{
-		String url = "jdbc:mysql://localhost:3306/";
+		String url = "jdbc:mysql://YVENS-NOTEBOOK:3306/";
 		String dbName = "amoviedatabase";
 		String driver = "com.mysql.jdbc.Driver";
-		String username = "root";
+		String username = "admin";
 		String password = "root";
 		
 		try {

@@ -17,22 +17,28 @@ public class AMovie {
 
 	private int year;
 	private String name;
-	private List<String> actors;
+	private List<AActor> actors;
 	private String summary;
-	private String director;
+	private ADirector director;
 	private String genre;
 	private String country;
 	private String language;
 	private int duration;
-
+	
 	public AMovie() {
-		this(0, "", new ArrayList<String>(), "", "", "", "", "", 0);
+		this(0, 0, "", new ArrayList<AActor>(), "", new ADirector(), "", "", "", 0);
 	}
 
-	public AMovie(int year, String name, List<String> actors, String summary,
-			String director, String genre, String country, String language,
-			int duration) {
+	public AMovie(int index, int year, String name, String genre,
+			String country, String language, int duration) {
+		this(index, year, name, new ArrayList<AActor>(), "", new ADirector(), genre, country, language, duration);
+	}
+
+	public AMovie(int index, int year, String name, List<AActor> actors,
+			String summary, ADirector director, String genre, String country,
+			String language, int duration) {
 		super();
+		this.index = index;
 		this.year = year;
 		this.name = name;
 		this.actors = actors;
@@ -52,28 +58,12 @@ public class AMovie {
 		this.name = name;
 	}
 
-	public List<String> getActors() {
-		return actors;
-	}
-
-	public void setActors(List<String> actors) {
-		this.actors = actors;
-	}
-
 	public String getSummary() {
 		return summary;
 	}
 
 	public void setSummary(String summary) {
 		this.summary = summary;
-	}
-
-	public String getDirector() {
-		return director;
-	}
-
-	public void setDirector(String director) {
-		this.director = director;
 	}
 
 	public String getGenre() {
@@ -115,12 +105,28 @@ public class AMovie {
 	public void setLanguage(String language) {
 		this.language = language;
 	}
+	
+	public List<AActor> getActors() {
+		return actors;
+	}
+
+	public void setActors(List<AActor> actors) {
+		this.actors = actors;
+	}
+
+	public ADirector getDirector() {
+		return director;
+	}
+
+	public void setDirector(ADirector director) {
+		this.director = director;
+	}
 
 	@Override
 	public String toString() {
 		return "AMovie [index=" + index + ", year=" + year + ", name=" + name
-				+ ", actors=" + actors + ", director=" + director
-				+ ", country=" + country + ", language=" + language
-				+ ", duration=" + duration + "]";
+				+ ", actors=" + actors + ", summary=" + summary + ", director="
+				+ director + ", genre=" + genre + ", country=" + country
+				+ ", language=" + language + ", duration=" + duration + "]";
 	}
 }

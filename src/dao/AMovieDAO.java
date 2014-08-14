@@ -3,6 +3,7 @@ package dao;
 import java.util.ArrayList;
 import java.util.List;
 
+import model.ADirector;
 import model.AMovie;
 import ontology.manager.LodManager;
 import ontology.util.Util;
@@ -94,7 +95,7 @@ public class AMovieDAO {
 							directorName = director.toString();
 						}
 					}
-					amovie.setDirector(directorName);
+					amovie.setDirector(new ADirector(directorName));
 
 					String countryString = "";
 					RDFNode country = queryMovieDetails.get("country");
