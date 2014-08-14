@@ -103,7 +103,6 @@ dbpprop:runtime ?runtime .
 LIMIT 1000
 OFFSET 0
 
-
 //QUERIES USADAS!
 
 SELECT distinct * WHERE { ?movie a <http://dbpedia.org/ontology/Film> ; <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Parody_films> . } LIMIT 1000 OFFSET 0

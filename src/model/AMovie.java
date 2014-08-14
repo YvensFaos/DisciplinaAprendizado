@@ -115,4 +115,12 @@ public class AMovie {
 	public void setLanguage(String language) {
 		this.language = language;
 	}
+
+	@Override
+	public String toString() {
+		return "AMovie [index=" + index + ", year=" + year + ", name=" + name
+				+ ", actors=" + actors + ", director=" + director
+				+ ", country=" + country + ", language=" + language
+				+ ", duration=" + duration + "]";
+	}
 }
