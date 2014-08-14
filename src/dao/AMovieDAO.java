@@ -1,9 +1,12 @@
 package dao;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import model.AActor;
 import model.ADirector;
+import model.AGenre;
 import model.AMovie;
 import ontology.manager.LodManager;
 import ontology.util.Util;
@@ -14,43 +17,24 @@ import com.hp.hpl.jena.rdf.model.RDFNode;
 
 public class AMovieDAO {
 	private LodManager lodManager;
-	private List<String> genres;
+	private List<AGenre> genres;
+	private int quantity;
 	
 	public AMovieDAO() {
 		super();
 		lodManager = new LodManager("http://dbpedia.org/sparql");
-		genres = getGenres();
-	}
-
-	private List<String> getGenres()
-	{
-		List<String> list = new ArrayList<String>();
-		
-		list.add("<http://dbpedia.org/resource/Category:Parody_films>");
-		list.add("<http://dbpedia.org/resource/Category:Apocalyptic_films>");
-		list.add("<http://dbpedia.org/resource/Category:Mystery_films>");
-		list.add("<http://dbpedia.org/resource/Category:Slasher_films>");
-		list.add("<http://dbpedia.org/resource/Category:Dystopian_films>");
-		list.add("<http://dbpedia.org/resource/Category:Thriller_films>");
-		list.add("<http://dbpedia.org/resource/Category:Romantic_drama_films>");
-		list.add("<http://dbpedia.org/resource/Category:Romance_films>");
-		list.add("<http://dbpedia.org/resource/Category:British_comedy_films>");
-		list.add("<http://dbpedia.org/resource/Category:Science_fiction_films_by_series>");
-		list.add("<http://dbpedia.org/resource/Category:Science_fiction_action_films>");
-		list.add("<http://dbpedia.org/resource/Category:2000s_science_fiction_films>");
-		list.add("<http://dbpedia.org/resource/Category:Fantasy_films>");
-		
-		return list;
+		genres = AGenre.getGenres();
+		quantity = 1;
 	}
 	
 	public List<AMovie> getMovies()
 	{
 		List<AMovie> movies = new ArrayList<AMovie>();
 		
-		for(String genre : genres)
+		for(AGenre genre : genres)
 		{
-			System.out.println("\nGênero: "+genre);
-			String sparql = "SELECT distinct ?movie ?name WHERE { ?movie a <http://dbpedia.org/ontology/Film> ; <http://dbpedia.org/property/name> ?name ;  <http://purl.org/dc/terms/subject> "+genre+" . } LIMIT 30 OFFSET 0";
+			System.out.println("\nGênero: "+genre.getGenre() + ": " + genre.getGenreURL());
+			String sparql = "SELECT distinct ?movie ?name WHERE { ?movie a <http://dbpedia.org/ontology/Film> ; <http://dbpedia.org/property/name> ?name ;  <http://purl.org/dc/terms/subject> "+genre.getGenreURL()+" . } LIMIT "+quantity+" OFFSET 0";
 			String sparql2, sparql3;
 			ResultSet result = lodManager.query(Util.concatSPARQLPrefix(sparql));
 			ResultSet results2, results3;
@@ -131,8 +115,24 @@ public class AMovieDAO {
 						}
 					}
 					amovie.setDuration(durationString);
+					
+					sparql3 = "SELECT ?actor_name WHERE { ?movie a <http://dbpedia.org/ontology/Film> ;  <http://dbpedia.org/property/name> \""+movieLiteral+"\"@en ; <http://dbpedia.org/property/starring> ?starring . ?starring <http://www.w3.org/2000/01/rdf-schema#label> ?actor_name . } LIMIT 10 OFFSET 0";
+					results3 = lodManager.query(Util.concatSPARQLPrefix(sparql3));
+					
+					while(results3.hasNext())
+					{
+						QuerySolution queryDirectorDetails = results3.nextSolution();
+						RDFNode actor = queryDirectorDetails.get("actor_name");
+						String actorName = actor.toString();
+						
+						if(!amovie.containsActorNamed(actorName))
+						{
+							amovie.getActors().add(new AActor(actorName));
+						}
+					}
 				}
 				
+				amovie.setGenre(genre.getGenre());
 				movies.add(amovie);
 				System.out.println(amovie.toString());
 			}
@@ -141,8 +141,10 @@ public class AMovieDAO {
 		return movies;
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SQLException {
 		AMovieDAO dao = new AMovieDAO();
-		dao.getMovies();
+		List<AMovie> movies = dao.getMovies();
+		AMovieBD bd = new AMovieBD();
+		bd.insertMovies(movies);
 	}
 }

@@ -13,6 +13,34 @@ import model.AMovie;
 
 public class AMovieBD {
 	
+	public AMovie getMovie(AMovie amovie) throws SQLException
+	{
+		Connection connection = ConnectionDAO.getInstance().getConnection();
+		
+		Statement st = connection.createStatement(); 
+		ResultSet res = st.executeQuery("SELECT * FROM AMOVIE WHERE NAME = '"+amovie.getName()+"'");
+		
+		if (res.next()) 
+		{ 
+			int id = res.getInt("idamovie"); 
+			String name = res.getString("name"); 
+			String genre = res.getString("genre"); 
+			String country = res.getString("country"); 
+			String language = res.getString("language"); 
+			int duration = res.getInt("duration"); 
+			int year = res.getInt("year"); 
+			
+			amovie = new AMovie(id, year, name, genre, country, language, duration); 
+		}
+		
+		return amovie;
+	}
+	
+	public boolean existMovie(AMovie amovie) throws SQLException
+	{
+		return getMovie(amovie).getIndex() != 0;
+	}
+	
 	public List<AMovie> getMovies() throws SQLException
 	{
 		List<AMovie> list = new ArrayList<AMovie>();
@@ -48,7 +76,7 @@ public class AMovieBD {
 			
 			res2 = st.executeQuery("SELECT D.IDADIRECTOR, D.NAME FROM AMOVIE M, ADIRECTOR D, DIRECTOR_MOVIE DM WHERE M.IDAMOVIE = DM.IDAMOVIE AND D.IDADIRECTOR = DM.IDADIRECTOR");
 			
-			if(res2 != null)
+			if(res2.next())
 			{
 				int idadirector = res2.getInt("idadirector");
 				String namedirector = res2.getString("name");
@@ -62,6 +90,60 @@ public class AMovieBD {
 		}
 		
 		return list;
+	}
+	
+	public int insertMovies(List<AMovie> movies) throws SQLException
+	{
+		int added = 0;
+		int qtty = 0;
+		for (AMovie aMovie : movies) {
+			if(!existMovie(aMovie))
+			{
+				added += insertMovie(aMovie);
+				System.out.printf("%d/%d\n", ++qtty, movies.size());
+			}
+			else
+			{
+				qtty++;
+			}
+		}
+		
+		return added;
+	}
+	
+	public int insertMovie(AMovie amovie) throws SQLException
+	{
+		Connection connection = ConnectionDAO.getInstance().getConnection();
+		Statement st = connection.createStatement();
+		 
+		int val = st.executeUpdate("INSERT INTO AMOVIE (name, genre, country, language, duration, year) VALUES('"+amovie.getName()+"', '"+amovie.getGenre()+"', '"+amovie.getCountry()+"', '"+amovie.getLanguage()+"', "+amovie.getDuration()+", "+amovie.getYear()+")");
+		if(val != 0)
+		{
+			amovie = getMovie(amovie);
+		}
+		if(!amovie.getDirector().getName().isEmpty())
+		{
+			if(!existDirector(amovie.getDirector()))
+			{
+				insertDirector(amovie.getDirector());
+			}
+			
+			amovie.setDirector(getDirector(amovie.getDirector()));
+			st.executeUpdate("INSERT INTO DIRECTOR_MOVIE VALUES ("+amovie.getIndex()+", "+amovie.getDirector().getIndex()+")");
+		}
+		if(!amovie.getActors().isEmpty())
+		{
+			for (AActor aactor : amovie.getActors()) {
+				if(!existActor(aactor))
+				{
+					insertActor(aactor);
+				}
+				
+				aactor = getActor(aactor);
+				st.executeUpdate("INSERT INTO ACOR_MOVIE VALUES ("+amovie.getIndex()+", "+aactor.getIndex()+")");
+			}
+		}
+		return val;
 	}
 	
 	public List<AActor> getActors() throws SQLException
@@ -93,6 +175,47 @@ public class AMovieBD {
 		return val == 1;
 	}
 	
+	public AActor getActor(AActor aactor) throws SQLException
+	{	
+		Connection connection = ConnectionDAO.getInstance().getConnection();
+		
+		Statement st = connection.createStatement(); 
+		ResultSet res = st.executeQuery("SELECT a.idactor FROM AACTOR D WHERE D.name = \""+aactor.getName()+"\""); 
+		
+		if(res.next())
+		{
+			aactor.setIndex(res.getInt("idadirector"));
+			return aactor;
+		}
+		else
+		{
+			return null;
+		}
+	}
+	
+	public boolean existActor(AActor aactor) throws SQLException
+	{
+		return getActor(aactor) != null;
+	}
+	
+	public ADirector getDirector(ADirector director) throws SQLException
+	{
+		Connection connection = ConnectionDAO.getInstance().getConnection();
+		
+		Statement st = connection.createStatement(); 
+		ResultSet res = st.executeQuery("SELECT D.idadirector FROM ADIRECTOR D WHERE D.name = \""+director.getName()+"\""); 
+		
+		if(res.next())
+		{
+			director.setIndex(res.getInt("idadirector"));
+			return director;
+		}
+		else
+		{
+			return null;
+		}
+	}
+	
 	public List<ADirector> getDirector() throws SQLException
 	{
 		List<ADirector> list = new ArrayList<ADirector>();
@@ -113,6 +236,11 @@ public class AMovieBD {
 		return list;
 	}
 	
+	public boolean existDirector(ADirector director) throws SQLException
+	{
+		return getDirector(director) != null;
+	}
+	
 	public boolean insertDirector(ADirector director) throws SQLException
 	{		
 		Connection connection = ConnectionDAO.getInstance().getConnection();
@@ -122,7 +250,18 @@ public class AMovieBD {
 		return val == 1;
 	}
 	
+	public boolean insertDirectorMovie(AMovie movie) throws SQLException
+	{		
+		Connection connection = ConnectionDAO.getInstance().getConnection();
+		Statement st = connection.createStatement();
+		ADirector director = movie.getDirector();
+		int val = st.executeUpdate("INSERT INTO ADIRECTOR (name) VALUES("+director.getName()+")");
+		
+		return val == 1;
+	}
+	
 	public static void main(String[] args) throws SQLException {
-		new AMovieBD().getActors();
+		//new AMovieBD().getActors();
+		new AMovieBD().getMovie(new AMovie("Another Gay Movie"));
 	}
 }

@@ -29,6 +29,11 @@ public class AMovie {
 		this(0, 0, "", new ArrayList<AActor>(), "", new ADirector(), "", "", "", 0);
 	}
 
+	public AMovie(String name)
+	{
+		this(0, 0, name, new ArrayList<AActor>(), "", new ADirector(), "", "", "", 0);
+	}
+	
 	public AMovie(int index, int year, String name, String genre,
 			String country, String language, int duration) {
 		this(index, year, name, new ArrayList<AActor>(), "", new ADirector(), genre, country, language, duration);
@@ -50,6 +55,17 @@ public class AMovie {
 		this.duration = duration;
 	}
 
+	public boolean containsActorNamed(String name)
+	{
+		for (AActor aactor : actors) {
+			if(aactor.getName().equals(name))
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+	
 	public String getName() {
 		return name;
 	}
@@ -87,6 +103,7 @@ public class AMovie {
 	}
 
 	public void setYear(int year) {
+		year = Math.abs(year);
 		this.year = year;
 	}
 
