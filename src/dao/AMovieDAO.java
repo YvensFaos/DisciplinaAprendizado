@@ -24,7 +24,7 @@ public class AMovieDAO {
 		super();
 		lodManager = new LodManager("http://dbpedia.org/sparql");
 		genres = AGenre.getGenres();
-		quantity = 1;
+		quantity = 5;
 	}
 	
 	public List<AMovie> getMovies()

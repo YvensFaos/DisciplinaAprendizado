@@ -185,17 +185,14 @@ public class AMovieBD {
 		if(res.next())
 		{
 			aactor.setIndex(res.getInt("idadirector"));
-			return aactor;
 		}
-		else
-		{
-			return null;
-		}
+		
+		return aactor;
 	}
 	
 	public boolean existActor(AActor aactor) throws SQLException
 	{
-		return getActor(aactor) != null;
+		return getActor(aactor).getIndex() != 0;
 	}
 	
 	public ADirector getDirector(ADirector director) throws SQLException
@@ -208,12 +205,8 @@ public class AMovieBD {
 		if(res.next())
 		{
 			director.setIndex(res.getInt("idadirector"));
-			return director;
 		}
-		else
-		{
-			return null;
-		}
+		return director;
 	}
 	
 	public List<ADirector> getDirector() throws SQLException
@@ -238,7 +231,7 @@ public class AMovieBD {
 	
 	public boolean existDirector(ADirector director) throws SQLException
 	{
-		return getDirector(director) != null;
+		return getDirector(director).getIndex() != 0;
 	}
 	
 	public boolean insertDirector(ADirector director) throws SQLException
@@ -252,12 +245,7 @@ public class AMovieBD {
 	
 	public boolean insertDirectorMovie(AMovie movie) throws SQLException
 	{		
-		Connection connection = ConnectionDAO.getInstance().getConnection();
-		Statement st = connection.createStatement();
-		ADirector director = movie.getDirector();
-		int val = st.executeUpdate("INSERT INTO ADIRECTOR (name) VALUES("+director.getName()+")");
-		
-		return val == 1;
+		return insertDirector(movie.getDirector());
 	}
 	
 	public static void main(String[] args) throws SQLException {

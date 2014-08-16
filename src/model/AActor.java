@@ -37,4 +37,9 @@ public class AActor {
 		this.name = name;
 	}
 
+	@Override
+	public String toString() {
+		return "AActor [index=" + index + ", name=" + name + "]";
+	}
+
 }

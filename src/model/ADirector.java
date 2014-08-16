@@ -37,4 +37,9 @@ public class ADirector {
 		this.name = name;
 	}
 
+	@Override
+	public String toString() {
+		return "ADirector [index=" + index + ", name=" + name + "]";
+	}
+
 }
