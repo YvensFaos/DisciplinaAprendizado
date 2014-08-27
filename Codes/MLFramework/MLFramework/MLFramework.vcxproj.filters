@@ -22,6 +22,9 @@
     <ClCompile Include="mlfreader.cpp">
       <Filter>Utils</Filter>
     </ClCompile>
+    <ClCompile Include="mlfdataset.cpp">
+      <Filter>MachineLearning</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Datasets\iris.txt">
@@ -31,6 +34,9 @@
   <ItemGroup>
     <ClInclude Include="mlfreader.h">
       <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="mlfdataset.h">
+      <Filter>MachineLearning</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
