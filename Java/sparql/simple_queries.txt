@@ -1,0 +1,73 @@
+SELECT ?filme  WHERE { 
+?filme <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film>
+}LIMIT 10
+
+SELECT ?filme ?director ?year ?runtime ?country ?language WHERE { 
+?filme <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film>.
+?filme <http://dbpedia.org/ontology/director> ?director.
+?filme <http://dbpedia.org/property/released> ?year.
+?filme <http://dbpedia.org/ontology/Work/runtime> ?runtime.
+?filme <http://dbpedia.org/property/country> ?country.
+?filme <http://dbpedia.org/property/language> ?language.
+}LIMIT 30
+
+?filme <http://dbpedia.org/ontology/director> ?director.
+
+SELECT distinct ?filme ?director ?name ?year ?runtime ?country ?language WHERE { 
+?filme <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film>.
+?filme <http://dbpedia.org/property/name> ?name.
+?filme <http://dbpedia.org/ontology/director> ?director.
+?filme <http://dbpedia.org/property/released> ?year.
+?filme <http://dbpedia.org/ontology/Work/runtime> ?runtime.
+?filme <http://dbpedia.org/property/country> ?country.
+?filme <http://dbpedia.org/property/language> ?language.
+}LIMIT 30
+
+http://dbpedia.org/resource/Terminator_2:_Judgment_Day
+
+SELECT ?name ?year ?runtime ?country ?language WHERE { 
+?filme <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/resource/Terminator_2:_Judgment_Day>.
+?filme <http://dbpedia.org/resource/Terminator_2:_Judgment_Day>.
+?filme <http://dbpedia.org/property/name> ?name.
+?filme <http://dbpedia.org/property/released> ?year.
+?filme <http://dbpedia.org/ontology/Work/runtime> ?runtime.
+?filme <http://dbpedia.org/property/country> ?country.
+?filme <http://dbpedia.org/property/language> ?language.
+
+SELECT ?movie WHERE { 
+?movie<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie>.
+}LIMIT 30
+
+select distinct ?band where 
+{?band <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicGroup>.
+ ?band <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Deathcore> }
+LIMIT 30
+
+select distinct ?album where 
+{?album <http://dbpedia.org/ontology/artist> <@> . 
+ ?album <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicAlbum> } 
+LIMIT 3
+}LIMIT 30
+
+select distinct ?album where 
+{?album <http://dbpedia.org/ontology/artist> <Metallica> . 
+ ?album <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicAlbum> } 
+LIMIT 3
+
+select distinct ?album where 
+{?album <http://dbpedia.org/ontology/artist> <http://dbpedia.org/resource/Job_for_a_Cowboy> . 
+ ?album <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicAlbum> } 
+LIMIT 3
+
+SELECT distinct *
+WHERE { 
+  ?movie a dbpedia-owl:Film ;
+    dbpprop:author ?author ;
+    dbpprop:director ?director .
+  OPTIONAL {
+   ?movie dbpprop:duration ?duration ;
+     dbpprop:genre ?genre
+  }
+}
+LIMIT 100
+OFFSET 0
