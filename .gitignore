@@ -1,5 +1,7 @@
 *.class
-
+*.opensdf
+*.tlog
+*.sdf
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 

@@ -65,6 +65,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mlfreader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Datasets\iris.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mlfreader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
