@@ -47,5 +47,8 @@
     <ClInclude Include="mlflinear.h">
       <Filter>MachineLearning\LinearRegression</Filter>
     </ClInclude>
+    <ClInclude Include="mlfmath.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

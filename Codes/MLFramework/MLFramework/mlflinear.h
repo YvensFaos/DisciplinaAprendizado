@@ -16,6 +16,7 @@ public:
 	~MLFLinear(void);
 
 	void solve(void);
+	int test(void);
 private:
 	float hypothesis(float* x);
 };

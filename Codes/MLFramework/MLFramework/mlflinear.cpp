@@ -1,6 +1,8 @@
 #include "mlflinear.h"
 
-#define ALPHA 0.05f
+#include "mlfmath.h"
+
+#define ALPHA 0.02f
 
 MLFLinear::MLFLinear(std::vector<MLFData*> dataset, int thetaCount)
 {
@@ -8,9 +10,9 @@ MLFLinear::MLFLinear(std::vector<MLFData*> dataset, int thetaCount)
 	theta = new float[this->thetaCount];
 	for(int i = 0; i < this->thetaCount; i++)
 	{
-		theta[i] = 1.0f;
+		theta[i] = 0.2f;
 	}
-	theta0 = 1.0f;
+	theta0 = -35.f;
 
 	this->dataset = dataset;
 }
@@ -24,7 +26,7 @@ MLFLinear::~MLFLinear(void)
 void MLFLinear::solve(void)
 {
 	int size = dataset.size();
-	int trainingSet = size; //*0.3f;
+	int trainingSet = size*0.3f;
 
 	float* nTheta = new float[thetaCount];
 	float* sums =   new float[thetaCount];
@@ -52,8 +54,10 @@ void MLFLinear::solve(void)
 			{
 				MLFData* data = dataset.at(j);
 				hh = hypothesis(data->value);
-				h += (hh - data->yvalue)*data->value[i];
+				hh = hh - data->yvalue;
+				h += hh * data->value[i];
 			}
+
 			h /= trainingSet;
 			h *= ALPHA;
 
@@ -63,13 +67,42 @@ void MLFLinear::solve(void)
 		theta0 = nTheta0;
 		printf("%f ",theta0);
 
+		int equals = 0;
 		for(int i = 0; i < thetaCount; i++)
 		{
+			if(theta[i] == nTheta[i])
+			{
+				equals++;
+			}
 			theta[i] = nTheta[i];
 			printf("%f ",theta[i]);
 		}
 		printf("\n");
+
+		if(equals >= 2)
+		{
+			break;
+		}
 	}
+}
+
+int MLFLinear::test(void)
+{
+	int size = dataset.size();
+	int result = 0;
+
+	for(int i = 0; i < size; i++)
+	{
+		MLFData* data = dataset.at(i);
+		float h = hypothesis(data->value);
+
+		if(MLFMath::checkClose(h, data->yvalue) || ((int)h == (int)data->yvalue))
+		{
+			result++;
+		}
+	}
+
+	return result;
 }
 
 float MLFLinear::hypothesis(float* x)
@@ -77,7 +110,8 @@ float MLFLinear::hypothesis(float* x)
 	float h = theta0;
 	for(int i = 0; i < thetaCount; i++)
 	{
-		h += theta[i]*x[i];
+		float v = theta[i]*x[i];
+		h += v;
 	}
 
 	return h;
