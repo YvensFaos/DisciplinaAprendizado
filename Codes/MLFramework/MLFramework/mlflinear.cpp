@@ -2,7 +2,11 @@
 
 #include "mlfmath.h"
 
+#ifdef IRIS
 #define ALPHA 0.02f
+#else
+#define ALPHA 0.001f
+#endif
 
 MLFLinear::MLFLinear(std::vector<MLFData*> dataset, int thetaCount)
 {
@@ -10,9 +14,9 @@ MLFLinear::MLFLinear(std::vector<MLFData*> dataset, int thetaCount)
 	theta = new float[this->thetaCount];
 	for(int i = 0; i < this->thetaCount; i++)
 	{
-		theta[i] = 0.2f;
+		theta[i] = 0.0f;
 	}
-	theta0 = -35.f;
+	theta0 = 0.f;
 
 	this->dataset = dataset;
 }
@@ -70,7 +74,7 @@ void MLFLinear::solve(void)
 		int equals = 0;
 		for(int i = 0; i < thetaCount; i++)
 		{
-			if(theta[i] == nTheta[i])
+			if((theta[i] == nTheta[i]))
 			{
 				equals++;
 			}
