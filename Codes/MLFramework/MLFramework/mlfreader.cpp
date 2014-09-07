@@ -4,7 +4,10 @@
 #include <vector>
 #include <algorithm>
 
-#define IRIS
+//#define IRIS
+#define HOMES
+
+//#define NORMALIZE
 
 MLFReader::MLFReader(void)
 { 
@@ -89,6 +92,101 @@ std::vector<MLFData*> MLFReader::readDataset(int* thetaCount)
 
 		data = new MLFData(values, *thetaCount, category, yvalue);
 		dataset.push_back(data);
+	}
+#endif
+
+#ifdef HOMES
+	char* categories[1];
+	categories[0] = "Home";
+
+	int categoriesLength = 1;
+
+	float v1 = 0;
+	float v2 = 0;
+	char category[256];
+
+	*thetaCount = 1;
+	float values[1];
+	int k = 0;
+	float yvalue = 0;
+	MLFData* data = nullptr;
+	while(!feof(fileHandle))
+    {
+        memset(buffer, 0, 4096);
+		fscanf(fileHandle, "%f,%f",&v1,&v2);
+		k = 0;
+		values[0] = v1;
+		yvalue = v2;
+
+		data = new MLFData(values, *thetaCount, categories[0], yvalue);
+		dataset.push_back(data);
+	}
+
+	
+#endif
+
+#ifdef NORMALIZE
+	float higherValue; 
+	float lowerValue; 
+	float avg;
+	float mean;
+
+	for(int j = 0; j < *thetaCount; j++)
+	{
+		higherValue = -2.0e10;
+		lowerValue =  2.0e10;
+		avg = 0;
+		for(int i = 0; i < dataset.size(); i++)
+		{
+			float value = dataset.at(i)->value[j];
+			if(value > higherValue)
+			{
+				higherValue = value;
+			}
+			if(value < lowerValue)
+			{
+				lowerValue = value;
+			}
+
+			avg += value;
+		}
+	
+		avg /= dataset.size();
+		mean = higherValue - lowerValue;
+		for(int i = 0; i < dataset.size(); i++)
+		{
+			dataset.at(i)->value[j] = (dataset.at(i)->value[j] - avg)/mean;
+		}
+	}
+
+	higherValue = -2.0e10;
+	lowerValue  =  2.0e10;
+	avg = 0;
+	for(int i = 0; i < dataset.size(); i++)
+	{
+		float value = dataset.at(i)->yvalue;
+		if(value > higherValue)
+		{
+			higherValue = value;
+		}
+		if(value < lowerValue)
+		{
+			lowerValue = value;
+		}
+
+		avg += value;
+	}
+	
+	avg /= dataset.size();
+	mean = higherValue - lowerValue;
+	for(int i = 0; i < dataset.size(); i++)
+	{
+		dataset.at(i)->yvalue = (dataset.at(i)->yvalue - avg)/mean;
+	}
+
+	for(int i = 0; i < dataset.size(); i++)
+	{
+		printf(">%f : %f\n", dataset.at(i)->value[0], dataset.at(i)->yvalue);
 	}
 #endif
 

@@ -8,6 +8,7 @@ class MLFLinear
 public:
 	std::vector<MLFData*> dataset;
 	float* theta;
+	float theta0;
 	int thetaCount;
 
 public:
@@ -15,7 +16,6 @@ public:
 	~MLFLinear(void);
 
 	void solve(void);
-
 private:
 	float hypothesis(float* x);
 };

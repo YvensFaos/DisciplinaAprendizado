@@ -7,14 +7,17 @@
 void main(void)
 {
 	char* path = "C:/Users/Yvens/Documents/GitHub/DisciplinaAprendizado/Codes/MLFramework/Datasets/";
-	char* file = "iris.txt";
+	//char* file = "iris.txt";
+	char* file = "homes.txt";
 
-	MLFReader reader = MLFReader(path, file);
+	MLFReader* reader = new MLFReader(path, file);
 	int thetaCount = 0;
-	std::vector<MLFData*> dataset = reader.readDataset(&thetaCount);
+	std::vector<MLFData*> dataset = reader->readDataset(&thetaCount);
+	delete reader;
 
-	MLFLinear linear = MLFLinear(dataset, thetaCount);
-	linear.solve();
+	MLFLinear* linear = new MLFLinear(dataset, thetaCount);
+	linear->solve();
 
+	delete linear;
 	system("pause");
 }
