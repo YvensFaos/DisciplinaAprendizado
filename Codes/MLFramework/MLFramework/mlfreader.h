@@ -14,7 +14,7 @@ public:
 	MLFReader(char* path, char* filename);
 	~MLFReader(void);
 
-	std::list<MLFData*> readDataset(void);
+	std::vector<MLFData*> readDataset(int* thetaCount);
 private:
 	void initialize(char* path, char* filename);
 };

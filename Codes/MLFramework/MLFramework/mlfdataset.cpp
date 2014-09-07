@@ -1,6 +1,6 @@
 #include "mlfdataset.h"
 
-MLFData::MLFData(float* value, int valuesLength, char* category)
+MLFData::MLFData(float* value, int valuesLength, char* category, float yvalue)
 {
 	this->value = new float[valuesLength];
 
@@ -11,6 +11,16 @@ MLFData::MLFData(float* value, int valuesLength, char* category)
 
 	this->valuesLength = valuesLength;
 	this->category = category;
+	this->yvalue = yvalue;
+}
+
+void MLFData::print(void)
+{
+	for(int i = 0; i < valuesLength; i++)
+	{
+		printf("%4.2f ", value[i]);
+	}
+	printf("%s[%f]\n", category, yvalue);
 }
 
 MLFData::~MLFData(void)
@@ -21,7 +31,7 @@ MLFData::~MLFData(void)
 
 //####
 
-MLFDataset::MLFDataset(std::list<MLFData*> dataset, char** categories, int categoriesLength)
+MLFDataset::MLFDataset(std::vector<MLFData*> dataset, char** categories, int categoriesLength)
 {
 	this->dataset = dataset;
 	this->categories = categories;

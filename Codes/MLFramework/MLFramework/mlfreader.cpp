@@ -1,7 +1,10 @@
 #include "mlfreader.h"
 
 #include <stdio.h>
-#include <list>
+#include <vector>
+#include <algorithm>
+
+#define IRIS
 
 MLFReader::MLFReader(void)
 { 
@@ -31,13 +34,15 @@ void MLFReader::initialize(char* path, char* filename)
 	fseek(fileHandle, filePos, SEEK_SET);
 }
 
-std::list<MLFData*> MLFReader::readDataset(void)
+std::vector<MLFData*> MLFReader::readDataset(int* thetaCount)
 {
 	char line[256];
 	char buffer[4096];
 	int ret = 0;
 	int state = 0;
+	std::vector<MLFData*> dataset;
 
+#ifdef IRIS
 	char* categories[3];
 	categories[0] = "Iris-setosa";
 	categories[1] = "Iris-versicolor";
@@ -51,10 +56,10 @@ std::list<MLFData*> MLFReader::readDataset(void)
 	float v4 = 0;
 	char category[256];
 
-	std::list<MLFData*> dataset;
-
+	*thetaCount = 4;
 	float values[4];
 	int k = 0;
+	float yvalue = 0;
 	MLFData* data = nullptr;
 	while(!feof(fileHandle))
     {
@@ -66,11 +71,30 @@ std::list<MLFData*> MLFReader::readDataset(void)
 		values[k++] = v3;
 		values[k++] = v4;
 
-		data = new MLFData(values, 4, category);
+		if(category[5] == 's')
+		{
+			yvalue = 0;
+		}
+		else
+		{
+			if(category[6] == 'e')
+			{
+				yvalue = 1;
+			}
+			else
+			{
+				yvalue = 2;
+			}
+		}
+
+		data = new MLFData(values, *thetaCount, category, yvalue);
 		dataset.push_back(data);
 	}
+#endif
 
-	//printf("Size = %d\n", dataset.size());
+	std::random_shuffle(dataset.begin(), dataset.end());
+	
+	printf("Size = %d\n", dataset.size());
 
 	return dataset;
 }

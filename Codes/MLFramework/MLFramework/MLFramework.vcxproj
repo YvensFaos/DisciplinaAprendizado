@@ -68,6 +68,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mlfdataset.cpp" />
+    <ClCompile Include="mlflinear.cpp" />
     <ClCompile Include="mlfreader.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mlfdataset.h" />
+    <ClInclude Include="mlflinear.h" />
     <ClInclude Include="mlfreader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
