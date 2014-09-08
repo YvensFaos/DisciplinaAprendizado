@@ -83,7 +83,7 @@ void MLFLinear::solve(void)
 		}
 		printf("\n");
 
-		if(equals >= 2)
+		if(equals >= (thetaCount - 1))
 		{
 			break;
 		}
