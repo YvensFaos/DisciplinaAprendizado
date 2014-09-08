@@ -4,6 +4,8 @@
 #include <vector>
 #include <algorithm>
 
+#define NORMALIZE
+
 MLFReader::MLFReader(void)
 { 
 	initialize(nullptr, nullptr);
@@ -192,7 +194,7 @@ std::vector<MLFData*> MLFReader::readDataset(int* thetaCount)
 		}
 	}
 
-	higherValue = -2.0e10;
+	/*higherValue = -2.0e10;
 	lowerValue  =  2.0e10;
 	avg = 0;
 	for(int i = 0; i < dataset.size(); i++)
@@ -215,7 +217,7 @@ std::vector<MLFData*> MLFReader::readDataset(int* thetaCount)
 	for(int i = 0; i < dataset.size(); i++)
 	{
 		dataset.at(i)->yvalue = (dataset.at(i)->yvalue - avg)/mean;
-	}
+	}*/
 
 	for(int i = 0; i < dataset.size(); i++)
 	{
