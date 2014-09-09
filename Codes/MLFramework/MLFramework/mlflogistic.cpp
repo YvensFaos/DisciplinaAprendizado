@@ -9,7 +9,18 @@
 #endif
 
 #pragma region MLFLogistic
-MLFLogistic::MLFLogistic(std::vector<MLFData*> dataset, int thetaCount)
+MLFLogistic::MLFLogistic(std::vector<MLFData*> dataset, int thetaCount, int c0)
+{
+	initialize(dataset, thetaCount, c0);
+}
+
+MLFLogistic::MLFLogistic(void)
+{
+	std::vector<MLFData*> dataset;
+	initialize(dataset, -1, -1);
+}
+
+void MLFLogistic::initialize(std::vector<MLFData*> dataset, int thetaCount, int c0)
 {
 	this->thetaCount = thetaCount;
 	theta = new float[this->thetaCount];
@@ -19,6 +30,7 @@ MLFLogistic::MLFLogistic(std::vector<MLFData*> dataset, int thetaCount)
 	}
 
 	this->dataset = dataset;
+	this->c0 = c0;
 }
 
 MLFLogistic::~MLFLogistic(void)
@@ -110,13 +122,53 @@ float MLFLogistic::hypothesis(float* x)
 }
 #pragma endregion
 
-MLFMultiLogistic::MLFMultiLogistic(std::vector<MLFData*> dataset, int numberClasses)
+#pragma region MLFMultiLogistic
+MLFMultiLogistic::MLFMultiLogistic(std::vector<MLFData*> dataset, int thetaCount, int numberClasses)
 {
 	this->dataset = dataset;
+	this->thetaCount = thetaCount;
 	this->numberClasses = numberClasses;
+}
+
+MLFMultiLogistic::~MLFMultiLogistic(void)
+{
+	if(solvers)
+		delete[] solvers;
 }
 
 void MLFMultiLogistic::solve(void)
 {
+	int actualNumber = numberClasses;
+	solvers = new MLFLogistic[numberClasses - 1];
 
+	std::vector<MLFData*> adjustedDataset;
+	int c0 = -1;
+	int i = 0;
+	while(actualNumber > 2)
+	{
+		for(int i = 0; i < dataset.size(); i++)
+		{
+			MLFData originalData = *dataset.at(i);
+			if(c0 == -1)
+			{
+				c0 = originalData.yvalue;
+			}
+			float yvalue = (originalData.yvalue != c0)? 1 : 0;
+
+			MLFData* data = new MLFData(originalData.value, originalData.valuesLength, originalData.category, yvalue);
+			adjustedDataset.push_back(data);
+		}
+
+		solvers[i] = MLFLogistic(MLFDataset::deepCopy(adjustedDataset), thetaCount, c0);
+		solvers[i].solve();
+
+		adjustedDataset.clear();
+
+	}
 }
+
+int MLFMultiLogistic::test(void)
+{
+	return 0;
+}
+#pragma endregion

@@ -43,3 +43,16 @@ MLFDataset::~MLFDataset(void)
 	if(categories)
 		delete[] categories;
 }
+
+std::vector<MLFData*> MLFDataset::deepCopy(std::vector<MLFData*> dataset)
+{
+	std::vector<MLFData*> copy;
+
+	for(int i = 0; i < dataset.size(); i++)
+	{
+		MLFData data = *dataset.at(i);
+		copy.push_back(new MLFData(data.value, data.valuesLength, data.category, data.yvalue));
+	}
+
+	return copy;
+}

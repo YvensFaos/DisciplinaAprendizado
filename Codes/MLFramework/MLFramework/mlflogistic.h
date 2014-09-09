@@ -9,13 +9,17 @@ public:
 	std::vector<MLFData*> dataset;
 	float* theta;
 	int thetaCount;
+	int c0;
 
 public:
-	MLFLogistic(std::vector<MLFData*> dataset, int thetaCount);
+	MLFLogistic(void);
+	MLFLogistic(std::vector<MLFData*> dataset, int thetaCount, int c0);
 	~MLFLogistic(void);
 
 	void solve(void);
 	int test(void);
+
+	void initialize(std::vector<MLFData*> dataset, int thetaCount, int c0);
 private:
 	float hypothesis(float* x);
 };
@@ -24,13 +28,14 @@ class MLFMultiLogistic
 {
 public:
 	std::vector<MLFData*> dataset;
+	int thetaCount;
 	int numberClasses;
 
 private:
 	MLFLogistic* solvers;
 
 public:
-	MLFMultiLogistic(std::vector<MLFData*> dataset, int numberClasses);
+	MLFMultiLogistic(std::vector<MLFData*> dataset, int thetaCount, int numberClasses);
 	~MLFMultiLogistic(void);
 
 	void solve(void);

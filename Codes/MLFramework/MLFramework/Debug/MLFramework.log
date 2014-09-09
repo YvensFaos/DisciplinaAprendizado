@@ -1,14 +1,9 @@
-﻿Build started 09/09/2014 07:49:17.
+﻿Build started 09/09/2014 10:23:24.
      1>Project "C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\MLFramework\MLFramework\MLFramework.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D IRIS /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt mlflinear.cpp mlflogistic.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D IRIS /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt mlflogistic.cpp
          mlflogistic.cpp
      1>c:\users\yvens\documents\github\disciplinaaprendizado\codes\mlframework\mlframework\mlflogistic.cpp(33): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
-         Generating Code...
-         Compiling...
-         mlflinear.cpp
-     1>c:\users\yvens\documents\github\disciplinaaprendizado\codes\mlframework\mlframework\mlflinear.cpp(33): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
-         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\MLFramework\Debug\MLFramework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\MLFramework\Debug\MLFramework.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\MLFramework\Debug\MLFramework.lib" /MACHINE:X86 Debug\main.obj
          Debug\mlfdataset.obj
@@ -20,4 +15,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.11
+Time Elapsed 00:00:01.18

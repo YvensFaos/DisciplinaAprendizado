@@ -28,6 +28,8 @@ private:
 public:
 	MLFDataset(std::vector<MLFData*> dataset, char** categories, int categoriesLength);
 	~MLFDataset(void);
+
+	static std::vector<MLFData*> deepCopy(std::vector<MLFData*> dataset);
 };
 
 #endif
