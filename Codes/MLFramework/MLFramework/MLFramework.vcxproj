@@ -69,6 +69,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mlfdataset.cpp" />
     <ClCompile Include="mlflinear.cpp" />
+    <ClCompile Include="mlflogistic.cpp" />
     <ClCompile Include="mlfreader.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +78,7 @@
   <ItemGroup>
     <ClInclude Include="mlfdataset.h" />
     <ClInclude Include="mlflinear.h" />
+    <ClInclude Include="mlflogistic.h" />
     <ClInclude Include="mlfmath.h" />
     <ClInclude Include="mlfreader.h" />
   </ItemGroup>

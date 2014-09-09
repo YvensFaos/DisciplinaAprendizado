@@ -1,7 +1,13 @@
 #ifndef __MLF_MATH__
 #define __MLF_MATH__
 
+#include <math.h>
+
+//Inner Constants
 #define CLOSE_RANGE 0.05
+
+//Constants
+#define E 2.718281828f
 
 class MLFMath
 {
