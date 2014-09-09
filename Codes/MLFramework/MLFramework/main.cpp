@@ -27,23 +27,24 @@ void main(void)
 
 	MLFReader* reader = new MLFReader(path, file);
 	int thetaCount = 0;
-	int results;
+	int results = 0;
 	std::vector<MLFData*> dataset = reader->readDataset(&thetaCount);
 	delete reader;
 
+	/*
 	MLFLinear* linear = new MLFLinear(dataset, thetaCount);
 	linear->solve();
 	results = linear->test();
-
 	printf("Results: %d/%d\n", results, dataset.size());
+	*/
 
-	MLFMultiLogistic* logistic = new MLFMultiLogistic(dataset, numberClasses);
+	MLFMultiLogistic* logistic = new MLFMultiLogistic(dataset, thetaCount, numberClasses);
 	logistic->solve();
 	results = logistic->test();
 
 	printf("Results: %d/%d\n", results, dataset.size());
 
-	delete linear;
+	//delete linear;
 	delete logistic;
 	system("pause");
 }

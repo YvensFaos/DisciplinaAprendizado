@@ -3,7 +3,7 @@
 #include "mlfmath.h"
 
 #ifdef IRIS
-#define ALPHA 0.02f
+#define ALPHA 0.1f
 #else
 #define ALPHA 0.001f
 #endif
@@ -23,13 +23,8 @@ MLFLogistic::MLFLogistic(void)
 void MLFLogistic::initialize(std::vector<MLFData*> dataset, int thetaCount, int c0)
 {
 	this->thetaCount = thetaCount;
-	theta = new float[this->thetaCount];
-	for(int i = 0; i < this->thetaCount; i++)
-	{
-		theta[i] = 0.0f;
-	}
-
 	this->dataset = dataset;
+	this->theta = nullptr;
 	this->c0 = c0;
 }
 
@@ -47,6 +42,12 @@ void MLFLogistic::solve(void)
 	float* nTheta = new float[thetaCount];
 	float* sums =   new float[thetaCount];
 	float nTheta0 = 0.0f;
+
+	theta = new float[thetaCount];
+	for(int i = 0; i < thetaCount; i++)
+	{
+		theta[i] = 0.0f;
+	}
 
 	float h;
 	float hh = 0;
@@ -72,7 +73,7 @@ void MLFLogistic::solve(void)
 		int equals = 0;
 		for(int i = 0; i < thetaCount; i++)
 		{
-			if((theta[i] == nTheta[i]))
+			if((theta[i] == nTheta[i]) || MLFMath::checkClose(theta[i], nTheta[i]))
 			{
 				equals++;
 			}
@@ -83,6 +84,7 @@ void MLFLogistic::solve(void)
 
 		if(equals >= (thetaCount - 1))
 		{
+			//printf("Finished!\n");
 			break;
 		}
 	}
@@ -141,34 +143,84 @@ void MLFMultiLogistic::solve(void)
 	int actualNumber = numberClasses;
 	solvers = new MLFLogistic[numberClasses - 1];
 
+	std::vector<MLFData*> usingDatabase = MLFDataset::deepCopy(dataset);
 	std::vector<MLFData*> adjustedDataset;
 	int c0 = -1;
-	int i = 0;
-	while(actualNumber > 2)
+	int index = 0;
+	MLFData* originalData;
+	while(actualNumber >= 2)
 	{
-		for(int i = 0; i < dataset.size(); i++)
+		for(int i = 0; i < usingDatabase.size(); i++)
 		{
-			MLFData originalData = *dataset.at(i);
+			originalData = usingDatabase.at(i);
 			if(c0 == -1)
 			{
-				c0 = originalData.yvalue;
+				c0 = originalData->yvalue;
 			}
-			float yvalue = (originalData.yvalue != c0)? 1 : 0;
+			float yvalue = (originalData->yvalue != c0)? 1 : 0;
 
-			MLFData* data = new MLFData(originalData.value, originalData.valuesLength, originalData.category, yvalue);
-			adjustedDataset.push_back(data);
+			adjustedDataset.push_back(new MLFData(originalData->value, originalData->valuesLength, originalData->category, yvalue));
 		}
 
-		solvers[i] = MLFLogistic(MLFDataset::deepCopy(adjustedDataset), thetaCount, c0);
-		solvers[i].solve();
+		solvers[index] = MLFLogistic(MLFDataset::deepCopy(adjustedDataset), thetaCount, c0);
+		solvers[index].solve();
+		index++;
 
 		adjustedDataset.clear();
+		//Buscando as linhas que não são do tipo de c0
+		usingDatabase.clear();
+		usingDatabase = MLFDataset::deepCopy(dataset);
+		for(int i = 0; i < usingDatabase.size(); i++)
+		{
+			MLFData originalData = *usingDatabase.at(i);
+			if(originalData.yvalue != c0)
+			{
+				adjustedDataset.push_back(new MLFData(originalData.value, originalData.valuesLength, originalData.category, originalData.yvalue));
+			}
+		}
+		usingDatabase = MLFDataset::deepCopy(adjustedDataset);
+		adjustedDataset.clear();
+		c0 = -1;
 
+		actualNumber--;
 	}
 }
 
 int MLFMultiLogistic::test(void)
 {
-	return 0;
+	int size = dataset.size();
+	int result = 0;
+
+	for(int i = 0; i < size; i++)
+	{
+		//printf("Results: %d > ", result);
+		MLFData* data = dataset.at(i);
+		for(int j = 0; j < numberClasses - 1; j++)
+		{
+			float h = solvers[j].hypothesis(data->value);
+
+			//printf("[y = %f] h: %f\n", data->yvalue, h); 
+			if(h < 0.5)
+			{
+				if(data->yvalue == solvers[j].c0)
+				{
+					result++;
+					break;
+				}
+			}
+			else
+			{
+				if(j == numberClasses - 2)
+				{
+					if(data->yvalue == (solvers[j].c0 + 1))
+					{
+						result++;
+					}
+				}
+			}
+		}
+
+	}
+	return result;
 }
 #pragma endregion

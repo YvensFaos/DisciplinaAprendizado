@@ -12,6 +12,7 @@ public:
 	float yvalue;
 
 public:
+	MLFData(void);
 	MLFData(float* value, int valuesLength, char* category, float yvalue);
 	~MLFData(void);
 

@@ -20,7 +20,6 @@ public:
 	int test(void);
 
 	void initialize(std::vector<MLFData*> dataset, int thetaCount, int c0);
-private:
 	float hypothesis(float* x);
 };
 

@@ -4,7 +4,7 @@
 #include <math.h>
 
 //Inner Constants
-#define CLOSE_RANGE 0.05
+#define CLOSE_RANGE 0.0005
 
 //Constants
 #define E 2.718281828f
