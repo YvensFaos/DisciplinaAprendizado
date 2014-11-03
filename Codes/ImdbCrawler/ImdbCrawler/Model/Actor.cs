@@ -51,7 +51,7 @@ namespace ImdbCrawler.Model
 
         public void GetInfo()
         {
-            string url = "http://www.imdb.com/name/n@/awards?ref_=nm_ql_2";
+            string url = "http://www.imdb.com/name/@/awards?ref_=nm_ql_2";
             url = url.Replace("@", nameUrl);
             string htmlPage = WebAO.CodeHtml(url);
             string[] pageLines = htmlPage.Split('\n');
