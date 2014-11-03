@@ -25,7 +25,18 @@ namespace ImdbCrawler.Model
         public string NameUrl
         {
             get { return nameUrl; }
-            set { nameUrl = value; }
+            set 
+            {
+                if (value[0] != 'n')
+                {
+                    value = 'n' + value;
+                }
+                if (value.IndexOf('m') != value.LastIndexOf('m'))
+                {
+                    value = value.Substring(0, value.LastIndexOf('m'));
+                }
+                nameUrl = value; 
+            }
         }
         private int awards;
 
@@ -69,10 +80,8 @@ namespace ImdbCrawler.Model
                 }
                 if (line.Contains("<td class=\"award_outcome\" rowspan=\"2\">"))
                 {
-                    Console.WriteLine(line);
                     i++;
                     line = pageLines[i].Trim();
-                    Console.WriteLine(line);
                     bool won = false;
                     if (line.Contains("Won"))
                     {
@@ -80,7 +89,6 @@ namespace ImdbCrawler.Model
                     }
                     i++;
                     line = pageLines[i].Trim();
-                    Console.WriteLine(line);
                     if (line.Contains("Oscar") && won)
                     {
                         Oscar = true;
