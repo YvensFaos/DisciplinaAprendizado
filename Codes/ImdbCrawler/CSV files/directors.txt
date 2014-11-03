@@ -1,0 +1,2808 @@
+Alexandre Aja;m0014960;2;False
+James Wan;m1490123;8;False
+Francis Lawrence;m1349376;2;False
+Peter Berg;m0000916;1;False
+Martin Scorsese;m0000217;133;False
+Chris Buck;m0118333;7;False
+John Carney;m0138809;10;False
+Joon-ho Bong;m0094435;26;False
+Lars von Trier;m0001885;89;False
+Peter Jackson;m0001392;123;False
+Spike Jonze;m0005069;59;False
+Gia Coppola;m0178886;0;False
+Mike Flanagan;m1093039;19;False
+Kimberly Peirce;m0005303;16;False
+David O. Russell;m0751102;52;False
+Denis Villeneuve;m0898288;56;False
+Steve McQueen;m2588606;76;False
+Zack Snyder;m0811583;3;False
+Alan Taylor;m0851930;6;False
+Jonathan Glazer;m0322242;4;False
+Ron Howard;m0000165;34;True
+Paul Haggis;m0353673;43;True
+Ben Stiller;m0001774;12;False
+Baz Luhrmann;m0525303;33;False
+Marc Forster;m0286975;6;False
+James DeMonaco;m0218621;0;False
+Guillermo del Toro;m0868219;45;False
+Ridley Scott;m0000631;23;False
+Jean-Marc Vallée;m0885249;25;False
+Jeff Wadlow;m0905592;8;False
+Rawson Marshall Thurber;m1098493;0;False
+Shane Black;m0000948;3;False
+Harald Zwart;m0958969;0;False
+Evan Goldberg;m1698571;3;False
+Matthew Weiner;m1980806;24;False
+Richard Curtis;m0193485;19;False
+Justin Lin;m0510912;2;False
+J.J. Abrams;m0009190;13;False
+Michael Dowse;m0236226;5;False
+Dennis Dugan;m0240797;1;False
+Louis Leterrier;m0504642;0;False
+Steven Knight;m1140275;10;False
+Joshua Michael Stern;m0827750;0;False
+John Wells;m0920274;22;False
+Daniel Schechter;m1633080;0;False
+Joseph Kosinski;m2676052;0;False
+Joseph Gordon-Levitt;m0330687;20;False
+Eldar Bogunov;m6594610;0;False
+David Palmieri;m0658571;0;False
+Courtney Fathom Sell;m2656809;0;False
+Qian Xiaohong;m6157315;0;False
+Maciej Odolinski;m2145125;0;False
+Dustin Ferguson;m4341114;0;False
+Ryûsuke Hamaguchi;m3152327;1;False
+Satoru Hirohara;m4407114;2;False
+Emmanuel Itier;m0411654;1;False
+Sajid Khan;m1771618;2;False
+James Nguyen;m1343100;0;False
+Jerry Ching;m5744866;0;False
+Ricardo Pinto e Silva;m0798497;0;False
+Ian Chinsee;m2278332;0;False
+Rene Perez;m3163561;0;False
+Eli Dorsey;m3777467;0;False
+Jianjun Sun;m2767560;0;False
+Cezil Reed;m2678832;1;False
+Ren Blood;m1401630;0;False
+Mark Atkins;m0040630;2;False
+Christopher James Miller;m0588110;3;False
+Jesse Dayton;m3582097;0;False
+David A. Prior;m0697935;0;False
+Scott Wheeler;m0923959;0;False
+Daniel Lusko;m2662079;0;False
+William Fain;m2797077;0;False
+Keiko Tsuruoka;m5292466;0;False
+Opie Zami;m1106740;0;False
+Suraj;m4410767;0;False
+Robert Taleghany;m0848020;0;False
+Luca Boni;m2650383;0;False
+Kaizad Gustad;m0004072;0;False
+Nimrod Zalmanowitz;m0952457;0;False
+Jacov Bresler;m0107722;0;False
+Patnaik R.P.;m0994127;1;False
+Jeff Thomas;m1414443;5;False
+Anthony Fankhauser;m2285209;0;False
+Hisham Lasri;m1662776;0;False
+James Ponsoldt;m1242054;3;False
+James Ward Byrkit;m0126096;6;False
+Abdellatif Kechiche;m0444244;52;False
+Andrés Muschietti;m0615592;8;False
+Eric Heisserer;m2104063;0;False
+Alfonso Cuarón;m0190859;102;True
+John Lee Hancock;m0359387;2;False
+Gavin Hood;m0004303;26;False
+Carl Rinsch;m0727754;0;False
+Michael Bay;m0000881;6;False
+Tommy Wirkola;m2482088;5;False
+Fredrik Bond;m0093934;0;False
+Fede Alvarez;m1793079;1;False
+Jonathan Levine;m1349522;5;False
+James Mangold;m0003506;5;False
+Spike Lee;m0000490;37;False
+Amma Asante;m1392994;8;False
+Jim Jarmusch;m0000464;26;False
+Edgar Wright;m0942367;7;False
+Terry Gilliam;m0000416;22;False
+Jeremy Saulnier;m1099918;11;False
+Shawn Levy;m0506613;3;False
+Scott Cooper;m0178376;2;False
+Jon S. Baird;m1580671;1;False
+Nat Faxon;m0269542;20;False
+Neill Blomkamp;m0088955;12;False
+David Twohy;m0878638;1;False
+Ken Scott;m0779433;4;False
+Lasse Hallström;m0002120;15;False
+David Gordon Green;m0337773;12;False
+Lake Bell;m1128572;5;False
+Mikael Håfström;m0405632;5;False
+Richard Ayoade;m1547964;6;False
+Brian Percival;m1093053;8;False
+Elizabeth Banks;m0006969;5;False
+Adam McKay;m0570912;1;False
+Gary Fleder;m0001219;3;False
+Gore Verbinski;m0893659;8;False
+Pierre Coffin;m1853544;1;False
+Denis Hennelly;m0377203;1;False
+Jon Turteltaub;m0005509;0;False
+David Mackenzie;m0533284;17;False
+Isabel Coixet;m0170043;36;False
+Paul Greengrass;m0339030;40;False
+Jon M. Chu;m0160840;0;False
+Baltasar Kormákur;m0466349;26;False
+Paul Feig;m0082450;6;False
+Simon Hawkins;m2122957;1;False
+Antoine Fuqua;m0298807;2;False
+Luc Besson;m0000108;24;False
+Andrew Pressman;m0696289;0;False
+Paul T.T. Easter;m2428088;0;False
+Stefano Milla;m3375413;1;False
+R.D. Braunstein;m5189759;0;False
+David DeCoteau;m0213983;2;False
+Swamy M. Kandan;m3155173;0;False
+Philip Gardiner;m3032813;0;False
+Johanna Rieger;m1696595;0;False
+Tara Cardinal;m2286991;1;False
+Douglas Elford-Argent;m1458461;1;False
+Stanley J. Orzel;m1704795;4;False
+Helena Bergström;m0075087;5;False
+Andrew Jones;m2096009;0;False
+M. Rajesh;m3578957;0;False
+Sean J. Vincent;m3092391;0;False
+Craig Moss;m0608936;0;False
+Filip Maciejewicz;m4513456;0;False
+Dallas Montgomery;m2348926;0;False
+Javier Espada;m2910279;0;False
+Rajiv S. Ruia;m2710488;0;False
+Åke Gustafsson;m3794528;0;False
+S.J. Evans;m1194448;0;False
+Ali Djarar;m5511627;0;False
+Tomás Magnusek;m4160160;0;False
+Justin Price;m2691863;0;False
+Steven Vasquez;m1432654;0;False
+Susi Ganesan;m1333986;0;False
+Pascal;m0177827;0;False
+Mark L. Lester;m0504495;2;False
+Marius Sørvik;m4072308;0;False
+Paul A. Storiale;m2345689;0;False
+Ivan G. Anderson;m2293691;0;False
+Jared Masters;m2957915;2;False
+David Chirchirillo;m3616958;1;False
+Ashok Kohli;m5414667;0;False
+Stephen Sommers;m0814085;1;False
+Thor Freudenthal;m0294457;2;False
+Ruben Fleischer;m0281508;1;False
+Roland Emmerich;m0000386;12;False
+Richard LaGravenese;m0481418;6;False
+Lee Daniels;m0200005;30;False
+Sam Raimi;m0000600;9;False
+Chan-wook Park;m0661791;37;False
+Dan Scanlon;m0768959;2;False
+J.C. Chandor;m1170855;9;False
+Robert Rodriguez;m0001675;21;False
+Don Mancini;m0238841;1;False
+John Ridley;m0725983;29;False
+Dean Parisot;m0661751;7;False
+Eli Roth;m0744834;13;False
+Kirk De Micco;m0210320;0;False
+Andrew Niccol;m0629272;8;False
+Robert Schwentke;m0777881;3;False
+Woody Allen;m0000095;134;True
+John Luessenhop;m0525141;1;False
+Jason Bateman;m0000867;5;False
+John Krokidas;m1045865;8;False
+Jonathan Teplitzky;m0855300;3;False
+Roman Polanski;m0000591;81;False
+Steven Soderbergh;m0001752;36;False
+Jeff Tremaine;m0871860;0;False
+Sofia Coppola;m0001068;57;False
+Ethan Coen;m0001053;115;False
+Giuseppe Tornatore;m0868153;48;False
+Scott Walker;m1960428;0;False
+Bryan Singer;m0001741;12;False
+Atom Egoyan;m0000382;56;False
+Brad Furman;m1026778;0;False
+M. Night Shyamalan;m0796117;11;False
+Isao Takahata;m0847223;9;False
+Chris Wedge;m0917188;6;False
+Seth Gordon;m1164861;1;False
+Caradog W. James;m1589670;2;False
+Jason Reitman;m0718646;63;False
+Matthew Saville;m1234242;14;False
+Todd Phillips;m0680846;5;False
+Anne Fontaine;m0284774;2;False
+Simon Barrett;m1440023;3;False
+Danny Boyle;m0000965;79;False
+Malcolm D. Lee;m0002700;3;False
+Don McKellar;m0001528;21;False
+Naomi Foner;m0284524;3;False
+Richard Linklater;m0000500;36;False
+Scott Coffey;m0168892;1;False
+Alexander Payne;m0668247;91;False
+Matt Hish;m2399871;0;False
+Raimund Huber;m3450267;0;False
+Jinming Guo;m5794009;0;False
+Bryan Ferriter;m3205840;0;False
+Joston Theney;m2133820;0;False
+Quin Davis;m2872263;0;False
+Christopher Forbes;m2483722;0;False
+Joseph J. Lawson;m0493295;0;False
+Brian T. Jaynes;m2832966;0;False
+Vince Offer;m0644399;0;False
+A. Sarkunam;m4260569;1;False
+Scarlet Fry;m3041658;0;False
+Martin Rutley;m4234865;0;False
+A.V. Sasidaran;m6394538;0;False
+Jiang Nan Zhang;m5558849;0;False
+Zarah Ziadi;m3722765;0;False
+Tetsuya Mariko;m3420017;0;False
+Bryan Hiltner;m4411248;0;False
+Jeremy Berg;m2621891;2;False
+Tommy Golden;m4565184;0;False
+Thomas Dixon;m3073265;1;False
+Dustin Mills;m4401174;0;False
+Zdenek Troska;m0873608;4;False
+Natascha R.;m6182397;0;False
+Jim Towns;m2693408;0;False
+Dmitriy Korobkin;m2416998;0;False
+Sam Pillsbury;m0683578;2;False
+Wip Vernooij;m2735925;0;False
+Dan Bishop;m3334021;0;False
+Peter Segal;m0781842;0;False
+John Huddles;m0399655;0;False
+John Turturro;m0001806;20;False
+Jordan Vogt-Roberts;m3611349;3;False
+Maggie Carey;m0962849;2;False
+Nicolas Winding Refn;m0716347;23;False
+Klay Hall;m0355806;0;False
+Zal Batmanglij;m2610231;1;False
+Rob Epstein;m0258531;22;False
+Jorge Dorado;m1085270;1;False
+Richard Shepard;m0791672;3;False
+Carlo Carlei;m0137363;3;False
+François Ozon;m0654830;27;False
+Jeff Renfroe;m1199954;6;False
+James Gray;m0336695;4;False
+Destin Daniel Cretton;m2308774;24;False
+Jon Lucas;m0524190;1;False
+Álex de la Iglesia;m0407067;24;False
+Stephen Frears;m0001241;57;False
+Allen Hughes;m0400441;1;False
+Brad Anderson;m0026442;6;False
+Paolo Sorrentino;m0815204;39;False
+John Curran;m0192845;5;False
+John Moore;m0601382;0;False
+Ti West;m1488800;3;False
+Kelly Reichardt;m0716980;10;False
+Guillaume Canet;m0133899;10;False
+Darren Stein;m0825434;3;False
+Cody Cameron;m0970606;0;False
+Scott Stewart;m0829820;0;False
+Brian Helgeland;m0001338;30;False
+Keanu Reeves;m0000206;10;False
+Taylor Hackford;m0000431;8;False
+Robert Luketic;m0525659;4;False
+Barry Cook;m0176905;2;False
+Pawel Pawlikowski;m0667734;31;False
+Joel Hopkins;m0394199;5;False
+Jonathan Sobol;m1038286;1;False
+Bill Condon;m0174374;20;False
+Nicole Holofcener;m0392237;7;False
+Evelyn Purcell;m0700715;0;False
+David Soren;m1659741;0;False
+Hayao Miyazaki;m0594503;69;False
+Niels Arden Oplev;m0649117;18;False
+Drake Doremus;m2035886;5;False
+Justin Zackham;m0951698;1;False
+William Brent Bell;m0068587;0;False
+Don Scardino;m0769135;5;False
+Evan Jacobs;m0414405;0;False
+Eduardo Schuldt;m1823279;0;False
+Richard Poche;m2120400;0;False
+M. Kelley;m3026304;0;False
+Gregory Alosio;m0003731;0;False
+John Hardy;m5545171;0;False
+Christopher Ad. Castillo;m1779820;1;False
+Er Guan;m4637563;0;False
+Stephen Stix Josey;m3124502;0;False
+Tony Trov;m2371540;0;False
+Alper Mestçi;m2201450;0;False
+Kevin Armstrong;m3393653;0;False
+Karen Oganesyan;m2420471;1;False
+Mateo Frazier;m3646951;6;False
+Dean Jones;m0427896;2;False
+Rob Walker;m0908148;0;False
+Marty Thomas;m1711842;0;False
+Teddy Schenck;m1674194;0;False
+Dede Ferdinand;m5573144;0;False
+Apoorva Lakhia;m0482232;0;False
+Gonzalo Badilla;m4378198;0;False
+Xie Yi;m6165418;0;False
+Jason Friedberg;m0294997;0;False
+Amit Saxena;m0768289;0;False
+Eduard Radzyukevich;m1823272;0;False
+Kohl Glass;m1375169;6;False
+Sean McGarry;m1395630;0;False
+Paul J. Porter;m3134589;0;False
+John Milton Branton;m0105300;6;False
+Malik Chibane;m0157145;1;False
+Jarand Breian Herdal;m5528353;1;False
+Aiden Dillard;m2266384;0;False
+Kim Jee-woon;m0453518;28;False
+Kevin Macdonald;m0531817;7;False
+Randall Miller;m0589168;2;False
+Douglas Aarniokoski;m0007439;0;False
+Ryan Coogler;m3363032;22;False
+Gonzalo López-Gallego;m1018426;3;False
+Philipp Stölzl;m0836715;3;False
+Tyler Perry;m1347153;9;False
+Michael Tiddes;m1639277;0;False
+Ric Roman Waugh;m0006846;0;False
+Emilio Aragón;m0032795;11;False
+Derek Lee;m1854114;4;False
+David M. Rosenthal;m1270033;2;False
+Ritesh Batra;m3592235;16;False
+Reinhard Klooss;m0459996;4;False
+Jimmy Hayward;m0371755;0;False
+Vijay Krishna Acharya;m1715502;0;False
+Dennis Iliadis;m1531934;2;False
+Joe Swanberg;m1846132;2;False
+Sebastián Cordero;m0179542;9;False
+Fedor Bondarchuk;m0094080;5;False
+Peter Landesman;m1481618;0;False
+Paul Schrader;m0001707;11;False
+Eric England;m3146718;0;False
+Raja Gosnell;m0331532;0;False
+Joe Lynch;m1362570;1;False
+John Crowley;m1259871;8;False
+Jim Mickle;m0585344;8;False
+Masahiro Hosoda;m0396075;0;False
+Oliver Hirschbiegel;m0386570;16;False
+Arie Posin;m1242062;2;False
+Tom Elkins;m0253899;0;False
+Ari Folman;m0284369;28;False
+Steven R. Monroe;m0003458;0;False
+Ralph Fiennes;m0000146;22;False
+Fred Schepisi;m0770961;14;False
+Jeremiah S. Chechik;m0154819;0;False
+Jérôme Salle;m1362432;0;False
+Dan Mazer;m0563243;2;False
+David Frankel;m0291205;5;False
+Mac Carter;m2554792;0;False
+Ned Benson;m0072600;0;False
+Dito Montiel;m1996918;4;False
+Lucky McKee;m1031246;9;False
+Anthony Leonardi III;m1913201;0;False
+Renny Harlin;m0001317;3;False
+Steven Bernstein;m0077149;2;False
+Jenée LaMarque;m2534923;2;False
+Greg Mclean;m0572562;1;False
+Thomas Verrette;m2807882;1;False
+Bernard Rose;m0741262;5;False
+Michelle Schumacher;m0776650;0;False
+Matthew Lipke;m4880436;0;False
+Michael Rasmussen;m1726531;0;False
+Gökhan Erkut;m2159542;0;False
+Creep Creepersin;m2480063;0;False
+Sangeeth Sivan;m0803350;0;False
+Dana Doll;m5184963;0;False
+Gil Portes;m0692358;12;False
+Bill Zebub;m1754496;0;False
+Dave Weese;m4201494;0;False
+Michael Todd Schneider;m1617216;0;False
+Hua Ya;m6053162;0;False
+James O'Brien;m0639593;0;False
+Tibor Takács;m0847749;2;False
+Yusry Abd Halim;m1126474;0;False
+K. King;m4283294;0;False
+Roger Christian;m0002337;3;False
+BC Furtney;m1802130;0;False
+Alek Gearhart;m5692452;0;False
+Phil Davison;m2430302;0;False
+Francesc Morales;m2781881;0;False
+Kah-Wai Lim;m3125360;0;False
+Jarmo Lampela;m0483850;8;False
+Travis Legge;m3728366;0;False
+Tom Heidenberg;m5759572;0;False
+Jose Thomas;m0859074;0;False
+R. Ellis Frazier;m1950018;0;False
+Hannes Holm;m0391502;1;False
+Gary Jones;m0428109;0;False
+Timothy Woodward Jr.;m1914394;2;False
+Vincenzo Natali;m0622112;15;False
+David Wnendt;m1177494;7;False
+Ruairi Robinson;m1099711;2;False
+Jeremy Degruson;m0214857;0;False
+Stephan Lacant;m0479810;5;False
+Wayne Kramer;m0469694;1;False
+Jerusha Hess;m1415801;0;False
+Will Finn;m0278181;0;False
+Mark Steven Johnson;m0425756;0;False
+Eugenio Derbez;m0220240;3;False
+James Franco;m0290556;32;False
+Jill Soloway;m0813561;1;False
+Charlie Stratton;m0833627;0;False
+Bobcat Goldthwait;m0001281;3;False
+Mike Mendez;m0579079;1;False
+Sebastián Silva;m2928364;17;False
+Eugenio Mira;m1079001;0;False
+Rohit Shetty;m1460159;2;False
+Juan José Campanella;m0002728;51;False
+Tze Chun;m2309735;12;False
+Cal Brunker;m2117510;0;False
+Cédric Klapisch;m0458251;21;False
+Ron Krauss;m0470323;15;False
+Aram Rappaport;m1736575;0;False
+Kat Coiro;m0192478;5;False
+David E. Talbert;m0847859;1;False
+Ivan Sen;m0784008;8;False
+Stu Zicherman;m0955974;0;False
+Damien Leone;m2093171;2;False
+Justin Chadwick;m0149491;12;False
+Erik Poppe;m0691547;8;False
+Craig Zisk;m0957197;1;False
+Manuel Carballo;m1298542;0;False
+Eran Creevy;m2123102;2;False
+Zachary Donohue;m3628670;0;False
+John Butler;m2899940;1;False
+George Tillman Jr.;m0863387;0;False
+Megan Griffiths;m0341722;8;False
+Uwe Boll;m0093051;3;False
+Courtney Solomon;m0813309;0;False
+Catherine Hardwicke;m0362566;8;False
+Shinji Aramaki;m0032925;0;False
+Bille August;m0000806;17;False
+Matthew Arnold;m0036559;0;False
+Stacie Passon;m4945419;3;False
+Nimród Antal;m0030735;9;False
+Francesca Gregorini;m1036527;2;False
+Kar Wai Wong;m0939182;36;False
+Ján Novák;m2508880;0;False
+Talip Karamahmutoglu;m3042863;0;False
+René Marik;m2227497;0;False
+Steve Bendelack;m0070436;0;False
+Samuel M. Johnson;m3283161;0;False
+Shuhaimi Baba;m0044715;4;False
+W.D. Hogan;m1016044;0;False
+Emmanuel Klotz;m1827617;0;False
+Federico Moccia;m0595062;0;False
+Viji Thampi;m0857002;0;False
+Robert Conway;m1757671;0;False
+Yamini Lila Kumar;m5743946;0;False
+Dante Tomaselli;m0866414;0;False
+Tirf Alexius;m3181550;0;False
+Levent Inanir;m0408382;0;False
+Aidan Belizaire;m4215470;0;False
+Jeffery Scott Lando;m0484879;3;False
+Francis Nielsen;m0630802;1;False
+Chris Herd;m0378786;0;False
+J. Horton;m1862032;0;False
+Adi Irani;m0409779;0;False
+Ye Kai;m3624678;0;False
+Yiuwing Lam;m0482725;1;False
+Emilio Ferrari;m0274058;0;False
+Monty Tiwa;m1295189;0;False
+Massimo Morini;m1861664;0;False
+Daniel Krauss;m1026102;0;False
+Adam Neutzsky-Wulff;m1754469;0;False
+Damian Lee;m0006860;2;False
+Ben Ketai;m2406892;2;False
+Liz W. Garcia;m1225921;0;False
+Shane Carruth;m1503403;6;False
+Xavier Dolan;m0230859;36;False
+E.L. Katz;m1414810;6;False
+Rob Meltzer;m0578446;2;False
+Stéphane Berla;m1071849;0;False
+Brad J. Silverman;m0798888;0;False
+Mukunda Michael Dewil;m4320125;0;False
+Malik Bader;m1471703;2;False
+Alex van Warmerdam;m0912334;20;False
+Benson Lee;m0496863;4;False
+Duane Adler;m0012137;0;False
+Robert Ben Garant;m0304830;0;False
+James Oakley;m1950060;0;False
+Clio Barnard;m1163237;12;False
+Sandra Nettelbeck;m0626686;11;False
+Asghar Farhadi;m1410815;70;False
+Declan Lowney;m0523276;3;False
+Liza Johnson;m1637785;1;False
+Peter Hyams;m0001382;1;False
+Jonathan Newman;m0628146;1;False
+Jean-Pierre Jeunet;m0000466;41;False
+Rakesh Roshan;m0004363;14;False
+Jacob Vaughan;m0891048;2;False
+Bora Dagtekin;m1480916;7;False
+Paul Weitz;m0919369;0;False
+Michel Gondry;m0327273;21;False
+Arnaud des Pallières;m0220774;2;False
+Mikkel Nørgaard;m1031708;5;False
+Karen Moncrieff;m0597673;3;False
+Herschel Faber;m1928849;0;False
+Jason Lockhart;m0770647;2;False
+Ed Gass-Donnelly;m1424878;7;False
+Dexter Fletcher;m0002077;1;False
+Kasper Barfoed;m0054504;4;False
+BJ McDonnell;m1103496;0;False
+David Lowery;m1108007;11;False
+Josh C. Waller;m1892220;2;False
+Gabriele Salvatores;m0759368;21;False
+Randy Moore;m5090157;1;False
+Paul Hough;m0396426;20;False
+Blair Erickson;m4578266;0;False
+Richie Mehta;m1416352;4;False
+Ayan Mukherjee;m2209781;2;False
+Adam Rodgers;m2666268;0;False
+Pavel Khvaleev;m5262488;0;False
+Brian Vance;m4291238;0;False
+Devanand Shanmugam;m4577982;0;False
+Thomson K. Thomas;m4598503;0;False
+A.D. Calvo;m1937259;0;False
+Andrew Gilbert;m4396943;0;False
+Paul Tanter;m2662500;3;False
+Danny Ogle;m1289302;0;False
+José Gerardo;m5723521;0;False
+Marcelo Páez Cubells;m3248112;0;False
+A.D. Gerhardt;m5948923;0;False
+Michael Urie;m1235530;3;False
+Michael Bartlett;m2408930;0;False
+Ekaterina Mikhaylova;m1847106;0;False
+Griff Furst;m0975225;0;False
+Stephen Langford;m0486405;0;False
+Brillante Mendoza;m1137289;45;False
+Ray O'Neill;m3079466;0;False
+Veerabhadram;m4696890;0;False
+Danial Donai;m0232003;0;False
+Sean Olson;m1235963;6;False
+Darwood Grace;m4072876;0;False
+Dou Xiao;m5044884;0;False
+Alessio Liguori;m4069082;0;False
+L. Gustavo Cooper;m4998490;0;False
+Aku Akbar;m1525269;0;False
+Suparn Verma;m1242455;0;False
+Jose Poernomo;m1070100;0;False
+Bernard Salzmann;m0759574;0;False
+Jordan Brown;m5011753;1;False
+Lulu Keating;m0444127;1;False
+Miguel Larraya;m2163910;1;False
+Abhinav Kashyap;m3508781;2;False
+Paul Middleditch;m0585452;1;False
+Felix Herngren;m0379773;2;False
+Anthony Silverston;m1950075;0;False
+Pedro Almodóvar;m0000264;122;False
+Hannah Fidell;m4227232;1;False
+Zak Hilditch;m1991847;2;False
+Josh Stewart;m1577637;0;False
+Christopher Menaul;m0578757;4;False
+Aharon Keshales;m3522076;6;False
+Stephen Chow;m0159507;11;False
+Clark Gregg;m0163988;4;False
+Vincent Grashaw;m1159083;6;False
+Michael Winterbottom;m0935863;22;False
+Lukas Moodysson;m0600546;38;False
+Daisy von Scherler Mayer;m0902939;0;False
+Todd Robinson;m0733149;7;False
+John McKay;m0563814;2;False
+Farren Blackburn;m1879225;1;False
+Max Mayer;m0562470;2;False
+Olatunde Osunsanmi;m1069989;2;False
+Zack Parker;m1556132;3;False
+Isaac Florentine;m0282708;0;False
+Henry Saine;m3026907;0;False
+Logan Miller;m3039088;1;False
+Diablo Cody;m1959505;32;False
+Manuel Sicilia;m1575880;2;False
+Jeremy Lovering;m0522634;0;False
+Víctor García;m1414579;2;False
+Alain Guiraudie;m0347492;11;False
+Danny Mooney;m2421181;0;False
+Kevin Goetz;m0324521;0;False
+Philippe Caland;m0129310;1;False
+D.J. Caruso;m0142286;0;False
+Allan Harmon;m0363473;3;False
+Mark Hartley;m0366867;1;False
+Cory Krueckeberg;m1450397;6;False
+Richard Raaphorst;m0704675;1;False
+Roger Michell;m0585011;5;False
+Sanjay Leela Bhansali;m0080220;24;False
+Richard Glatzer;m0322144;7;False
+Jamie Babbit;m0044803;11;False
+Howard J. Ford;m0285683;0;False
+Alberto Arvelo;m0038093;14;False
+Stephen Reynolds;m3893748;0;False
+Buket Alakus;m0015856;6;False
+Arthur Romeo;m3894964;0;False
+Giorgio Serafini;m0784805;5;False
+Sergey Zhigunov;m0955671;0;False
+Rob Kennedy;m2414185;0;False
+Stefano Tummolini;m0876545;1;False
+Stephanie Barber;m2404702;0;False
+Eric Styles;m0836557;1;False
+Larry Fessenden;m0275244;9;False
+Paulo Pécora;m1228568;0;False
+Emmett Callinan;m2269581;0;False
+Tobias Tobbell;m1680312;6;False
+Ray Bengston;m0071066;0;False
+Lou Simon;m4840973;0;False
+Drew Hall;m0355527;0;False
+Christopher Roosevelt;m2032632;0;False
+Mark Polonia;m0689789;0;False
+Faizul A. Rashid;m2702332;0;False
+Rajesh Amanakara;m2812842;0;False
+Raga Oktay;m1487746;0;False
+Travis Romero;m1284242;0;False
+Mark Newton;m2610800;0;False
+James Balsamo;m3859710;0;False
+Tolga Bas;m4196169;0;False
+Jayaraaj Vijay;m4195312;0;False
+Marlon Rivera;m2842515;7;False
+Balázs Hatvani;m2458034;0;False
+Ian del Carmen;m4540688;0;False
+Wai Man Yip;m0948145;0;False
+Jose Montesinos;m2829296;0;False
+Paul Borghese;m0096637;1;False
+Michael J. Hach;m5254466;0;False
+Sara St. Onge;m2871451;0;False
+Todd Burrows;m4893902;0;False
+Ben Gregor;m1359664;0;False
+David Pastor;m0665041;0;False
+Al Pacino;m0000199;45;False
+Shin-yeon Won;m2008414;0;False
+Mark Jones;m0428751;0;False
+Prachya Pinkaew;m1272773;3;False
+Jessie McCormack;m1394316;0;False
+Biyi Bandele;m4161077;0;False
+Chad Crawford Kinkle;m0455659;0;False
+Omid Nooshin;m0634811;0;False
+Duane Journey;m0431172;0;False
+David A. Armstrong;m0002252;3;False
+Jarret Tarnol;m3468433;0;False
+Hany Abu-Assad;m0009463;14;False
+Tobe Hooper;m0001361;7;False
+Neil LaBute;m0001438;10;False
+Laurie Collyer;m0172877;8;False
+Elliot Goldner;m3283841;0;False
+Anthony Joseph Giunta;m5139691;0;False
+Leone Marucci;m0555381;0;False
+Benjamin Epps;m1219307;0;False
+John Lyde;m1439346;0;False
+Chadd Harbold;m1976847;1;False
+Gary Entin;m1925528;0;False
+János Szász;m0844444;20;False
+Brian A Miller;m2357819;1;False
+David Trueba;m0874093;16;False
+Marina de Van;m0888418;8;False
+Herman Yau;m0946875;1;False
+Michael John Warren;m1434034;0;False
+Bryan Poyser;m0694737;3;False
+Cody Calahan;m2970236;0;False
+Karl Mueller;m2656048;0;False
+Matt Jespersen;m2947601;0;False
+Tsz Ming Wong;m5481432;0;False
+Annette Haywood-Carter;m0371852;0;False
+Aron Gaudet;m2704505;2;False
+Matt Gibson;m5255371;0;False
+Christopher-Lee dos Santos;m3238451;0;False
+Ulas Cihan Simsek;m2403243;0;False
+Derek Hockenbrough;m3420740;2;False
+David McElroy;m2200616;0;False
+Maciej Michalski;m5437196;0;False
+Neri Parenti;m0661345;0;False
+Arkin Aktaç;m4055347;0;False
+Masoud Dehnamaki;m3350008;0;False
+Nick Woltersdorf;m5598382;0;False
+Steven M. Smith;m1953143;0;False
+Matt Orlando;m0650006;0;False
+Siddique;m0796504;0;False
+Makrand Deshpande;m0221218;0;False
+Daniel Yee Heng Chan;m2326632;0;False
+Jimmy Loweree;m5383493;0;False
+Will Slocombe;m2034711;0;False
+Kishore Bhargav;m4870751;0;False
+Sherwood Hu;m0398903;0;False
+The Aquinas;m5663875;0;False
+Josh Selig;m1012154;11;False
+Justin Timpane;m1417197;0;False
+Polo Menarguez;m3500229;0;False
+Angel Flores Torres;m5592544;0;False
+P. Rameesh;m5829747;0;False
+Rajiv Chilaka;m5592581;0;False
+Abel Berry;m3237136;0;False
+Ahmad Idham;m0406881;0;False
+Albert J. Cloutier;m3083428;5;False
+Chris Haring;m3446045;0;False
+Hanneke Schutte;m3491007;1;False
+Rafaël Ouellet;m1980782;2;False
+Keoni Waxman;m0915394;0;False
+Joe Begos;m3976308;0;False
+Arnaud Desplechin;m0221611;14;False
+Manuel Martín Cuenca;m0554532;10;False
+Christie Will;m1592228;1;False
+Maggie Greenwald;m0339245;4;False
+Phil Morrison;m0607275;2;False
+Yann Gonzalez;m2287606;4;False
+Quentin Dupieux;m1189197;4;False
+Sean Ellis;m1193346;15;False
+Markus Blunder;m0089889;4;False
+Thomas Beatty;m0064247;2;False
+Riccardo Paoletti;m3395332;0;False
+Kyle Patrick Alvarez;m1547859;5;False
+Tina Gordon Chism;m1202276;0;False
+Joseph Ruben;m0747849;3;False
+Jayson Thiessen;m2149505;0;False
+Zhangke Jia;m0422605;30;False
+William Parker;m5506238;1;False
+Ben Wheatley;m1296554;7;False
+Jake Goldberger;m1667854;0;False
+Nicolas Vanier;m1534640;2;False
+Brett Donowho;m0233078;0;False
+Michael Polish;m0689187;8;False
+Chris Nelson;m0625245;0;False
+Anthony Fabian;m0003745;11;False
+Egidio Coccimiglio;m0168079;7;False
+Felix Fuchssteiner;m1385075;5;False
+Brad Copeland;m0178589;0;False
+Bilal Lashari;m2850440;2;False
+Andrew Douglas;m1497918;2;False
+Erik Skjoldbjærg;m0804408;3;False
+Jeremy Leven;m0505230;0;False
+John Burgess;m1623943;21;False
+Rakeysh Omprakash Mehra;m1018493;11;False
+Gary Wheeler;m1088868;5;False
+Gabriel Sabloff;m0754817;0;False
+Jim Taihuttu;m2165987;3;False
+Sturla Gunnarsson;m0348274;14;False
+Tom Jorgensen;m3851336;0;False
+Esa Jussila;m4445385;0;False
+Vladlen Barbe;m1703597;0;False
+Fabien Onteniente;m0648902;0;False
+Steve Goltz;m4361977;0;False
+Adam Ahlbrandt;m2986595;2;False
+Goo-Bi GC;m0328636;1;False
+H.M. Coakley;m0167562;0;False
+Kimani Ray Smith;m0808995;3;False
+Anthony Meadows;m3680669;0;False
+David F. Morgan;m4359556;0;False
+Delila Vallot;m0885211;0;False
+Tim Szczesniak;m4231266;0;False
+Hugo Carvana;m0142517;8;False
+Po-Chih Leong;m0502987;3;False
+Adrián Caetano;m0128382;23;False
+C.B. Harding;m1085552;1;False
+George Scileppe;m5565887;0;False
+Adam Gierasch;m0317368;0;False
+John O. Hartman;m1458804;0;False
+Kader Ayd;m0043705;0;False
+Charles Band;m0023929;1;False
+Artur Wiecek;m1303122;1;False
+Prem Soni;m2898003;0;False
+Joel Lamangan;m0482774;23;False
+Martin Aviles;m4442203;0;False
+Faruk Aksoy;m1147588;0;False
+Andrew Weiner;m0918199;0;False
+Zachary Eglinton;m4069844;0;False
+Oleg Assadulin;m1794344;0;False
+Kasi Lemmons;m0501435;6;False
+Maurice Barthélémy;m0058713;0;False
+Matt Thompson;m1880390;0;False
+Gary Ross;m0002657;8;False
+Joss Whedon;m0923736;19;False
+Christopher Nolan;m0634240;119;False
+Quentin Tarantino;m0000233;117;False
+Tim Burton;m0000318;20;False
+Phil Lord;m0520488;0;False
+Stephen Chbosky;m0154716;6;False
+Drew Goddard;m1206844;7;False
+Scott Derrickson;m0220600;1;False
+Jason Moore;m0601337;0;False
+Genndy Tartakovsky;m0850733;6;False
+Marc Webb;m1989536;3;False
+Tom Hooper;m0393799;23;False
+Rich Moore;m0601781;8;False
+Christopher McQuarrie;m0003160;7;False
+Sam Mendes;m0005222;40;False
+Ben Affleck;m0000255;61;False
+David Ayer;m0043742;0;False
+Harmony Korine;m0005101;7;False
+Tom Tykwer;m0878756;34;False
+Barry Sonnenfeld;m0001756;6;False
+John Hillcoat;m0384825;5;False
+Rian Johnson;m0426059;15;False
+James Watkins;m1220140;2;False
+Josh Boone;m1837748;0;False
+Wes Anderson;m0027572;49;False
+Seth MacFarlane;m0532235;10;False
+Timur Bekmambetov;m0067457;3;False
+Kathryn Bigelow;m0000941;81;True
+Ang Lee;m0000487;101;False
+Derek Cianfrance;m0161834;9;False
+Andrew Dominik;m0231596;6;False
+Rupert Sanders;m2782185;1;False
+Jeff Nichols;m2158772;17;False
+Jon Hurwitz;m1375358;0;False
+Steven Spielberg;m0000229;168;True
+Oliver Stone;m0000231;52;False
+Scott Speer;m1228976;0;False
+Andrew Stanton;m0004056;32;False
+Mark Tonderai;m0867127;0;False
+Matt Bettinelli-Olpin;m2366012;0;False
+Joe Wright;m0942504;10;False
+Mark Andrews;m0028764;5;False
+Tony Gilroy;m0006904;2;False
+Danny Cotton;m4295351;0;False
+Nayato Fio Nuala;m2551464;0;False
+Nick Thomas-Webster;m2154519;0;False
+Lukasz Karwowski;m0440317;0;False
+Scott Patrick;m3754088;0;False
+Jesper Andersson;m1163062;0;False
+Brett Kelly;m1448482;0;False
+Rakhil Dolgorukov Tepes Sharkey;m4607595;0;False
+Jan David;m5483904;0;False
+Barbara Gräftner;m1126058;1;False
+Jared Cohn;m1714788;0;False
+Jim Markovic;m0548653;0;False
+Oliver Krekel;m0470741;0;False
+Uche Chika;m4243623;0;False
+Irwan Siregar;m3151647;0;False
+Arie Azis;m2777446;0;False
+Petr Sícha;m0845406;0;False
+Charles S. Dutton;m0001165;9;False
+John Vincent;m1546912;0;False
+Tim Martin;m1414783;0;False
+David Silvio;m2363583;1;False
+Liam Kiernan;m0452586;0;False
+Chiska Doppert;m4970281;0;False
+Vitali Moskalenko;m0608741;0;False
+Neil Johnson;m1484928;2;False
+Nathan Ellering;m3314357;0;False
+Lawrence Kasanoff;m0440415;0;False
+Tony Jopia;m2102632;0;False
+Frank W. Montag;m2628300;0;False
+Ajmal;m4173684;0;False
+Kamil Cetin;m0149131;0;False
+June Daguiso;m2408461;0;False
+Jon Kasdan;m0440459;0;False
+Scott Hicks;m0382956;12;False
+Thomas Vinterberg;m0899121;44;False
+Judd Apatow;m0031976;13;False
+Michael Sucsy;m1302591;3;False
+Pete Travis;m0871428;3;False
+Robert Zemeckis;m0000709;29;False
+Peter Ramsey;m0709056;3;False
+McG;m0629334;1;False
+Simon West;m0922346;1;False
+Martin McDonagh;m1732981;19;False
+David Guy Levy;m1428946;0;False
+Adam Shankman;m0788202;1;False
+Paul Thomas Anderson;m0000759;61;False
+Nima Nourizadeh;m1294036;0;False
+Kirk Jones;m0428600;5;False
+J.A. Bayona;m1291105;16;False
+Sean Anders;m1890845;1;False
+Dan Bradley;m0103187;1;False
+Len Wiseman;m0936482;0;False
+Olivier Megaton;m0576298;1;False
+Larry Charles;m0153078;4;False
+Måns Mårlind;m0617523;2;False
+Richard Gray;m3413681;0;False
+Tim Story;m1103162;0;False
+Ariel Vromen;m1033517;2;False
+Josh Trank;m2503633;0;False
+Henry Alex Rubin;m0748066;9;False
+Chris Butler;m2752098;2;False
+Jen Soska;m3609341;4;False
+Ole Bornedal;m0097079;14;False
+Michael J. Bassett;m1068186;2;False
+Daniel Espinosa;m1174251;3;False
+Eric Darnell;m0201509;0;False
+Jonathan Liebesman;m0509448;2;False
+Paul W.S. Anderson;m0027271;2;False
+Walter Salles;m0758574;56;False
+James McTeigue;m0574625;0;False
+Chris Renaud;m0719208;1;False
+Stuart Blumberg;m0089742;5;False
+Akiva Schaffer;m1676223;4;False
+Jonathan Dayton;m0206760;18;False
+Heitor Dhalia;m1104944;12;False
+Lisa Azuelos;m0018132;1;False
+Neil Jordan;m0001403;42;False
+Rob Zombie;m0957772;5;False
+Ol Parker;m0662530;4;False
+Brad Peyton;m0679031;0;False
+Brandon Cano-Errecart;m3990880;0;False
+Peter Geiger;m0311927;0;False
+Michael Rooker;m0740264;2;False
+Jeff Murray;m5039620;0;False
+Reinert Kiil;m1823243;0;False
+Murali Abdullah;m5370852;0;False
+Aaron Kurmey;m3952039;0;False
+Christopher Ray;m0712782;2;False
+Tobias Canto Jr.;m3552915;0;False
+Bill McAdams Jr.;m0563848;3;False
+Gilbert K. Lukalia;m3776295;0;False
+John Symes;m3552979;0;False
+Joe Castro;m0145581;4;False
+James Eaves;m1346075;0;False
+James Plumb;m3651567;0;False
+Chris Stokes;m0831321;0;False
+David Dunn Jr.;m1803116;0;False
+Sarik Andreasyan;m3550361;0;False
+Victor Lopes;m0519961;2;False
+Ralph A. Villani;m3112143;1;False
+Howard Woolf;m1143112;0;False
+Inmaculada Hoces;m0387761;0;False
+Pawel Czarzasty;m2097923;0;False
+Michael Taverna;m0851710;0;False
+Paul Angunawela;m1618125;0;False
+Andrew Bellware;m0069279;0;False
+Ray Cooney;m0177774;0;False
+Jorgo Papavassiliou;m0660354;0;False
+Nani Krishna;m5510901;0;False
+Findo Purwono;m3022658;0;False
+David Doucette;m5110458;0;False
+Joe Raffa;m3329156;0;False
+Jordi Mollà;m0003244;9;False
+Rob Cohen;m0003418;1;False
+Terrence Malick;m0000517;36;False
+RZA;m0753526;2;False
+Mike McCoy;m0566788;1;False
+Josh Radnor;m1102140;2;False
+Henry Joost;m1160962;1;False
+Fisher Stevens;m0001770;3;False
+Nicholas Stoller;m0831557;2;False
+Tarsem Singh;m0802248;4;False
+Kaare Andrews;m1543846;0;False
+John Gulager;m0347657;1;False
+Robert Redford;m0000602;34;False
+David Wain;m0906476;3;False
+Sacha Gervasi;m0315065;7;False
+Josh Schwartz;m0777300;0;False
+Colin Trevorrow;m1119880;0;False
+Marcus Dunstan;m1729303;0;False
+Michael J. Gallagher;m2038422;8;False
+Gus Van Sant;m0001814;37;False
+Bradley Parker;m0662086;0;False
+Steve Martino;m0553942;1;False
+Brian Klugman;m0460206;0;False
+Lorene Scafaria;m1032521;0;False
+Bobby Farrelly;m0268370;4;False
+Boaz Yakin;m0945026;3;False
+John Hyams;m0404882;0;False
+Franck Khalfoun;m0451076;1;False
+Ryûhei Kitamura;m0457565;7;False
+Don Coscarelli;m0181741;12;False
+Noah Baumbach;m0000876;22;False
+Walter Hill;m0001353;15;False
+Mike Newell;m0001565;14;False
+Asger Leth;m1300606;1;False
+Jacques Audiard;m0002191;48;False
+Stephen Elliott;m4107260;0;False
+David Koepp;m0462895;3;False
+Mabrouk El Mechri;m1333798;0;False
+Stefan Ruzowitzky;m0752328;15;False
+Frank Coraci;m0178997;0;False
+Nicholas McCarthy;m1130275;0;False
+David Palmer;m3124542;0;False
+Felix van Groeningen;m0886976;17;False
+Robert Lorenz;m0520749;5;False
+Benh Zeitlin;m1022455;55;False
+Alex Kurtzman;m0476064;3;False
+Tamer Karadagli;m1499518;0;False
+Oleg Fesenko;m1957418;0;False
+Christoph Kositza;m4438573;0;False
+Volkan Maida;m5498640;0;False
+Marcel Walz;m3231736;0;False
+Chad Rook;m1756186;0;False
+Scott Kirkpatrick;m1781563;1;False
+Pooja Bhatt;m0080324;1;False
+Hugo de Sousa;m0961755;2;False
+Jean-Claude La Marre;m0478713;0;False
+Glenn Ciano;m0161870;0;False
+Stephon Stewart;m2416074;3;False
+Steve Latshaw;m0490370;0;False
+Rishi Opel;m1681953;0;False
+Nicholas Reiner;m0718011;0;False
+Greg Daniel;m3515291;0;False
+Derek Lee Nixon;m1238488;8;False
+Rajkrishna;m3767424;0;False
+Yoyok Dumprink;m4132935;0;False
+Patrick Desmarattes;m4854915;0;False
+Kwok-Leung Gan;m0304065;0;False
+Shaji Kailas;m0435050;1;False
+Hashim Rejab;m4702942;0;False
+Raymond Handaya;m5862752;0;False
+Lance McDaniel;m1590373;0;False
+Johnno Zee;m3017208;0;False
+Jeff Broadstreet;m0110420;0;False
+Sergio Myers;m0003265;15;False
+Nils J. Nesse;m3403735;1;False
+Steve Laurence;m5047752;0;False
+Saji Surendran;m3507882;0;False
+James Mather;m1140492;2;False
+Juan Solanas;m0812626;9;False
+David Cronenberg;m0000343;66;False
+Leslye Headland;m2853516;0;False
+Mat Whitecross;m1475971;2;False
+Richard Bates Jr.;m3160595;12;False
+Brian De Palma;m0000361;9;False
+Til Schweiger;m0001709;20;False
+Peter Hedges;m0373282;2;False
+Jay Roach;m0005366;8;False
+Scott McGehee;m0569166;2;False
+Timo Vuorensola;m1993322;2;False
+Nicholas Jarecki;m1906430;0;False
+Julie Anne Robinson;m1455688;0;False
+Ben Lewin;m0506802;7;False
+Michael Apted;m0000776;19;False
+Rodrigo Cortés;m0181579;11;False
+Pascal Laugier;m1052791;5;False
+Michael Haneke;m0359734;89;False
+Michael Hoffman;m0001355;2;False
+Declan Donnellan;m3077950;0;False
+Shari Springer Berman;m0075849;21;False
+Ramin Bahrani;m1023919;15;False
+Amy Heckerling;m0002132;4;False
+Sergio Castellitto;m0144812;26;False
+Barry Battles;m2030556;2;False
+Austin Chick;m0157222;1;False
+David Barrett;m0057106;0;False
+Gabriele Muccino;m0610831;12;False
+Lee Toland Krieger;m1767218;2;False
+Mark Mann;m2384597;0;False
+Joachim Rønning;m1461392;3;False
+Adrian Grunberg;m0344496;0;False
+Nicolás López;m1240647;1;False
+Andy Fickman;m0275698;1;False
+Nikolaj Arcel;m1064048;12;False
+Todd Lincoln;m1447139;0;False
+Christopher MacBride;m2804532;0;False
+Anthony Hemingway;m0376006;0;False
+Dario Argento;m0000783;11;False
+Yash Chopra;m0007181;22;False
+David Brooks;m3360080;0;False
+Anne Fletcher;m0281945;0;False
+Barry Levinson;m0001469;30;False
+Craig Zobel;m0957505;4;False
+John Poliquin;m2151439;0;False
+Christian Petzold;m0678857;27;False
+Jason Mills;m3510519;0;False
+Coke Daniels;m1248013;0;False
+Alexander Williams;m4387414;2;False
+Jonathan Glendening;m0322539;4;False
+Aliyar Ali Kutty;m4862933;0;False
+Neil Jones;m2040801;5;False
+Sebastian Bartolitius;m3195705;0;False
+LaTonya Black;m5264181;0;False
+K.K. Haridas;m0363021;0;False
+Dominic Burns;m2403079;0;False
+Michael A. Pinckney;m0683900;0;False
+Jason Wan Lim;m5103050;0;False
+Terry Miles;m3004436;0;False
+Branka Prlic;m4856558;0;False
+Kevin Carraway;m0140109;0;False
+Jeff Frentzen;m0005586;0;False
+Chris W. Freeman;m1698040;0;False
+Manuel Pradal;m0694946;0;False
+Wimbadi J.P.;m5322674;0;False
+Jason Christopher;m4148247;0;False
+Russell Whaley;m2609031;7;False
+Junius Podrug;m5117802;0;False
+Joaquin Rodriguez;m2118394;0;False
+Stephen Amis;m0025008;0;False
+Ram Gopal Varma;m0890060;2;False
+K. Team;m5498969;0;False
+Daniel Dahl;m4645797;0;False
+Byron Turk;m2532081;0;False
+Pablo Llorca;m0515831;0;False
+Matthew Lawrence;m2652936;0;False
+Sibi Malayil;m0539034;1;False
+Francis Xavier;m0944387;0;False
+Manuel García Ferré;m0305659;0;False
+Scott Martin;m1924767;0;False
+Matthias Hoene;m2775497;2;False
+Rufus Norris;m0635895;5;False
+Susanne Bier;m0081540;34;False
+Ramaa Mosley;m1310794;0;False
+David Bowers;m0101047;0;False
+Emmanuelle Bercot;m0073384;6;False
+Tom Vaughan;m0891114;1;False
+Jamie Travis;m1637474;11;False
+Salim Akil;m0015328;2;False
+Jackie Chan;m0000329;29;False
+Oriol Paulo;m1079062;1;False
+Paco Plaza;m0687042;20;False
+Conor McMahon;m1114700;2;False
+Leos Carax;m0136021;19;False
+Ken Loach;m0516360;82;False
+Jake Schreier;m1500577;2;False
+Nick Love;m0522393;0;False
+Rowan Athale;m1424282;1;False
+Lawrence Blume;m0089756;2;False
+Sean Garrity;m0308498;4;False
+Mamoru Hosoda;m0396074;14;False
+Dustin Hoffman;m0000163;62;False
+Phil Dorling;m2365361;0;False
+Brian Robbins;m0005367;3;False
+Katie Aselton;m1051221;0;False
+Peter Engert;m1960122;2;False
+Jessy Terrero;m0855843;0;False
+Ernie Barbarash;m0053228;0;False
+Mira Nair;m0619762;26;False
+Scott Schirmer;m4074758;11;False
+Brandon Cronenberg;m0188722;4;False
+Dante Ariola;m1986065;1;False
+Peter Webber;m0916424;5;False
+Kieran Darcy-Smith;m0201061;7;False
+Matt Piedmont;m0682126;4;False
+Dennis Gansel;m0304541;11;False
+Peter Lord;m0520485;15;False
+Brian Dannelly;m0200380;1;False
+Haifaa Al-Mansour;m5152687;17;False
+Sean Stone;m0832165;0;False
+Alaa El Sherief;m5547579;0;False
+Prem Nizaar;m3606209;0;False
+Bashar Alissa;m4564170;0;False
+Yuan Hua;m5000629;0;False
+Xavier Berraondo;m1898893;0;False
+Richard Rich;m0723704;0;False
+Mike Campbell;m0132736;4;False
+Michael Whitton;m3624053;0;False
+Christian Grillo;m2325864;0;False
+David Shin;m4680696;0;False
+Niko Kühnel;m2757581;1;False
+Husri H.J. Husain;m5031048;0;False
+Patrick McManus;m2726159;0;False
+Eoin Macken;m2151126;0;False
+Caytha Jentis;m2320276;1;False
+Alex Barrett;m2116003;2;False
+Özgür Özberk;m1756265;0;False
+Robert Franke;m3031132;1;False
+Chris Alexander;m5147694;0;False
+Mike Möller;m1221392;0;False
+Danny Draven;m0237236;1;False
+Richard Turke;m0877182;0;False
+Danny Donnelly;m4005910;0;False
+Vitaliy Versace;m2648766;0;False
+Giorgio Amato;m5294953;0;False
+Steven Rumbelow;m0750093;0;False
+Osman Ali;m0019471;1;False
+Tomás Kucera;m3830038;0;False
+Marius Balchunas;m0049592;0;False
+Alfred Robbins;m1995403;0;False
+Devron Callender;m4880535;0;False
+Rob Reiner;m0001661;16;False
+Paul Hyett;m0404931;2;False
+Ryan Little;m0514662;18;False
+Roberts Gannaway;m0304432;1;False
+Sally Potter;m0006845;13;False
+Ry Russo-Young;m1735543;4;False
+Jennifer Chambers Lynch;m0528337;4;False
+Nicole Conn;m0174903;12;False
+Yaron Zilberman;m1597629;9;False
+Eric Wostenberg;m1466818;0;False
+Anurag Basu;m1397301;6;False
+Alan Polsky;m2611223;1;False
+Darren Lynn Bousman;m1135423;1;False
+Dylan C. Brown;m1866679;0;False
+Kimble Rendall;m0719320;0;False
+Christian Bisceglia;m1538324;0;False
+Justin Benson;m1918140;1;False
+Jonas Åkerlund;m0959774;4;False
+Jordan Roberts;m1471001;2;False
+Xan Cassavetes;m0144018;1;False
+David Ren;m1975630;0;False
+James Marsh;m1016428;20;False
+David Weaver;m0915838;2;False
+Wayne Blair;m0992370;6;False
+Ken Kwapis;m0477129;2;False
+Bradley Rust Gray;m0336486;5;False
+Billy Bob Thornton;m0000671;33;False
+Michael Hoffman Jr.;m0388792;0;False
+Jeremy Gardner;m1693690;4;False
+Danielle Harris;m0364583;2;False
+Sean Baker;m0048918;15;False
+Michael Mohan;m2278537;0;False
+Todd Berger;m1787651;7;False
+Robert Heath;m1042372;2;False
+Petter Næss;m0639033;26;False
+Jon Wright;m1229323;3;False
+Ted Koland;m1197318;0;False
+Crispian Mills;m1553775;0;False
+Nir Paniry;m2040027;0;False
+Johannes Roberts;m1266897;0;False
+Pat O'Connor;m0640466;3;False
+Michael Winnick;m1033667;0;False
+Andrew Goth;m0331777;0;False
+Max Giwa;m2791932;0;False
+Morgan O'Neill;m0642041;0;False
+Marco Rosson;m4493345;0;False
+Gary Ugarek;m1658124;2;False
+K.S. Bava;m5461244;0;False
+Róbert Koltai;m0464417;1;False
+Terron R. Parsons;m4363490;0;False
+Fred Ashman;m2619744;0;False
+Azhari Mohd Zain;m2704950;0;False
+Alejo Mo-Sun;m1330949;0;False
+Lonesome Solo;m5501904;0;False
+Stratos Markidis;m0548474;0;False
+M.A. Nishad;m2778969;0;False
+Denis Alekseev;m4161848;0;False
+Nicholas David Lean;m2476904;0;False
+Joe Chien;m4873566;0;False
+Doug Maguire;m2259543;5;False
+Alex Nicolaou;m1563703;0;False
+Jose Figueora;m4511708;0;False
+Wayne Capps;m3851440;0;False
+Xia Yong;m5595385;0;False
+Reginald Van Severen;m5442124;0;False
+Abhiram Suresh Unnithan;m5321047;0;False
+Shigekazu Shibamoto;m5306064;0;False
+Johanna Kern;m0449511;0;False
+Duane Graves;m0336271;3;False
+Mark Sheppard;m0791968;0;False
+Nick Parada;m3528134;0;False
+Peter Kern;m0449489;2;False
+Alessandro Capone;m0135332;0;False
+Erik Knight;m5577773;0;False
+Peter Handford;m5331112;0;False
+Jesse V. Johnson;m0425364;3;False
+Michael Mayer;m3199492;15;False
+Xavier Villaverde;m0898178;1;False
+Benoît Jacquot;m0415245;1;False
+Reema Kagti;m1030373;3;False
+Jules Stewart;m0543032;0;False
+Matt Ross;m0743671;0;False
+Jessica Goldberg;m2713351;0;False
+Stéphane Aubier;m0041334;14;False
+Dan Mirvish;m0592573;1;False
+Patricia Riggen;m0726638;10;False
+Jay Chandrasekhar;m0151540;3;False
+Christopher Neil;m0624670;0;False
+Travis Fine;m0003910;11;False
+Edna Luise Biesold;m3828653;0;False
+Cate Shortland;m0795153;32;False
+Tim Heidecker;m1727367;1;False
+David Chase;m0153740;17;False
+Lawrence Roeck;m2940732;0;False
+Tobias Lindholm;m2105585;21;False
+Timothy Armstrong;m1726262;0;False
+William Kaufman;m0442287;0;False
+Hadi Hajaig;m1561205;0;False
+Lee Kirk;m0456509;0;False
+Peter Strickland;m3270827;10;False
+Ji-hoon Kim;m1537157;0;False
+Brent McCorkle;m3634546;0;False
+Scott Di Lalla;m2010464;5;False
+Ben Drew;m2304008;1;False
+Andrew Adamson;m0011470;7;False
+Jan Ole Gerster;m1673756;16;False
+Jeff Chamberlain;m0150170;0;False
+Jamie Bradshaw;m1972793;0;False
+April Mullen;m0611983;2;False
+Colin Theys;m2572627;0;False
+Craig Viveiros;m2244239;1;False
+Roman Coppola;m0178910;14;False
+Rebecca Thomas;m3275942;2;False
+Jeremy Power Regimbal;m3134012;0;False
+Peter Templeman;m1840943;5;False
+Karan Malhotra;m1633551;1;False
+Wayne Thornley;m1798333;0;False
+Adrián García Bogliano;m0305563;4;False
+Paul Andrew Williams;m1440314;6;False
+Michael Baumgarten;m0062341;2;False
+Aaron Boltz;m2486735;0;False
+Gevorg Juguryan;m5062838;0;False
+Tim T. Cunningham;m0192466;0;False
+Kenny Young;m0949774;0;False
+Sean Williamson;m3551279;0;False
+A. Razak Mohaideen;m1351271;0;False
+V.M. Vinu;m0899144;0;False
+Lewis Coz;m3461290;0;False
+Joaquin Juarez;m2571008;0;False
+Terry Davis;m5442864;0;False
+Kai Li;m0508441;0;False
+Omar Chraibi;m0159599;0;False
+Kevin Cooper;m0178193;0;False
+Russ Emanuel;m1479322;13;False
+Daniel Bollag;m4131787;0;False
+John F. Carroll;m1949015;0;False
+Reynir Lyngdal;m2382702;1;False
+Anthony D.P. Mann;m3302472;0;False
+Sebastien Rossi;m3944340;0;False
+Michael Gordon;m2357722;0;False
+Roger Sewhcomar;m1289968;0;False
+Bruce Ornstein;m0650344;0;False
+Ryan Lee Driscoll;m0238055;0;False
+Józef Skolimowski;m0443089;0;False
+Dale Fabrigar;m1354965;1;False
+Todd E. Freeman;m0293611;0;False
+Ramón Obón;m0643582;0;False
+Rafael Edholm;m0249334;0;False
+Ate de Jong;m0429517;1;False
+Xu Kerr;m4392056;0;False
+Morteza Harandi;m5544632;0;False
+Joseph A. Elmore Jr.;m2193710;0;False
+Evan Marlowe;m4542885;0;False
+Steve Taylor;m1741105;0;False
+Blake Freeman;m3462228;0;False
+Daryl Wein;m0918078;1;False
+Todd Graff;m0333804;0;False
+Aleksander Nordaas;m2063500;3;False
+Daniel Barnz;m1400426;1;False
+Antonio Negret;m0624423;2;False
+Makoto Kamiya;m0436780;0;False
+S.V. Krishna Reddy;m0007161;0;False
+Todd Levin;m4401419;0;False
+Chris Fisher;m1084723;0;False
+Elias;m0253440;3;False
+George Gallo;m0303032;1;False
+Eduardo Rodriguez;m1161979;2;False
+Régis Roinsard;m1672051;1;False
+Lenny Abrahamson;m1049433;10;False
+Todor Chapkanov;m1359237;0;False
+Laurent Tirard;m1016687;3;False
+W. Peter Iliff;m0407717;0;False
+Terry Miles;m2325744;1;False
+Mark Webber;m0916406;3;False
+Rodrigo Gudiño;m1473037;4;False
+Anurag Kashyap;m0440604;12;False
+Regan Hall;m3834604;1;False
+Noel Tan;m4464053;0;False
+Bob Badway;m2508272;0;False
+Todd Louiso;m0521974;1;False
+Youssef Delara;m0216459;0;False
+Keishi Ohtomo;m3311094;0;False
+Mike Birbiglia;m1898126;2;False
+Jacob Chase;m0153774;1;False
+John Stockwell;m0007082;0;False
+Jay Gammill;m1359583;0;False
+Georg Maas;m0530981;5;False
+Matthew Spradlin;m0819527;0;False
+Laurent Cantet;m0134559;30;False
+Nick Murphy;m1960322;8;False
+Roar Uthaug;m1012385;0;False
+Julian Pölsler;m0702518;6;False
+Perry Bhandal;m4678690;0;False
+Ana Piterbarg;m1301709;1;False
+Gabriela Tagliavini;m0846590;3;False
+Serge Rodnunsky;m0271084;2;False
+Rodrigo Bittencourt;m2709019;0;False
+Nuri Dahlia;m5199247;0;False
+Nidheesh Sakthi;m5119110;0;False
+Len Kabasinski;m1363725;1;False
+Mischa Webley;m1509549;0;False
+Roxana Leotescu;m2664361;0;False
+Pascal Hérold;m1562741;0;False
+Ansel Faraj;m4043796;1;False
+Enrico Lando;m2985661;0;False
+Naoyoshi Kawamatsu;m3939650;0;False
+David Jacobson;m0414817;0;False
+Dustin Rikert;m1046566;0;False
+Jay Anania;m0025640;0;False
+Brian C. Weed;m2101131;0;False
+Stefan Butzmühlen;m2570831;0;False
+Alejandro Gamboa;m0303832;3;False
+Alek Lev;m1230591;0;False
+Justin Paul Ritter;m0728772;0;False
+Eric Dapkewicz;m0200847;0;False
+Vikram Bhatt;m0080333;0;False
+David Cholewa;m3115925;0;False
+Lucio Fiorentino;m3948563;0;False
+Lance Greene;m0338834;0;False
+Jim Menza;m0579938;0;False
+David Raynr;m0713527;0;False
+Brenton Spencer;m0817878;1;False
+Bryce Clark;m3959295;0;False
+Luke Thompson;m5383581;0;False
+Mj Dixon;m3262576;0;False
+Donald Rice;m1852103;3;False
+Rachid Bouchareb;m0098953;38;False
+Geoff Anderson;m1010592;1;False
+Pascal Arnold;m0036593;1;False
+Artie Mandelberg;m0541703;0;False
+Jason Connery;m0001064;0;False
+John Putch;m0003289;20;False
+Julie Delpy;m0000365;29;False
+Mike Figgis;m0001214;10;False
+Stobe Harju;m1514493;0;False
+Sujoy Ghosh;m1223910;4;False
+George Sluizer;m0806293;13;False
+Pascal Chaumeil;m0154312;3;False
+Rob Margolies;m1827689;2;False
+Ruba Nadda;m0618779;2;False
+Larry Clark;m0164187;4;False
+Ryan Smith;m3081301;0;False
+Jason Chaet;m1139821;1;False
+Sebastian Gutierrez;m0349406;1;False
+Maxim Korostyshevsky;m5091074;0;False
+Ron Scalpello;m2151723;0;False
+Ciaran Foy;m1164602;11;False
+P.J. Hogan;m0389591;2;False
+Daniel Algrant;m0019341;1;False
+Paul Verhoeven;m0000682;25;False
+Enrique Gato;m1955897;7;False
+Andrew Currie;m0192933;7;False
+Pablo Berger;m0074311;23;False
+Claude Miller;m0002218;15;False
+Steve Barker;m1530422;0;False
+Gabe Torres;m0868650;5;False
+Dave Schultz;m0776224;1;False
+Nick Cassavetes;m0001024;5;False
+Luis Prieto;m1060986;8;False
+Dan Rosen;m0741942;0;False
+Bill Guttentag;m0349702;13;True
+Steven C. Miller;m1921345;1;False
+Charles Matthau;m0559879;2;False
+Antti Jokinen;m0427037;1;False
+Bryan Fogel;m2406731;0;False
+Greg A. Sager;m3419080;0;False
+Ronnie Khalil;m0451098;0;False
+Si Wall;m3636835;1;False
+P.V. Prasad;m5204574;0;False
+Sandhya Mohan;m0595921;0;False
+Egor Anashkin;m3625642;0;False
+Adam Sherman;m1353543;6;False
+Kazuya Ogawa;m3207885;0;False
+Demetrio Casile;m0143683;0;False
+Lee Croudy;m4857172;0;False
+Leigh Sheehan;m1093060;0;False
+Mark A.Z. Dippé;m0228147;0;False
+Tyler Maddox-Simms;m1090509;1;False
+Carrie Preston;m0696387;5;False
+Jose Prendes;m0695977;0;False
+Brandon Nutt;m1970885;0;False
+Miguel Rico Tavera;m5406644;0;False
+Renzo Martinelli;m0553379;3;False
+Jordan Downey;m2006573;0;False
+Jonathan Judge;m0431908;0;False
+Dmitriy Fiks;m0229380;0;False
+Todd Rohal;m0737442;9;False
+Shih Chiang Tso;m5570590;0;False
+Rajeev Kumar;m0474856;1;False
+Matt Mitchell;m1747121;0;False
+Premlal;m4071020;0;False
+Michael Feifer;m0006395;3;False
+Tony Tang;m3734897;0;False
+Alfonso Acosta;m4910089;1;False
+Tsutomu Hanabusa;m3108153;1;False
+Daniel Lawrance;m4968102;0;False
+Mark Bacci;m3223750;1;False
+Fred Olen Ray;m0676248;0;False
+Sam Mendoti;m5146344;0;False
+Sean-Michael Argo;m2163364;0;False
+Rama Burshtein;m5112815;6;False
+Steve Stone;m4360075;2;False
+Brett Sullivan;m3614151;0;False
+Dennis Lee;m1433720;4;False
+Fernando González Molina;m2692858;2;False
+Marialy Rivas;m0729086;5;False
+Kevin O'Neill;m0642223;0;False
+Kern Saxton;m1615009;0;False
+Sacha Polak;m2383508;2;False
+James Nunn;m2071556;3;False
+Xiaogang Feng;m0271815;21;False
+Michelle Danner;m0200403;0;False
+Margarethe von Trotta;m0903137;33;False
+Ricky Wood;m3515949;0;False
+Jonathan Lisecki;m1550373;6;False
+Michael McGowan;m1313340;7;False
+Quentin Lee;m0004250;3;False
+Frank Harper;m0363857;0;False
+Paul Sampson;m0760196;0;False
+Vivek Agnihotri;m1892252;0;False
+Marcus Markou;m1854120;1;False
+Mitchell Altieri;m1243970;3;False
+Derek Cole;m2310012;1;False
+Dean Wright;m0942331;1;False
+Steve Rash;m0711114;0;False
+Antonio Campos;m1290515;4;False
+A.R. Murugadoss;m1436693;0;False
+Ursula Meier;m0576732;12;False
+J.T. Petty;m0678786;1;False
+Cameron Cairnes;m1637876;2;False
+Johnnie To;m0864775;36;False
+Babak Najafi;m0619836;5;False
+Daniel Cohen;m0169300;0;False
+Lawrence Kasdan;m0001410;19;False
+Atiq Rahimi;m1680298;10;False
+Juan Carlos Maneglia;m1515311;5;False
+Alexis Lloyd;m0515913;0;False
+Charles Webb;m5023257;0;False
+Ricard Reguant;m0716739;0;False
+José Luis Garci;m0305054;20;False
+Gray Hofmeyr;m0389415;0;False
+Jennifer Valdes;m5154250;0;False
+B. Unnikrishnan;m2053461;1;False
+Tony Zarindast;m0953494;0;False
+J.K. Amalou;m0023852;0;False
+N. Shankar Dayal;m5123449;0;False
+Vijay Patkar;m1432957;0;False
+Adrianos Georgantas;m1420243;0;False
+Nigel Horne;m0395050;0;False
+Paulo Caldas;m0129434;12;False
+Steve Cheng;m6017262;0;False
+Marcos Felipe;m4518041;1;False
+King Jeff;m1501217;0;False
+Aseel Mansour;m4716981;0;False
+Rex Harsin;m2266146;0;False
+Jay Kanzler;m2625452;0;False
+Abbas Alibhai Burmawalla;m0122216;0;False
+Hansjörg Thurn;m0862215;0;False
+Drew Morris;m4141164;0;False
+David Yates;m0946734;14;False
+Matthew Vaughn;m0891216;5;False
+Joe Johnston;m0002653;2;False
+David Fincher;m0000399;55;False
+Kenneth Branagh;m0000110;28;False
+Glenn Ficarra;m0275629;1;False
+Gavin O'Connor;m0640334;3;False
+Olivier Nakache;m0619923;12;False
+Rob Marshall;m0551128;13;False
+Adam Wingard;m1417392;8;False
+Tate Taylor;m0853238;11;False
+Martin Campbell;m0132709;3;False
+Duncan Jones;m1512910;13;False
+Wes Craven;m0000127;10;False
+Rupert Wyatt;m1012501;1;False
+George Nolfi;m1079776;0;False
+Lone Scherfig;m0771054;28;False
+Jaume Collet-Serra;m1429471;0;False
+Neil Burger;m1139726;2;False
+Will Gluck;m0323239;0;False
+Tomas Alfredson;m0019247;36;False
+Ivan Reitman;m0718645;8;False
+Bennett Miller;m0587955;15;False
+Guy Ritchie;m0005363;8;False
+George Clooney;m0000123;96;False
+Brad Bird;m0083348;31;False
+Marcus Nispel;m1197971;0;False
+Craig Brewer;m0108132;7;False
+Lewis Schoenbrun;m0006955;3;False
+Jordan Salkil;m5098134;0;False
+Helfi C.H. Kardit;m2682682;0;False
+Ajay Chandhok;m0151305;0;False
+Alexander Gustafsson;m6256022;0;False
+Shôichi Akino;m4407167;0;False
+Daniel Alexander;m4283255;0;False
+Timothy Tau;m2803934;2;False
+Steven A. Sandt;m0762407;0;False
+Pete Guzzo;m1634761;0;False
+Ezio Greggio;m0339619;3;False
+Sidy Diabate;m0224418;0;False
+Ahmed El Badry;m2387350;0;False
+Rod Weber;m1632407;0;False
+Bruce Koehler;m3241286;1;False
+Raine Brown;m1102465;0;False
+Nairi Hakobyan;m4636321;0;False
+Yeva Belova;m4270796;0;False
+LaRon Austin;m2845464;0;False
+Noah Cooper;m1434966;0;False
+Jacob Ennis;m2247541;1;False
+Yoyok;m4530729;0;False
+Boshnak Erik;m4160511;0;False
+Lynne Ramsay;m0708903;32;False
+Gareth Evans;m2153088;6;False
+Jake Kasdan;m0440458;1;False
+Joe Carnahan;m0138620;3;False
+Craig Gillespie;m0318916;2;False
+Michel Hazanavicius;m0371890;51;False
+Cary Fukunaga;m1560977;20;False
+Kevin Smith;m0003620;16;False
+John Lasseter;m0005124;35;False
+Sean McNamara;m0573732;6;False
+William Friedkin;m0001243;18;False
+Matthijs van Heijningen Jr.;m0374048;0;False
+Mark Neveldine;m0004410;0;False
+Christian E. Christiansen;m0160157;0;False
+Greg Mottola;m0609549;7;False
+Garry Marshall;m0005190;11;False
+The Vicious Brothers;m4155547;0;False
+Thomas Bezucha;m0080120;8;False
+Cameron Crowe;m0001081;19;False
+Clint Eastwood;m0000142;152;True
+Dominic Sena;m0784061;3;False
+David Dobkin;m0229694;1;False
+John Singleton;m0005436;10;False
+Brett Ratner;m0711840;1;False
+Ben Palmer;m1414582;0;False
+Joseph Kahn;m0994538;1;False
+Carlos Saldanha;m0757858;2;False
+Patrick Lussier;m0527261;1;False
+Jonathan English;m0257646;0;False
+Julia Leigh;m3772967;4;False
+Gavin Wiesen;m1026883;0;False
+Jon Favreau;m0269463;2;False
+Marcelo Taranto;m0850235;1;False
+Stephen Mack;m3181249;0;False
+Clinton H. Wallace;m1316167;0;False
+Bryce DiCristofalo;m2505094;0;False
+Narayana Rao Dasari;m0201927;1;False
+Paul Morrell;m1139761;1;False
+Kevin Clark;m4140325;0;False
+Rena Riffel;m0726457;0;False
+Shô Tsukikawa;m2620778;0;False
+Sanping Han;m0359189;3;False
+Jim Wynorski;m0691061;0;False
+Dave Osborne;m2535888;0;False
+Jason Moulton;m3923791;0;False
+David Lee Madison;m3729006;0;False
+Xu Bin;m4409304;0;False
+Ernie Chen;m0155214;0;False
+Andrzej Mrotek;m1894313;0;False
+Vlado Stancel;m3533543;0;False
+Paul Kattupalli;m4611490;0;False
+Peska Vlastimil;m4871270;0;False
+Aaron L. Williams;m3197793;0;False
+Aaron Burk;m1847620;0;False
+Mike Newman;m3234644;0;False
+Óscar González;m5898067;0;False
+Tino Struckmann;m1559935;1;False
+Felix Pena;m4358231;0;False
+Charles E. Cullen;m0191446;0;False
+Chaoyang Niu;m4744434;0;False
+Jim Valdez;m1234723;0;False
+Rubaiyat Hossain;m3960381;30;False
+Derick Martini;m0553796;2;False
+Mark Mylod;m0617042;2;False
+Declan O'Brien;m0639508;0;False
+Gary McKendry;m1834213;4;False
+Alister Grierson;m0340958;3;False
+Rod Lurie;m0527109;4;False
+Steven Quale;m0702797;0;False
+Jim Sheridan;m0006487;30;False
+Bruce Robinson;m0732430;5;False
+James Bobin;m0090386;1;False
+Simon Curtis;m0193508;2;False
+Jennifer Yuh;m0950775;5;False
+Joe Nussbaum;m0638271;4;False
+Tom Six;m1519353;2;False
+Luke Greenfield;m0339004;5;False
+Chris Kentis;m0448900;0;False
+Stephen Daldry;m0197636;35;False
+Elliott Lester;m1714255;0;False
+Mike Cahill;m2648685;5;False
+Jesse Peretz;m0673400;1;False
+Morten Tyldum;m0878763;17;False
+John Madden;m0006960;11;False
+Oliver Parker;m0662529;0;False
+Jamie Linden;m1956691;0;False
+Tony Kaye;m0443411;4;False
+John Michael McDonagh;m0567620;11;False
+Lee Tamahori;m0848414;10;False
+Sean Durkin;m1699934;10;False
+Yimou Zhang;m0955443;66;False
+Charles Martin Smith;m0001747;3;False
+Muchyar Syamas;m3121074;0;False
+David Dhawan;m0223522;0;False
+LazRael Lison;m2410940;1;False
+Ari Kirschenbaum;m1077049;0;False
+Simon Law;m5179517;0;False
+Mike O'Mahony;m3934762;0;False
+Robert O'Hara;m3245732;0;False
+Eric Weston;m0922949;0;False
+Lv Jianmin;m6488777;0;False
+Chihiro Ikeda;m3087956;0;False
+Ismail Farouk;m4416829;0;False
+David Murphy;m1012775;0;False
+Chris Sheng;m2431227;0;False
+Jesús Bonilla;m0094625;0;False
+Przemyslaw Angerman;m1457818;0;False
+Matthew Bolton;m2107411;0;False
+Lav Diaz;m0225010;30;False
+Kiran;m5278921;0;False
+Nathaniel Warsh;m3053851;0;False
+Damien Dante;m3241425;0;False
+Chuanhai Xu;m4705266;0;False
+Lars-Erik Lie;m4594747;0;False
+J.T. Gurzi;m1393762;1;False
+Brandon Landers;m4192760;4;False
+Stephen Southouse;m2878629;0;False
+Jerry Daigle;m0197270;0;False
+Carl Lindbergh;m1637798;0;False
+Tamás Sas;m0765761;4;False
+Hugh Gross;m4561374;0;False
+Cameron Casey;m1093031;0;False
+Milos Twilight;m1115471;0;False
+Hugo König;m5328157;0;False
+Jason Xavier;m3208034;0;False
+T.S. Suresh Babu;m0045089;0;False
+Michael Brandt;m0104973;0;False
+Angelina Jolie;m0001401;40;False
+Andy Fetscher;m2755970;1;False
+Alex Gregory;m0339733;0;False
+Mike Mitchell;m0593610;5;False
+Chris Miller;m3735491;0;False
+Jim Field Smith;m1637768;0;False
+Jodie Foster;m0000149;56;False
+David R. Ellis;m0254786;0;False
+Matthew Parkhill;m1213712;1;False
+Chris Gorak;m0329755;1;False
+Phil Traill;m1288766;4;False
+Bibo Bergeron;m0074426;0;False
+Bille Woodruff;m0937306;0;False
+Joel Schumacher;m0001708;7;False
+Tanya Wexler;m0923330;1;False
+Matt Russell;m1634071;0;False
+Roger Donaldson;m0002044;4;False
+Malgorzata Szumowska;m0844333;13;False
+Matthew Chapman;m0152466;2;False
+Sarah Polley;m0001631;47;False
+Joe Cornish;m0180428;11;False
+Daniel Nettheim;m0626706;5;False
+Terence Davies;m0203993;16;False
+Geoffrey Fletcher;m2819316;8;False
+Tom Hanks;m0000158;76;False
+Michael Jai White;m0925220;0;False
+Madonna;m0000187;27;False
+Kelly Asbury;m0038432;2;False
+Jason Winer;m0934864;5;False
+Lynn Shelton;m1119645;7;False
+Andrea Arnold;m0036349;53;False
+Nicole Kassell;m0975026;3;False
+Xavier Gens;m1164755;1;False
+Phyllida Lloyd;m1630273;2;False
+Gerry Davenport;m1232046;0;False
+Sanjeev Raj;m2826932;0;False
+Takefumi Tsutsui;m0875488;0;False
+Matthew Martino;m3250370;0;False
+Campion Murphy;m0614138;0;False
+Julian Higgins;m2706350;2;False
+Jack Gastelbondo;m2783533;0;False
+Christopher Hatton;m0369030;0;False
+Vaughn Taylor;m1592226;0;False
+Antonio Hernández;m0379872;8;False
+Draven Gonzalez;m1406674;1;False
+Tommy Brunswick;m1104780;0;False
+V.N. Aditya;m2352606;0;False
+John Rebel;m3546019;0;False
+Alan Smithee;m0000647;0;False
+Ivan Mitov;m2329969;0;False
+Steve Sessions;m0004495;0;False
+Webster Forrest;m4476561;0;False
+Carlo Rodriguez;m1998742;0;False
+Leonardo Araneo;m4712667;0;False
+Joe Smalley;m1468527;0;False
+Anil Kumar;m1457820;0;False
+B. Jones;m1870356;0;False
+Mickey Reece;m4285196;0;False
+Daniel Ström;m3375490;0;False
+Anthony Lamarr;m4158821;0;False
+Alfonso Rodríguez;m1745426;0;False
+Mitesh Kumar Patel;m3987941;0;False
+Michael Gleissner;m1698419;0;False
+George Miller;m0004306;15;False
+Fernando Meirelles;m0576987;58;False
+Todd Strauss-Schulson;m0833889;0;False
+Andrew Haigh;m0354091;18;False
+Mark Waters;m0914134;1;False
+Jennifer Westfeldt;m0922724;4;False
+Rodrigo García;m0006554;11;False
+Francis Ford Coppola;m0000338;51;False
+Alexandra-Therese Keining;m0445129;1;False
+Jon Hewitt;m0382054;4;False
+Stephen J. Anderson;m0027459;0;False
+Tim Hill;m0384722;1;False
+Oren Moverman;m0610219;6;False
+Stéphane Rybojad;m1360702;0;False
+Juan Carlos Fresnadillo;m0294379;12;False
+Eduardo Sánchez;m0844896;6;False
+Mary Harron;m0366004;2;False
+Kenneth Lonergan;m0518836;22;False
+Taylor Sheridan;m0792263;0;False
+Nathanael Coffman;m3528160;0;False
+Alex Kendrick;m1731937;4;False
+William Eubank;m1827931;1;False
+Bruce Beresford;m0000915;10;False
+Levan Bakhia;m4395656;0;False
+Adam Kassen;m0440859;1;False
+Jay Duplass;m0243231;7;False
+Jaume Balagueró;m0049371;40;False
+Andrew Erwin;m3401779;1;False
+Niall MacCormick;m1732975;1;False
+Zoya Akhtar;m0015295;5;False
+Michael Pavone;m0667937;0;False
+Julian Farino;m0267497;4;False
+Mike Gunther;m0348389;5;False
+Jean-Jacques Annaud;m0000269;13;False
+Simon Wells;m0920425;0;False
+Vera Farmiga;m0267812;23;False
+Jason Eisener;m2639032;2;False
+Ami Canaan Mann;m0542642;3;False
+Farhan Akhtar;m1027719;24;False
+Turner Clay;m2571852;0;False
+Douglas McGrath;m0569790;1;False
+William Dear;m0213100;2;False
+Lee Alliston;m0021506;0;False
+Claudio Risi;m0728270;0;False
+David Brückner;m4103556;0;False
+Timo Rose;m1049039;0;False
+Charles Swain;m0841470;0;False
+Surenthar;m3623744;0;False
+Ghasem Jafari;m3442219;0;False
+Steven Drew;m3908907;0;False
+Ryan Thompson;m2675841;0;False
+Sandro Ravagnani;m4299167;0;False
+Gary Breslin;m2996658;0;False
+Gabriel Barylli;m0059509;3;False
+Tom Brady;m0103744;0;False
+Mike Nichols;m1643802;0;False
+Kenneth Olaf Hjellum;m2316087;0;False
+Mollie Binkley;m4006791;0;False
+Ryan Nicholson;m0629913;1;False
+Maurizio del Piccolo;m4466584;0;False
+James Ryan Gary;m4408232;0;False
+Lijun Sun;m2222215;0;False
+Andy Thompson;m0859853;0;False
+Antoine Thomas;m3936005;0;False
+Tara Pirnia;m1892072;0;False
+Igor Korobeynikov;m4325835;0;False
+Brian Brough;m0112647;0;False
+Ejaz Ahmed;m4777397;0;False
+Albert Johnson;m0424472;0;False
+Pedro Amador;m4416654;0;False
+Vinayan;m0898524;0;False
+Deepu Karunakaran;m3254695;0;False
+Paul Johansson;m0424035;1;False
+James Strong;m1326093;1;False
+Andrey Zvyagintsev;m1168657;31;False
+Jonathan Hensleigh;m0378144;0;False
+Julien Magnat;m1077275;0;False
+Thomas McCarthy;m0565336;20;False
+Michaël R. Roskam;m1742427;7;False
+Justin Kurzel;m2355933;6;False
+Angel Gracia;m0333471;1;False
+Julian Gilbey;m1402202;4;False
+Rob Minkoff;m0591450;1;False
+Todd Solondz;m0001754;13;False
+Aaron Harvey;m1980747;3;False
+Lance Daly;m0198472;6;False
+Anubhav Sinha;m1025280;0;False
+Kriv Stenders;m0826541;6;False
+Sarah Smith;m0809877;0;False
+Sheree Folkson;m0284308;1;False
+Rob Hedden;m0373154;0;False
+Goro Miyazaki;m2066439;1;False
+Shunji Iwai;m0412517;11;False
+Elgin James;m1990437;1;False
+Mark Pellington;m0671210;0;False
+John Pogue;m0688282;0;False
+Dermot Mulroney;m0000551;6;False
+Carlo Ledesma;m2765527;1;False
+Claudio Fäh;m0299603;0;False
+Paddy Considine;m0175916;10;False
+Whit Stillman;m0001775;6;False
+Josh Stolberg;m0831457;2;False
+Miguel Arteta;m0037708;1;False
+Ian Fitzgibbon;m0280416;4;False
+J.C. Khoury;m1339236;4;False
+Benny Chan;m0150802;3;False
+Michael Goi;m0003922;2;False
+Anna Justice;m0433141;8;False
+Gerardo Naranjo;m1319671;6;False
+Richard Brauer;m1074662;0;False
+Kai-Cheung Chung;m0161247;1;False
+Chantal Deguire;m4700112;0;False
+Johnny Markussen;m1487445;0;False
+Kyle Day;m3605917;0;False
+James Riffel;m0556826;3;False
+Kirill Kuzin;m2910439;0;False
+Paul Sapiano;m1957032;0;False
+Sirus Alvand;m0023119;1;False
+Chris Wojcik;m3845578;0;False
+M. Jamil;m1105439;0;False
+Ardy Octaviand;m2698132;0;False
+Nikola Curcin;m5837336;0;False
+Buzz Remde;m1364362;0;False
+David Ryan Keith;m3515157;3;False
+Raj Babu;m1805231;0;False
+Charlie Vaughn;m1218863;0;False
+Paul Wilkins;m1918269;0;False
+Mark Harriott;m4372951;0;False
+Diego Rafecas;m1877380;4;False
+Charles Nemes;m0625896;1;False
+Lawrence Riggins;m0726651;0;False
+John Harwood;m0367822;2;False
+Rob Hamilton;m3581002;1;False
+Kimberly Seilhamer;m0989920;0;False
+Nick Chamberlin;m2707062;0;False
+Ernest Riera;m2033094;0;False
+Neil Steinberg;m0825796;0;False
+Tommaso Agnese;m3640920;1;False
+Eric Stacey;m1418215;0;False
+Ricky Grover;m0344038;1;False
+Deryck Broom;m2968466;0;False
+Roland Joffé;m0423646;7;False
+Fred Andrews;m1088871;0;False
+Carles Torrens;m2165066;6;False
+Matt Walsh;m0909768;1;False
+Laurent Bouhnik;m0099324;3;False
+John Whitesell;m0925870;1;False
+Sabine Bernardi;m0076473;1;False
+John Schultz;m0776271;2;False
+Stephan Elliott;m0254632;4;False
+Hark Tsui;m0007139;10;False
+Nick Morris;m0606835;0;False
+Adrian Vitoria;m0900078;0;False
+Jacob Aaron Estes;m1096524;3;False
+Nacho Vigalondo;m1443023;16;False
+Carl Tibbetts;m3393440;0;False
+Stephen Herek;m0378893;1;False
+Tim Fehlbaum;m2959497;3;False
+Phil Dornfeld;m0233917;0;False
+Han-min Kim;m3482943;0;False
+Jean-Pierre Dardenne;m0201094;41;False
+Nick Hamm;m0358327;2;False
+Imtiaz Ali;m1665004;5;False
+Anthony DiBlasi;m1304669;0;False
+Nick Moore;m0601680;0;False
+Stig Svendsen;m1457169;0;False
+Mike Disa;m1918538;0;False
+K. Asher Levin;m0505642;0;False
+Bavo Defurne;m0214618;4;False
+Sam Jaeger;m0415382;0;False
+Nathan Morlando;m1137388;1;False
+Wayne Wang;m0911061;12;False
+David Foenkinos;m2271931;0;False
+Damon Russell;m1860638;1;False
+Chris Weitz;m0919363;1;False
+Maryam Keshavarz;m1991486;8;False
+Robin Blazak;m0087971;0;False
+Tony Krantz;m0469813;1;False
+Hagar Ben-Asher;m2132387;2;False
+Philippe Falardeau;m0265852;28;False
+Ty Hodges;m0388129;1;False
+Kike Maíllo;m1665932;7;False
+P.J. Pettiette;m0678646;0;False
+James Fargo;m0267309;0;False
+Kelly Smith;m1636259;0;False
+Stu Dodge;m0230228;0;False
+Michael Bafaro;m0046480;1;False
+Davide Tartarini;m4568728;0;False
+Travis Campbell;m2264123;0;False
+Brian Skiba;m2815884;0;False
+Edgardo Cozarinsky;m0185473;3;False
+Václav Vorlícek;m0903474;4;False
+Enric Alberich;m0016412;0;False
+Joe Ma;m0530865;1;False
+Bahman Goodarzi;m3442154;0;False
+Shana Betz;m0079496;1;False
+Craig Frank;m2760467;0;False
+Samuel Domingo;m1803768;0;False
+Curt A. Sindelar;m3071929;0;False
+Calvin Hall;m4745481;0;False
+Tom Charley;m4123469;0;False
+Tammi Sutton;m0840412;1;False
+Prabhudheva;m0222150;3;False
+Douglas Reese;m6419195;0;False
+Albin Joseph;m4691473;0;False
+Armen Adilkhanyan;m1537989;0;False
+Jesse Thomas Cook;m2373713;0;False
+Lulu Jarmen;m4738893;0;False
+Jensen LeFlore;m3664837;0;False
+Jonathan Neil Dixon;m1839354;1;False
+Paris Leonti;m0503109;0;False
+Pat Tremblay;m4289160;0;False
+Andrew Black;m1321917;1;False
+Jayakrishna;m3472835;0;False
+Israel Luna;m1351069;1;False
+Paul Ruven;m0752244;8;False
+Francesco Gasperoni;m3243526;0;False
+Naoyuki Tomomatsu;m1381841;1;False
+Robin Hardy;m0362736;0;False
+Dictynna Hood;m1216724;4;False
+Jim Kohlberg;m0463242;0;False
+Michael F. Sears;m0780782;0;False
+Philippe Garrel;m0308042;8;False
+Hiroyuki Okiura;m0645657;5;False
+Alex Ross Perry;m3504405;2;False
+Ruben Östlund;m1128037;29;False
+Li Zhang;m0955377;2;False
+Sam Levinson;m0506094;1;False
+Christopher Sun Lap Key;m4029670;0;False
+Casper Andreas;m0028220;9;False
+Clay Glen;m4825581;0;False
+Marshall Cook;m1443306;0;False
+Vishal Bhardwaj;m0080235;10;False
+Mateo Gil;m0317834;9;False
+Chris Crow;m3790615;0;False
+Lawrence Silverstein;m1226129;0;False
+Agnieszka Holland;m0002140;18;False
+Aimee Lagos;m1350938;9;False
+Rob Heydon;m1406806;2;False
+Q. Allan Brocka;m0110654;25;False
+Andrés Baiz;m1223381;3;False
+Aleksandr Sokurov;m0812546;34;False
+Brett Simmons;m0799693;2;False
+Alexandre Bustillo;m2376614;3;False
+Aytaç Agirlar;m1741731;0;False
+Jack Heller;m2597331;0;False
+Noboru Iguchi;m1175724;0;False
+Cosimo Alemà;m0018032;0;False
+Douglas Buck;m0118348;1;False
+Brian Crano;m1591542;2;False
+Adam Deacon;m0212563;1;False
+Martin Guigui;m0346841;2;False
+David Lewis;m1921973;0;False
+Dee Rees;m2011696;12;False
+Roger Melvin;m2689791;0;False
+James Phillips;m3766405;0;False
+Richard Parry;m1060017;1;False
+Alex Wright;m0942185;1;False
+Sergi Vizcaino;m2293027;0;False
+C. Andrew Hall;m1428642;0;False
+Ulas Inan Inaç;m0408405;1;False
+Kari Häkkinen;m4274355;0;False
+Brent Crowell;m0004083;0;False
+Ashok Pati;m1896291;0;False
+Marc Albertí;m4139848;0;False
+S. Baldev Singh;m3934588;0;False
+Eleni Kouzouka;m2538376;0;False
+Michael Simard;m4453620;0;False
+Bryan Enk;m1060969;0;False
+Dharani;m1359360;0;False
+Lance Kawas;m2043863;0;False
+Sohan Roy;m3910829;0;False
+Antti Haikala;m1377813;0;False
+Sabree Fadzil;m0264954;0;False
+Koichi Sakamoto;m0757084;0;False
+Justin McConnell;m1190282;0;False
+Lee Soong-Hwan;m5581131;0;False
+Michael Keller;m0445731;0;False
+Francesco Dominedò;m0231439;0;False
+Monty W. Maxwell;m2783973;0;False
+Shawn Cain;m2628611;0;False
+Deuandra T. Brown;m2928029;0;False
+Richard Griffin;m1075618;2;False
+Masoud Atyabi;m4983993;0;False
+Harold Cronk;m1880561;1;False
+Kipp Tribble;m0872564;0;False
+Patrick McBrearty;m2826089;0;False
+Adamo P. Cultraro;m2149571;0;False
+Nirpal Bhogal;m3786304;0;False
+Santiago Segura;m0782213;6;False
+Michael Biehn;m0000299;3;False
+Roberto Faenza;m0264967;14;False
+Don Handfield;m0359534;1;False
+Alejandro Brugués;m1486025;5;False
+Nuri Bilge Ceylan;m0149196;62;False
+Miranda July;m0432380;23;False
+George Ratliff;m0711807;6;False
+Karl Golden;m0325452;0;False
+Agnès Merlet;m0580982;6;False
+Adam Green;m1697112;6;False
+Garrett Brawith;m1085012;0;False
+Vivi Friedman;m1118104;0;False
+Olaf de Fleur Johannesson;m1786164;6;False
+Alana Morshead;m1390788;1;False
+Abhinay Deo;m3218978;1;False
+Abel Ferrara;m0001206;17;False
+Victor Salva;m0759207;2;False
+Daniel Auteuil;m0000809;13;False
+Alan Brown;m1135014;5;False
+Michael Corrente;m0180912;3;False
+Gaby Dellal;m0217433;3;False
+Randall Cole;m0170739;0;False
+Peter Chan;m0151066;18;False
+Je-kyu Kang;m0437625;3;False
+Michael Knowles;m1008619;1;False
+Maïwenn;m0494069;3;False
+Jason Trost;m1875808;0;False
+Jack Perez;m0673512;1;False
+Céline Sciamma;m1780037;8;False
+Vincent Paronnaud;m1749112;18;False
+Matt Thompson;m4075424;0;False
+Robert Lieberman;m0509409;0;False
+Robert Hall;m0356042;1;False
+Arjun Rose;m4183075;0;False
+Russ Parr;m1005607;2;False
+Andres Ramirez;m2530139;0;False
+Emmanuel Silvestre;m0799110;1;False
+Chris Sun;m4285728;1;False
+Pablo Aragüés;m1961741;0;False
+Thaha;m0856863;0;False
+Yvan Gauthier;m0310329;1;False
+C.S. Drury;m4244612;0;False
+Derek Estlin Purvis;m4701134;0;False
+Carmen Marron;m3164568;0;False
+Baburaj;m2055008;0;False
+Le Bao Trung;m5481831;0;False
+Anssi Mänttäri;m0617492;2;False
+Chris Corey;m2451701;0;False
+Jon D. Wagner;m2213371;0;False
+Chia-Chi Kao;m4786814;0;False
+Larry Kent;m0448791;2;False
+Peter Kominek;m3526914;0;False
+Michael Söth;m2756954;0;False
+Rachid Dhibou;m3183376;0;False
+Roland Reber;m0714298;1;False
+Shankhadeep;m4258925;0;False
+Dion Martin Boland;m4296741;0;False
+Rupert Bryan;m2667381;0;False
+Haiqiang Ning;m1252635;0;False
+Paul Marrin;m3420156;0;False
+Matt Farnsworth;m0267902;0;False
+Edo Tagliavini;m2102653;0;False
+Tya Subiakto Satrio;m2947394;0;False
+Michel Massicotte;m4164359;1;False
+Rob Schiller;m0771673;2;False
+Damian Chapa;m0152082;0;False
+Gil Cates Jr.;m0146049;2;False
+Takashi Miike;m0586281;32;False
+Siu-Tung Ching;m0155642;10;False
+Ellen Perry;m1788079;1;False
+Azazel Jacobs;m0414337;3;False
+Robert Guédiguian;m0350168;18;False
+Kate Connor;m0993496;7;False
+Julia Loktev;m0518123;13;False
+Alex Chandon;m0151492;0;False
+J.T. Tepnapa;m1381806;6;False
+Brady Kiernan;m1885238;0;False
+Jan Komasa;m1717924;16;False
+Aaron Woodley;m0005616;3;False
+Benjamin Cantu;m1992380;1;False
+Maneesh Sharma;m1834891;1;False
+Matt D'Elia;m2532035;0;False
+Anne Wheeler;m0923768;24;False
+Eric Valette;m0884659;6;False
+Daming Chen;m0155201;0;False
+Joel Soisson;m0812373;0;False
+Yoichi Mori;m4575677;0;False
+Harold Guskin;m0348884;0;False
+Eldar Rapaport;m1391266;1;False
+Jill Sprecher;m0819613;4;False
+Michael Axelgaard;m3257589;0;False
+Adam Brooks;m2726915;3;False
+Delphine Coulin;m0183419;6;False
+Samuel Fischer;m1544999;0;False
+Lisa Ohlin;m0645038;3;False
+Jay Lee;m0999415;0;False
+Famke Janssen;m0000463;5;False
+John Bonito;m1669022;0;False
+Gene Fallaize;m2295474;0;False
+Henry Barrial;m0057347;5;False
+Varo Venturi;m0893411;0;False
+Timothy Whitfield;m1666026;0;False
+Jürgen Staal;m4275986;0;False
+Todd Michael Smith;m3067390;0;False
+Michael Fischa;m0278780;1;False
+Chris Sivertson;m1032754;1;False
+Kat Surth;m2241846;0;False
+Thaelman Urgelles;m0881867;1;False
+Rafael Eisenman;m0252046;0;False
+Tony Watt;m1732299;0;False
+Jing Wong;m0939147;2;False
+Michael Rocco;m1972908;0;False
+Tarek Ehlail;m2876682;0;False
+Indra Kumar;m0409791;0;False
+Rako Prijanto;m1266812;0;False
+Leo Thaddeus;m3706826;0;False
+Elias Koskimies;m1493270;1;False
+Ryu Kaneda;m0437481;1;False
+Allen Kellogg;m1851437;0;False
+Nikita Mikhalkov;m0586482;21;False
+Gernot Roll;m0005846;14;False
+Jochen Taubert;m1048572;0;False
+Dawn Dais;m1534174;0;False
+Sigi Rothemund;m0351486;0;False
+Norberto Ramos del Val;m0708520;0;False
+Richard Robertson;m4673860;0;False
+Glenn Berggoetz;m3324251;0;False
+Jino Kang;m3498017;0;False
+William Butler;m0124834;0;False
+Warren P. Sonoda;m1284464;0;False
+Andrzej Saramonowicz;m1429436;0;False
+Samuel Bayer;m1207904;1;False
+Dean DeBlois;m0213450;7;False
+Darren Aronofsky;m0004716;33;False
+Matt Reeves;m0716257;2;False
+Nathan Greno;m1977355;1;False
+Chris Columbus;m0001060;6;False
+Lee Unkrich;m0881279;13;False
+Emilio Estevez;m0000389;4;False
+Kevin Greutert;m0340436;0;False
+Anand Tucker;m0875793;2;False
+Edward Zwick;m0001880;21;False
+Eli Craig;m0185848;6;False
+Albert Hughes;m0400436;1;False
+Sylvester Stallone;m0000230;29;False
+Phillip Noyce;m0637518;21;False
+Michael Patrick King;m0455078;6;False
+Debra Granik;m0335138;30;False
+Steve Antin;m0031078;0;False
+Nikos Zervos;m0955133;0;False
+Liam Galvin;m3852901;0;False
+Diana Groó;m0344155;17;False
+Cyril Sebas;m1311302;0;False
+Thulasidas;m0862015;0;False
+Garnet Mae;m1772770;0;False
+Uros Gracar;m6046418;0;False
+Lionel Anthony Cook;m1940392;0;False
+Marcus Jones;m3374040;0;False
+Dennis Devine;m0222615;0;False
+Adnan Köse;m1398376;0;False
+Ekaterina Grokhovskaya;m2013827;0;False
+Joe Black;m2952745;0;False
+Ferry Ipey Assad;m3996726;0;False
+Angelo Antonucci;m0031492;0;False
+Steven Lawson;m2618311;0;False
+R. Christian Anderson;m2984030;1;False
+Bobby Ray Akers Jr.;m1547819;0;False
+Bob Carruthers;m0141094;1;False
+Alla Surikova;m0839645;2;False
+David T. Watkins;m2944311;0;False
+Eddie Lengyel;m3749181;0;False
+Yôsuke Okuda;m4305703;1;False
+John Bianco;m0080729;1;False
+Kevin Hicks;m1649077;0;False
+Siu-hung Chung;m0156566;0;False
+Howard Wexler;m0923304;0;False
+Rhys Davies;m3752597;0;False
+Douglas T. Green;m1380156;0;False
+Asham Kamboj;m1636690;0;False
+Matt Jaissle;m0415859;1;False
+Doug Sebastian;m5193021;0;False
+Anil K. Nair;m5261044;0;False
+Stewart St. John;m0820689;1;False
+Greg Berlanti;m0075528;0;False
+Srdjan Spasojevic;m3094978;1;False
+Allen Coulter;m0002339;2;False
+David Schwimmer;m0001710;3;False
+Mark Romanek;m0738796;6;False
+Tom McGrath;m0569891;0;False
+Breck Eisner;m0252135;0;False
+David Slade;m1720541;4;False
+Steve Pink;m0684336;0;False
+Stuart Beattie;m0064181;2;False
+Sylvain White;m1234893;0;False
+Olivier Dahan;m0196860;3;False
+Florian Henckel von Donnersmarck;m0003697;54;False
+Ryan Murphy;m0614682;11;False
+John Erick Dowdle;m0235719;0;False
+John Carpenter;m0000118;13;False
+Anna Boden;m1349818;5;False
+Ethan Maniquis;m0542450;0;False
+Daniel Stamm;m0821844;2;False
+Kim Chapiron;m1320966;1;False
+Floria Sigismondi;m0797455;0;False
+Tony Scott;m0001716;5;False
+Alejandro González Iñárritu;m0327944;57;False
+Peter Weir;m0001837;33;False
+Susanna White;m1264352;5;False
+Neil Marshall;m0551076;8;False
+Gareth Edwards;m2284484;8;False
+James Gunn;m0348181;5;False
+Ford Austin;m1284939;35;False
+Kantz;m1007344;0;False
+Ryszard Nyczka;m1481964;0;False
+Jonathan Schiefer;m4077888;0;False
+Pappan Payattuvila;m4258243;0;False
+John Wesley Norton;m1828293;0;False
+Farah Khan;m0007134;24;False
+Luis Serrano;m4538722;0;False
+Andrew Wiest;m2099213;0;False
+James Bedford;m2233609;0;False
+Keith Kurlander;m1030698;0;False
+Steven Nesbit;m1849326;1;False
+Andrea Goroni;m4299636;0;False
+Haridas Kesavan;m3703975;0;False
+Vincent D'Onofrio;m0000352;9;False
+Amir Valinia;m1019103;0;False
+Sasha Krane;m2787007;0;False
+Gabriel Bologna;m0093232;3;False
+Korhan Bozkurt;m2759892;0;False
+Jean-Marc Vincent;m1234800;0;False
+Stephen Shypitka;m3821082;0;False
+Bromley Cawood;m0147233;0;False
+S.P. Rajkumar;m3907215;0;False
+Shaun Rana;m1804547;0;False
+John H. Williams;m0930964;1;False
+Michael Gruosso;m4737469;0;False
+Uli Edel;m0248942;7;False
+Diego Shaalo;m1351834;0;False
+Leah Sturgis;m2985226;0;False
+Lisa Cholodenko;m0158966;14;False
+Richard J. Lewis;m0003557;4;False
+Nanette Burstein;m0123379;6;False
+Mike Mills;m0590122;6;False
+Alan Poul;m0693561;2;False
+Josh Gordon;m0330347;2;False
+Andrew Jarecki;m1285613;6;False
+Burr Steers;m0824882;2;False
+Mitch Glazer;m0322248;0;False
+Troy Nixey;m2552536;0;False
+Anton Corbijn;m0179221;15;False
+Gary Winick;m0935095;6;False
+James L. Brooks;m0000985;47;False
+Pierre Morel;m0603628;0;False
+Andrew Hull;m0401402;0;False
+Tod Williams;m0931095;0;False
+Colin Strause;m0833779;0;False
+Paul Scheuring;m0771228;0;False
+Julio Medem;m0575523;30;False
+Christopher Smith;m1247462;4;False
+David Michôd;m2391575;22;False
+Gregor Jordan;m0429964;5;False
+Géla Babluani;m1201875;8;False
+Jeong-beom Lee;m2556572;1;False
+Andy Tennant;m0855035;0;False
+Larysa Kondracki;m2326979;7;False
+Julie Taymor;m0853380;4;False
+Massy Tadjedin;m1127653;0;False
+Benedek Fliegauf;m1212903;21;False
+Stuart Cooper;m0003837;8;False
+Biju Vattappara;m2857439;0;False
+Stasch Radwanski Jr.;m0705921;0;False
+John Depew;m1956855;0;False
+Ryan Stevens Harris;m1953691;1;False
+César Galindo;m0302149;0;False
+Vaughn Juares;m0810252;0;False
+Juan Bofill;m1282524;0;False
+Jim D. Fuller;m4294522;0;False
+Robert Cavanah;m0146917;0;False
+Ryuichi Asano;m3808443;0;False
+Mark Maximus;m4451275;0;False
+Jeremiah Hundley;m2167980;0;False
+Sarawut Intaraprom;m4516209;0;False
+Laurence Holloway;m3847196;0;False
+Bruno Carnide;m3127160;0;False
+Suresh;m2384535;0;False
+Patryk Vega;m1899656;0;False
+Matthew R. Anderson;m0027164;0;False
+Drew Ann Rosenberg;m0742204;1;False
+Andrew Wilmot;m4249377;0;False
+Nicolás Del Boca;m0215372;0;False
+Andrew Lauer;m0490774;0;False
+Chia-Chien Chen;m3945361;0;False
+Andrey Petrusha;m3943098;0;False
+Ross Crombie;m3313997;0;False
+Tommy Yu;m2081151;0;False
+Karan Johar;m0424103;20;False
+Dwight H. Little;m0514546;0;False
+André Øvredal;m0004217;7;False
+Christopher Morris;m0606439;8;False
+Jorma Taccone;m1672246;4;False
+James Keach;m0005077;3;False
+John Cameron Mitchell;m0593463;28;False
+Rob Letterman;m1224299;0;False
+Jonathan Lynn;m0528718;6;False
+Michael Lembeck;m0501185;1;False
+Miguel Sapochnik;m0764601;0;False
+Joanna Hogg;m0389712;2;False
+Spencer Susser;m1127632;4;False
+Sngmoo Lee;m2788363;0;False
+Doug Liman;m0510731;2;False
+Hiromasa Yonebayashi;m0948488;2;False
+Malcolm Venville;m0893473;0;False
+Noel Clarke;m0164929;2;False
+Brian Levant;m0505152;2;False
+William Monahan;m1184258;14;False
+Nigel Cole;m0170719;2;False
+Wilson Yip;m0948159;7;False
+Peter Andrikidis;m0029014;24;False
+Elizabeth Allen Rosenbaum;m0020491;3;False
+George Hickenlooper;m0382584;7;False
+Guy Moshe;m1679136;0;False
+Jake Scott;m0779265;0;False
+Eric Brevig;m0108094;1;False
+Gregg Araki;m0000777;9;False
+Silvio Soldini;m0812862;17;False
+Abe Sylvia;m0843281;0;False
+Muhammad Yusuf;m3784179;0;False
+Alan de Pellette;m1939577;0;False
+Joël Brisse;m0109910;4;False
+Federico Lagna;m2948783;0;False
+Johannes Hammel;m0358406;1;False
+Carlos Atanes;m1847615;1;False
+C.M. Downs;m1986244;0;False
+Jason Hignite;m3705364;0;False
+Wolfgang Meyer;m2776253;0;False
+George Bonilla;m1768158;1;False
+Tom Shell;m0791140;0;False
+Gordon Chan;m0150906;7;False
+Mel House;m0396687;1;False
+Annette Sjursen;m0803547;1;False
+Emilio Ruiz Barrachina;m1893182;1;False
+Aji John;m4306448;0;False
+Kenzô Maihara;m0537361;0;False
+Olivier Gruner;m0344603;0;False
+Albert Pyun;m0701597;1;False
+Giuliano Giacomelli;m4498457;0;False
+Sarah Remetch;m2175568;0;False
+Marcus Dreeke;m1209639;0;False
+Jason Stephenson;m1651756;0;False
+Kemal Yildirim;m2704808;0;False
+Joaquin F. Palma;m2963815;0;False
+Peter Atencio;m1534595;3;False
+Lilian Rosado González;m1860690;0;False
+Adoor Govindankutty;m5213767;0;False
+Jason Sherman;m4328412;0;False
+Neil Jones;m2562101;0;False
+Enzo G. Castellari;m0144758;0;False
+Richard Givens;m1975174;0;False
+Brianna Colleen Byrne;m4002069;0;False
+Shana Feste;m0275277;0;False
+Tony Goldwyn;m0001282;2;False
+Geoffrey Sax;m0768249;4;False
+Casey Affleck;m0000729;15;False
+Lena Dunham;m2501633;8;False
+Joey Stewart;m0829518;0;False
+Randall Wallace;m0908824;3;False
+Galt Niederhoffer;m0630633;0;False
+Daniel Lee;m0496752;1;False
+Pascal Franchot;m0289994;0;False
+Dan Rush;m3656297;0;False
+Luis Estrada;m0261840;21;False
+Rick Famuyiwa;m0266622;1;False
+John Landis;m0000484;7;False
+José Padilha;m0655683;41;False
+Anthony Bell;m0068034;2;False
+Matt Eskandari;m1760759;8;False
+Marcos Efron;m1259604;0;False
+Richard Berry;m0006939;1;False
+Michael Lander;m1740888;1;False
+John Stalberg;m1226069;0;False
+Panos Cosmatos;m0181903;2;False
+Andrew Traucki;m0871188;1;False
+Mel Damski;m0198991;0;False
+Erik White;m1336172;0;False
+Steven Silver;m0798798;10;False
+Fernanda Cardoso;m0136631;0;False
+Taika Waititi;m0169806;28;False
+Nick Tomnay;m1204442;5;False
+Steven Maguire;m3732772;0;False
+Patrick Levy;m0506576;0;False
+Alex Pucci;m1406424;1;False
+Axel Wittmann;m4263744;0;False
+Nandakumar Kavil;m4191760;0;False
+Ken Amlin;m3938314;0;False
+Fernando Basile;m4140495;0;False
+Jean-Baptiste Alazard;m4190837;0;False
+Tim Sullivan;m0838374;0;False
+Ted Fox;m0289275;0;False
+Joe Wheeler;m4512535;0;False
+Benjamin Valentine;m3307567;0;False
+Vasilis Tselemegos;m1082560;0;False
+Johannes Pinter;m0750259;1;False
+Dezsö Zsigmond;m0958159;2;False
+Milind Gadagkar;m3085237;0;False
+Sebastian Panneck;m1487806;0;False
+Biray Dalkiran;m2364318;0;False
+Monti Parungao;m1870695;0;False
+Alex Murray;m4117474;0;False
+Suresh Krishna;m0471452;0;False
+Graeme Noble;m3979575;0;False
+James Boss;m2554839;1;False
+Tom Getty;m4096179;1;False
+Shinya Nakajima;m0620055;0;False
+Major Ravi;m2081862;0;False
+David Blyth;m0090013;0;False
+Andrew Sawyer;m1413332;0;False
+Brian Schiavo;m2795730;0;False
+Ricky Gervais;m0315041;21;False
+Stephen Milburn Anderson;m0027465;0;False
+Fouad Mikati;m3087552;0;False
+Dustin Lance Black;m0085257;12;False
+Hideo Nakata;m0620378;10;False
+Michael Rowe;m3669732;2;False
+Kevin Munroe;m1083489;0;False
+Sang-soo Im;m0407992;8;False
+Guillem Morales;m0602616;6;False
+Shion Sono;m0814469;24;False
+Antony Cordier;m0179576;4;False
+Jon Knautz;m1394062;2;False
+Tony Jaa;m1388074;0;False
+Tom Dey;m0223359;0;False
+Mike Leigh;m0005139;71;False
+Roger Kumble;m0474955;0;False
+Joseph Guzman;m2005138;1;False
+Gilles Paquet-Brenner;m0660707;3;False
+Dallas Jenkins;m0420817;3;False
+Gary J. Tunnicliffe;m0876683;1;False
+Michael Goldbach;m1492832;0;False
+Michael J. Weithorn;m0919352;2;False
+Donovan Marsh;m1804518;0;False
+Ian Power;m0694405;3;False
+Martyn Pick;m2398433;0;False
+James Rabbitts;m3248303;0;False
+Suri Krishnamma;m0471461;4;False
+Sanaa Hamri;m1065402;0;False
+Michael Greenspan;m1042371;0;False
+Jean-Claude Van Damme;m0000241;1;False
+Hattie Dalton;m1463009;5;False
+Rose Bosch;m0097785;2;False
+Jeremy Sims;m0801327;1;False
+Jason Toler;m3993072;0;False
+Jeffrey Fine;m0277619;1;False
+Daryn Tufts;m1111123;0;False
+Matthew Leutwyler;m0505075;9;False
+Terence Muncy;m2060284;0;False
+Chad Valiant;m4161446;0;False
+Jay Woelfel;m0937321;0;False
+Michael W. Watkins;m0914368;3;False
+Jordi Llompart;m1823256;1;False
+David Burton Morris;m0606483;6;False
+Chris Abell;m3957301;0;False
+Joel Paul Reisig;m1655252;0;False
+Juan Carlos Vargas;m0889864;0;False
+Paul Naschy;m0596701;6;False
+Jordan Funderburk;m3324203;0;False
+Gert Steinheimer;m0826083;0;False
+Takayuki Shibasaki;m3952634;0;False
+A.J. Ager;m1953667;0;False
+Lucifer Valentine;m2281585;0;False
+Roberto Carminati;m1509181;0;False
+Kate Glover;m2990930;0;False
+Darren Ward;m0911477;2;False
+Petruska Karangan;m3847302;0;False
+Roelof Breukink;m3989925;0;False
+Manu;m4270963;0;False
+Federico Rivia;m2036781;0;False
+Ramon Térmens;m1413776;2;False
+Stewart Raffill;m0706296;4;False
+Ugo Fabrizio Giordani;m0320306;0;False
+Richard Ryan;m2737097;0;False
+Alfonso Ciccarelli;m3937436;0;False
+Elena Bonelli;m0094253;0;False
+Anders Jacobsson;m0414936;0;False
+Joey Evans;m1918736;0;False
+Tom Breedlove;m0106705;0;False
+George Mendeluk;m0578899;0;False
+Jonathan Wright;m0942527;0;False
+Angela Lyons;m1229971;0;False
+César Rodrigues;m0735083;2;False
+Steve Gibson;m2212857;0;False
+Cristobal Krusen;m1077105;0;False
+Tran Anh Hung;m0870841;8;False
+Josh Reed;m0995301;1;False
+Philip Seymour Hoffman;m0000450;89;False
+Jacob Tierney;m0862932;7;False
+Rick Bieber;m0081279;8;False
+Fred Cavayé;m0146991;0;False
+Andrew Paquin;m1436930;0;False
+Baran bo Odar;m2171633;1;False
+Chris Shadley;m1124577;0;False
+Wai-keung Lau;m0490487;7;False
+Abbas Kiarostami;m0452102;33;False
+Jalmari Helander;m1118351;6;False
+Patrik Syversen;m2393910;0;False
+Miguel Ángel Vivas;m0900251;8;False
+John Alan Simon;m0800215;0;False
+Shawn Ku;m0473329;4;False
+Ben Stassen;m0823721;0;False
+Trent Cooper;m1401857;2;False
+Rowan Joffe;m0423626;4;False
+Mo Ali;m3465216;0;False
+David A.R. White;m0924684;0;False
+Woo-ping Yuen;m0950759;10;False
+Max Winkler;m0935253;0;False
+Todd Verow;m0894812;8;False
+John Doyle;m2928920;0;False
+Carlos Brooks;m1642870;0;False
+Richard Levine;m0505934;0;False
+Donald Wrye;m0943044;1;False
+Reg Traviss;m1857340;0;False
+Marius Holst;m0392319;17;False
+Adam Rehmeier;m0716814;1;False
+Gustavo Hernández;m3889354;0;False
+Michael Morrissey;m3155184;4;False
+Sacha Bennett;m1204790;1;False
+Kevin Asch;m0038475;2;False
+Xavier Beauvois;m0064741;16;False
+Stevan Mena;m1496042;6;False
+Philippe Le Guay;m0494355;6;False
+Peter Mullan;m0611932;36;False
+Julian Grant;m0335489;3;False
+Gage Beavers;m3851635;0;False
+Brandon Robinson;m2965299;0;False
+George VanBuskirk;m1082616;0;False
+Patrick Sayre;m1926759;0;False
+Zaza Kolelishvili;m0464012;0;False
+John Ward;m0911631;0;False
+Dan Garcia;m2260106;0;False
+Paolo Costella;m0182499;0;False
+Colin Edwards;m4099102;0;False
+Yuliya Mazurova;m3973743;0;False
+Christian Sesma;m2341319;0;False
+Hyung-rae Shim;m0405374;0;False
+Brian C. Lawlor;m4174243;0;False
+Sean Cranston;m3043439;0;False
+Alfonso Arandia;m0033009;0;False
+Gunasekhar;m0348015;2;False
+Richard Johnson;m3748688;0;False
+Reese Eveneshen;m2833272;0;False
+Mariano Cattaneo;m1522692;0;False
+David Molinari;m3842699;0;False
+Avni Kütükoglu;m1118715;0;False
+Tigmanshu Dhulia;m0223606;5;False
+Daniel Grou;m0343898;6;False
+Brooks Branch;m2397581;0;False
+Ian Sharp;m0789054;1;False
+Dean Francis;m0290131;1;False
+David Nixon;m1117098;0;False
+Julian Schnabel;m0773603;26;False
+Chris Levitus;m0506259;0;False
+Joseph Graham;m1129444;0;False
+Tim Cox;m1117802;0;False
+Alexander Holt;m1319093;1;False
+Harry 'Doc' Kloor;m1004541;0;False
+Marilyn Agrelo;m1802009;4;False
+Mark Ruffalo;m0749263;15;False
+Noël Mitrani;m1195622;1;False
+David Keating;m0444096;2;False
+Yavuz Turgul;m0877078;10;False
+David Pinillos;m1266768;3;False
+Ryan Craig;m1769980;0;False
+Barry W. Blaustein;m0087904;3;False
+Sylvain Chomet;m0158984;18;False
+Justin Lerner;m1646016;15;False
+Patrick Hughes;m0400850;1;False
+Ned Farr;m0268051;12;False
+Christopher Cain;m0128883;1;False
+Michael Oblowitz;m0643422;3;False
+Carl Bessai;m0078762;8;False
+Ho-Cheung Pang;m1001051;8;False
+Colm McCarthy;m1142073;1;False
+Josh Shelov;m0791285;0;False
+Simon Rumley;m0750121;8;False
+Jesse Holland;m3016585;2;False
+Prakash Jha;m0422552;6;False
+Josh Appignanesi;m1893855;0;False
+Jeff Burr;m0123009;3;False
+Edward Douglas;m1999869;0;False
+Jonas Wolcher;m2034411;0;False
+Harold Trompetero;m0873488;2;False
+Albert J. Allie;m2286368;0;False
+Brian Yuzna;m0951206;9;False
+Steven Calcote;m0994509;0;False
+Vincent Ostria;m1855169;0;False
+Álvaro Sáenz de Heredia;m0844541;0;False
+Paolo Bertola;m2933027;0;False
+Michael Amundsen;m0025464;3;False
+Ian Powell;m0694137;0;False
+David Fairman;m0265632;0;False
+Matthew Reel;m2037794;0;False
+Hairie Othman;m0652866;0;False
+JanaMorea Bradley;m4178257;0;False
+Victor Säf;m3578781;0;False
+Alastair Orr;m3598892;0;False
+Simone Bartesaghi;m2099164;0;False
+Bigas Luna;m0000940;16;False
+Tadeusz Paradowicz;m1436933;0;False
+Christophe Berthemin;m3651863;0;False
+Tim McKort;m3708550;0;False
+Alain Corneau;m0006734;8;False
+Bertrand Tavernier;m0851724;49;False
+Will Canon;m1949943;2;False
+Toshikazu Nagae;m1856772;0;False
+Dick Maas;m0530975;9;False
+Fernando Barreda Luna;m3011138;0;False
+Ashley Horner;m0395091;0;False
+David Robert Mitchell;m1379002;6;False
+Bryan Goluboff;m0326734;1;False
+Deborah Chow;m1278887;1;False
+Dany Boon;m0200702;1;False
+Jean-Loup Felicioli;m0271246;5;False
+Kiran Rao;m1444479;0;False
+John Dunson;m2235397;0;False
+Belinda Chayko;m0154677;1;False
+Allen Wolf;m1075006;6;False
+Jonathan Segal;m1302288;0;False
+Xiao Lu Xue;m1249411;1;False
+Ryan Combs;m1141083;0;False
+Mark Vadik;m1067375;0;False
+J.C. Calciano;m2133392;2;False
+Jorge Michel Grau;m1664036;1;False
+Andreas Öhman;m2976232;4;False
+Stephen Hopkins;m0394280;2;False
+Antoinette Beumer;m0079578;6;False
+Chul-soo Jang;m1564550;7;False
+Nick Cohen;m1037428;0;False
+Chris D'Arienzo;m0195476;0;False
+Rob Schneider;m0001705;1;False
+Gabriel Range;m1235949;3;False
+Hong-jin Na;m2947553;9;False
+Tim Allen;m0000741;20;False
+Vikramaditya Motwane;m0003939;7;False
+Jon Garaño;m1531686;7;False
+Josh Sternfeld;m0973835;0;False
+Mark McQueen;m1654324;0;False
+Anne Sewitsky;m3205815;5;False
+Pernilla August;m0000278;16;False
+Daina Reid;m0717225;0;False
+Keith Bearden;m1836963;6;False
+Thomas Ikimi;m1789457;1;False
+Daniel Zirilli;m0957169;0;False
+Marcus Warren;m1668000;0;False
+James Christopher;m2883919;4;False
+Mike McKown;m3310677;0;False
+Paul D. Hannah;m4011579;0;False
+Paul Rinehard;m0727490;0;False
+Jay Marks;m4312243;0;False
+Inês Oliveira;m2243312;0;False
+Alamsyah;m3875104;0;False
+Jason Hunt;m0995088;0;False
+Shaji Azeez;m4423362;0;False
+Daniel Maldonado;m3937709;0;False
+Evan Pedone;m3734083;0;False
+Ralph E. Portillo;m1589685;0;False
+Nur Hidayat;m3785038;0;False
+Carl Caprino;m4070718;0;False
+Belinda Green-Smith;m1733643;0;False
+Enzo Acri;m5261098;0;False
+Robert Dixon;m2598233;0;False
+Fernando Merinero;m0580793;0;False
+Marc Goldstein;m1954258;0;False
+Filip Bajon;m0048060;9;False
+Christopher Nicholson;m1746947;0;False
+Joseph Sims-Dennett;m3373542;3;False
+David Liu;m4084320;0;False
+Michael A. McGowan;m2905028;0;False
+Aminah Rhapor;m3889161;0;False
+Dan Finnen;m3622502;0;False
+Anthony Thompson;m3761587;0;False
+Rajiv Anchal;m0025805;3;False
+Alex Ballar;m0080765;0;False
+Elisabetta Rocchetti;m0733641;2;False
+Hugo Diogo;m2462148;0;False
+Darrin Dickerson;m0225410;4;False
+Casie Coddington;m4122796;0;False
+Christopher Leto;m4895698;0;False
+David King;m4669069;0;False
+Dar Warison;m1976559;2;False
+Nic Auerbach;m2994121;0;False
+Vijay Lalwani;m3351620;0;False
+Tetsuya Nakashima;m0620363;16;False
+Icíar Bollaín;m0093081;42;False
+Jean-Paul Salomé;m0758933;1;False
+Hans Canosa;m0134396;2;False
+John Gray;m0336726;2;False
+S. Shankar;m0788171;7;False
+Michael D. Sellers;m0783365;2;False
+Danny Buday;m2038876;3;False
+Shimmy Marcus;m1272462;13;False
+Andy De Emmony;m0214320;1;False
+Mahsun Kirmizigül;m1749449;3;False
+Ron Brown;m0114583;2;False
+Alexandre Rockwell;m0734319;3;False
+Sheng Ding;m0227625;0;False
+Robert Kurtzman;m0476071;2;False
+Oren Kaplan;m1464150;6;False
+Anthony Burns;m0122567;0;False
+John Sayles;m0000626;29;False
+Julie Bertuccelli;m0078465;10;False
+Christophe Blanc;m0086920;0;False
+Tae-yong Kim;m0453707;4;False
+Yam Gonzalez;m3712790;1;False
+Joshua Grannell;m1514370;0;False
+Vipul Amrutlal Shah;m1150959;0;False
+Frank Pestarino;m3482447;0;False
+Takeshi Kitano;m0001429;48;False
+Jason Stoddard;m2970484;0;False
+Gabriel Cowan;m1410462;1;False
+Howard E. Baker;m0048519;3;False
+Apichatpong Weerasethakul;m0917405;20;False
+Mani Ratnam;m0711745;18;False
+Brian Trenchard-Smith;m0872062;0;False
+Matthew Sconce;m2348076;7;False
+Anthony G. Sumner;m2003157;0;False
+Giorgos Pitsakis;m3193837;0;False
+Raúl Perrone;m1031949;3;False
+Stephen Shimek;m4404754;0;False
+Jason Daly;m1194231;2;False
+Eddie Lebron;m3319315;0;False
+Joko Nugroho;m2013828;0;False
+Imran Naqvi;m2781136;0;False
+Kwok Kuen Cheung;m0156507;1;False
+Ty Jones;m1726852;4;False
+Shahram Shahhosseini;m4258979;0;False
+Ayman Mokhtar;m2930013;0;False
+Tony Vitale;m0899854;0;False
+James Felix McKenney;m1319539;0;False
+Jack Lucarelli;m0524049;1;False
+Robert Arevalo;m1134393;0;False
+Luigi Pastore;m0665104;0;False
+Nestor Miranda;m0592171;1;False
+Arthur Alston;m2782901;0;False
+Charles Peterson;m0677064;1;False
+Valeriya Ivanovskaya;m4128004;0;False
+Kim Bass;m0060076;0;False
+Peter Patzak;m0666685;5;False
+Lucinda McNary;m3167922;0;False
