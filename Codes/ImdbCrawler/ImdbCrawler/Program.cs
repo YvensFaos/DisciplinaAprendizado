@@ -39,33 +39,71 @@ namespace ImdbCrawler
             //FileAO.ExportMoviesToCSV(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\movies.txt");
 
             movies = Movie.ReadMoviesFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\movies.txt");
+            int counter = 1;
 
-            Dictionary<string, Director> hashDirectors = new Dictionary<string,Director>();
+            //Dictionary<string, Director> hashDirectors = new Dictionary<string, Director>();
+            //foreach (Movie movie in movies)
+            //{
+            //    Console.WriteLine("Movie: " + counter + "/" + movies.Count);
+            //    if (movie.Director.Length != 0)
+            //    {
+            //        Director director = new Director();
+            //        director.Name = movie.Director;
+            //        director.NameUrl = movie.DirectorUrl;
+
+            //        if (!hashDirectors.ContainsKey(director.NameUrl))
+            //        {
+            //            hashDirectors.Add(director.NameUrl, director);
+            //            director.GetInfo();
+            //        }
+            //    }
+            //    counter++;
+            //}
+
+            //List<Director> directors = new List<Director>();
+            //foreach (string key in hashDirectors.Keys)
+            //{
+            //    directors.Add(hashDirectors[key]);
+            //}
+
+            //Console.WriteLine(movies.Count);
+            //Console.WriteLine(hashDirectors.Count);
+            //FileAO.ExportDirectorsToCSV(directors, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\directors.txt");
+
+            Dictionary<string, Actor> hashActors = new Dictionary<string, Actor>();
             foreach (Movie movie in movies)
             {
-                if (movie.Director.Length != 0)
+                Console.WriteLine("Movie: " + counter + "/" + movies.Count);
+                if (movie.Actors.Length != 0)
                 {
-                    Director director = new Director();
-                    director.Name = movie.Director;
-                    director.NameUrl = movie.DirectorUrl;
+                    string[] actorsName = movie.Actors.Split('@');
+                    string[] actorsUrl  = movie.ActorsUrl.Split('@');
 
-                    if (!hashDirectors.ContainsKey(director.NameUrl))
+                    for (int i = 0; i < actorsName.Length; i++)
                     {
-                        hashDirectors.Add(director.NameUrl, director);
-                        director.GetInfo();
+                        Actor actor = new Actor();
+                        actor.Name = actorsName[i];
+                        actor.NameUrl = actorsUrl[i];
+
+                        if (!hashActors.ContainsKey(actor.NameUrl))
+                        {
+                            hashActors.Add(actor.NameUrl, actor);
+                            actor.GetInfo();
+                        }
                     }
                 }
+                counter++;
             }
 
-            List<Director> directors = new List<Director>();
-            foreach (string key in hashDirectors.Keys)
+            List<Actor> actors = new List<Actor>();
+            foreach (string key in hashActors.Keys)
             {
-                directors.Add(hashDirectors[key]);
+                actors.Add(hashActors[key]);
             }
 
             Console.WriteLine(movies.Count);
-            Console.WriteLine(hashDirectors.Count);
-            FileAO.ExportDirectorsToCSV(directors, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\directors.txt");
+            Console.WriteLine(hashActors.Count);
+            FileAO.ExportActorsToCSV(actors, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\actors.txt");
         }
 
     }

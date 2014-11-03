@@ -10,7 +10,7 @@ using ImdbCrawler.Utils;
 
 namespace ImdbCrawler.Model
 {
-    public class Director
+    public class Actor
     {
         #region atributos
         private string name;
@@ -43,7 +43,7 @@ namespace ImdbCrawler.Model
         }
         #endregion
 
-        public Director()
+        public Actor()
         {
             awards = 0;
             oscar = false;
@@ -69,8 +69,10 @@ namespace ImdbCrawler.Model
                 }
                 if (line.Contains("<td class=\"award_outcome\" rowspan=\"2\">"))
                 {
+                    Console.WriteLine(line);
                     i++;
                     line = pageLines[i].Trim();
+                    Console.WriteLine(line);
                     bool won = false;
                     if (line.Contains("Won"))
                     {
@@ -87,9 +89,9 @@ namespace ImdbCrawler.Model
             }
         }
 
-        public static List<Director> ReadDirectorsFromCSV(string file)
+        public static List<Actor> ReadDirectorsFromCSV(string file)
         {
-            List<Director> directors = new List<Director>();
+            List<Actor> actors = new List<Actor>();
 
             string[] lines = File.ReadAllLines(file);
 
@@ -97,19 +99,20 @@ namespace ImdbCrawler.Model
             {
                 string[] parameters = line.Split(';');
 
-                Director director = new Director();
+                Actor actor = new Actor();
 
                 int i = 0;
-                director.Name = parameters[i++];
-                director.NameUrl = parameters[i++];
-                director.Awards = int.Parse(parameters[i++]);
-                director.Oscar = (parameters[i++][0] == 'F') ? false : true;
+                actor.Name = parameters[i++];
+                actor.NameUrl = parameters[i++];
+                actor.Awards = int.Parse(parameters[i++]);
+                actor.Oscar = (parameters[i++][0] == 'F') ? false : true;
 
-                directors.Add(director);
+                actors.Add(actor);
             }
 
-            return directors;
+            return actors;
         }
+
 
         public override string ToString()
         {

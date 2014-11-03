@@ -31,5 +31,16 @@ namespace ImdbCrawler.Utils
                 }
             }
         }
+
+        public static void ExportActorsToCSV(List<Actor> actors, string destination)
+        {
+            foreach (Actor actor in actors)
+            {
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter(destination, true))
+                {
+                    file.WriteLine(actor.ToString());
+                }
+            }
+        }
     }
 }
