@@ -1,0 +1,6 @@
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawler\bin\Debug\ImdbCrawler.exe.config
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawler\bin\Debug\ImdbCrawler.exe
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawler\bin\Debug\ImdbCrawler.pdb
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawler\obj\Debug\ImdbCrawler.csprojResolveAssemblyReference.cache
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawler\obj\Debug\ImdbCrawler.exe
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawler\obj\Debug\ImdbCrawler.pdb
