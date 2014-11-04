@@ -154,13 +154,36 @@ namespace ImdbCrawler.Model
                     int indexTitle = line.IndexOf("/\">");
                     int indexImg   = line.IndexOf("</a>");
 
+                    if (nameUrl.Length != 0)
+                    {
+                        Movie movie = new Movie();
+                        movie.Name = name.Replace(';', ' ');
+                        movie.NameUrl = nameUrl;
+                        movie.Rating = rating;
+                        movie.Director = director.Replace(';', ' ');
+                        movie.DirectorUrl = directorUrl;
+                        movie.Actors = actors.Replace(';', ' ');
+                        movie.ActorsUrl = actorsUrl;
+                        movie.Genre = genre;
+                        movie.Certificate = certificate;
+                        movie.Runtime = runtime;
+                        movies.Add(movie);
+
+                        name = "";
+                        nameUrl = "";
+                        rating = 0.0f;
+                        director = "";
+                        directorUrl = "";
+                        actors = "";
+                        actorsUrl = "";
+                        genre = "";
+                        certificate = "?";
+                        runtime = 0.0f;
+                    }
+
                     nameUrl = line.Substring(initialSize, indexTitle - initialSize);
                     name = line.Substring(indexTitle + "/\">".Length, indexImg - (indexTitle + "/\">".Length));
                     Console.WriteLine(name);
-                    if (name.Equals("The Same Day"))
-                    {
-                        indexImg = 0;
-                    }
                     Console.WriteLine(nameUrl);
                 }
                 if (line.Contains("<span class=\"rating-rating\"><span class=\"value\">"))
