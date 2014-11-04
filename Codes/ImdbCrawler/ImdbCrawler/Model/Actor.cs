@@ -101,7 +101,7 @@ namespace ImdbCrawler.Model
         {
             List<Actor> actors = new List<Actor>();
 
-            string[] lines = File.ReadAllLines(file);
+            string[] lines = FileAO.ReadFile(file);
 
             foreach (string line in lines)
             {

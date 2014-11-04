@@ -91,7 +91,7 @@ namespace ImdbCrawler.Model
         {
             List<Director> directors = new List<Director>();
 
-            string[] lines = File.ReadAllLines(file);
+            string[] lines = FileAO.ReadFile(file);
 
             foreach (string line in lines)
             {

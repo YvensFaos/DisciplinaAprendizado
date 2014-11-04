@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
+using ImdbCrawler.Utils;
+
 namespace ImdbCrawler.Model
 {
     public class Movie
@@ -93,7 +95,7 @@ namespace ImdbCrawler.Model
         {
             List<Movie> movies = new List<Movie>();
 
-            string[] lines = File.ReadAllLines(file);
+            string[] lines = FileAO.ReadFile(file);
 
             foreach(string line in lines)
             {

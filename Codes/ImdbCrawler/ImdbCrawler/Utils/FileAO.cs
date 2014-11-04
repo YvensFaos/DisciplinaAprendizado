@@ -1,8 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 using ImdbCrawler.Model;
 
@@ -49,6 +50,12 @@ namespace ImdbCrawler.Utils
             {
                 file.WriteLine(actor.ToString());
             }
+        }
+
+        public static string[] ReadFile(string filepath)
+        {
+            string[] lines = File.ReadAllLines(filepath);
+            return lines;
         }
     }
 }
