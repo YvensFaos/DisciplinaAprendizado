@@ -86,6 +86,34 @@ namespace ImdbCrawler.Model
             set { runtime = value; }
         }
 
+        private bool awardedDirector;
+
+        public bool AwardedDirector
+        {
+            get { return awardedDirector; }
+            set { awardedDirector = value; }
+        }
+        private bool oscarDirector;
+
+        public bool OscarDirector
+        {
+            get { return oscarDirector; }
+            set { oscarDirector = value; }
+        }
+        private bool awardedActors;
+
+        public bool AwardedActors
+        {
+            get { return awardedActors; }
+            set { awardedActors = value; }
+        }
+        private bool oscarActors;
+
+        public bool OscarActors
+        {
+            get { return oscarActors; }
+            set { oscarActors = value; }
+        }
 #endregion
 
         public Movie()
@@ -298,9 +326,35 @@ namespace ImdbCrawler.Model
             return movies;
         }
 
+        public void GetDetailedInfo(Dictionary<string, Actor> actors, Dictionary<string, Director> directors)
+        {
+            if (Director.Length != 0)
+            {
+                Director director = directors[Director];
+                AwardedDirector = (director.Awards > 0) ? true : false;
+                AwardedDirector = director.Oscar;
+            }
+            if (Actors.Length != 0)
+            {
+                string[] actorsName = Actors.Split('@');
+
+                foreach (string actorName in actorsName)
+                {
+                    Actor actor = actors[actorName];
+                    AwardedActors |= (actor.Awards > 0) ? true : false;
+                    OscarActors |= actor.Oscar;
+                }
+            }
+        }
+
         public override string ToString()
         {
             return Name + ";" + NameUrl + ";" + Rating + ";" + Director + ";" + DirectorUrl + ";" + Actors + ";" + ActorsUrl + ";" + Genre + ";" + Certificate + ";" + Runtime;
+        }
+
+        public string ToStringDetailed()
+        {
+            return Name + ";" + NameUrl + ";" + Rating + ";" + Director + ";" + DirectorUrl + ";" + Actors + ";" + ActorsUrl + ";" + Genre + ";" + Certificate + ";" + Runtime + ";" + AwardedDirector + ";" + OscarDirector + ";" + AwardedActors + ";" + OscarActors;
         }
     }
 

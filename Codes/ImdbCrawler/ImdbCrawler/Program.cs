@@ -155,7 +155,17 @@ namespace ImdbCrawler
             //    }
             //}
 
-            Genre.GenreStatistics(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\genres.txt");
+            //Genre.GenreStatistics(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\genres.txt");
+
+            movies = Movie.ReadMoviesFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\movies.txt");
+            Dictionary<string, Actor> actors = Actor.ReadHashActorsFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\actors.txt");
+            Dictionary<string, Director> directors = Director.ReadHashDirectorsFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\directors.txt");
+
+            foreach (Movie movie in movies)
+            {
+                movie.GetDetailedInfo(actors, directors);
+            }
+            FileAO.ExportMoviesDetailedToCSV(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailed.txt");
         }
 
     }

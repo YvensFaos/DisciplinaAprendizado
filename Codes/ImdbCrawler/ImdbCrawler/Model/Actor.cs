@@ -97,7 +97,34 @@ namespace ImdbCrawler.Model
             }
         }
 
-        public static List<Actor> ReadDirectorsFromCSV(string file)
+        public static Dictionary<string, Actor> ReadHashActorsFromCSV(string file)
+        {
+            Dictionary<string, Actor> actors = new Dictionary<string, Actor>();
+
+            string[] lines = FileAO.ReadFile(file);
+
+            foreach (string line in lines)
+            {
+                string[] parameters = line.Split(';');
+
+                Actor actor = new Actor();
+
+                int i = 0;
+                actor.Name = parameters[i++];
+                actor.NameUrl = parameters[i++];
+                actor.Awards = int.Parse(parameters[i++]);
+                actor.Oscar = (parameters[i++][0] == 'F') ? false : true;
+
+                if (!actors.ContainsKey(actor.Name))
+                {
+                    actors.Add(actor.Name, actor);
+                }
+            }
+
+            return actors;
+        }
+
+        public static List<Actor> ReadActorsFromCSV(string file)
         {
             List<Actor> actors = new List<Actor>();
 

@@ -22,6 +22,17 @@ namespace ImdbCrawler.Utils
             }
         }
 
+        public static void ExportMoviesDetailedToCSV(List<Movie> movies, string destination)
+        {
+            foreach (Movie movie in movies)
+            {
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter(destination, true))
+                {
+                    file.WriteLine(movie.ToStringDetailed());
+                }
+            }
+        }
+
         public static void ExportDirectorsToCSV(List<Director> directors, string destination)
         {
             foreach (Director director in directors)

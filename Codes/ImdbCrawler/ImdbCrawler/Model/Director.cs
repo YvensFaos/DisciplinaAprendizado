@@ -87,6 +87,33 @@ namespace ImdbCrawler.Model
             }
         }
 
+        public static Dictionary<string, Director> ReadHashDirectorsFromCSV(string file)
+        {
+            Dictionary<string, Director> directors = new Dictionary<string, Director>();
+
+            string[] lines = FileAO.ReadFile(file);
+
+            foreach (string line in lines)
+            {
+                string[] parameters = line.Split(';');
+
+                Director director = new Director();
+
+                int i = 0;
+                director.Name = parameters[i++];
+                director.NameUrl = parameters[i++];
+                director.Awards = int.Parse(parameters[i++]);
+                director.Oscar = (parameters[i++][0] == 'F') ? false : true;
+
+                if(!directors.ContainsKey(director.Name))
+                {
+                    directors.Add(director.Name, director);
+                }
+            }
+
+            return directors;
+        }
+
         public static List<Director> ReadDirectorsFromCSV(string file)
         {
             List<Director> directors = new List<Director>();
