@@ -157,6 +157,10 @@ namespace ImdbCrawler.Model
                     nameUrl = line.Substring(initialSize, indexTitle - initialSize);
                     name = line.Substring(indexTitle + "/\">".Length, indexImg - (indexTitle + "/\">".Length));
                     Console.WriteLine(name);
+                    if (name.Equals("The Same Day"))
+                    {
+                        indexImg = 0;
+                    }
                     Console.WriteLine(nameUrl);
                 }
                 if (line.Contains("<span class=\"rating-rating\"><span class=\"value\">"))
@@ -186,8 +190,11 @@ namespace ImdbCrawler.Model
                     line = line.Trim();
                     string[] actorParams = line.Split(',');
 
-                    foreach (string act in actorParams)
+
+                    foreach (string act1 in actorParams)
                     {
+                        //act = "<a href=\"/name/nm0705356/\">Daniel Radcliffe</a>"
+                        string act = act1.Trim();
                         int size = "<a href=\"/name/".Length;
                         int indexEnd1 = act.IndexOf("/\">");
                         int indexEnd2 = act.IndexOf("</a>");

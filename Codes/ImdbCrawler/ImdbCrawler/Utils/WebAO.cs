@@ -12,6 +12,7 @@ namespace ImdbCrawler.Utils
     {
         public static String CodeHtml(string Url)
         {
+            //900
             HttpWebRequest myRequest = (HttpWebRequest)WebRequest.Create(Url);
             myRequest.Method = "GET";
             WebResponse myResponse = myRequest.GetResponse();
