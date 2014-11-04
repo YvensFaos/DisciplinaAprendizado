@@ -49,6 +49,7 @@ namespace ImdbCrawler.Model
             {
                 Console.WriteLine("Genre " + key + ": " + statistics[key]);
             }
+            Console.Read();
         }
     }
 }
