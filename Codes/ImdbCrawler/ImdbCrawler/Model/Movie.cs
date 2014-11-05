@@ -387,6 +387,7 @@ namespace ImdbCrawler.Model
                     line = pageLines[++i].Trim();
 
                     Budget = (line.Substring(1, line.IndexOf(" ("))).Replace(",", "");
+                    Budget = Budget.Trim();
                 }
 
                 if (line.Contains("<span class=\"title-extra\""))
@@ -398,6 +399,7 @@ namespace ImdbCrawler.Model
                         int jump = line.IndexOf("<span class=\"title-extra\">") + "<span class=\"title-extra\">".Length;
 
                         EnglishName = line.Substring(jump, line.IndexOf("<i>(or") - (jump + 1));
+                        EnglishName = EnglishName.Trim();
                     }
                 }
             }
