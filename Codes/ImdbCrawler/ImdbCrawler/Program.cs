@@ -39,7 +39,7 @@ namespace ImdbCrawler
             //FileAO.ExportMoviesToCSV(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\movies.txt");
 
             //movies = Movie.ReadMoviesFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\movies.txt");
-            //int counter = 1;
+            int counter = 1;
 
             //Dictionary<string, Director> hashDirectors = new Dictionary<string, Director>();
             //foreach (Movie movie in movies)
@@ -157,15 +157,26 @@ namespace ImdbCrawler
 
             //Genre.GenreStatistics(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\genres.txt");
 
-            movies = Movie.ReadMoviesFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\movies.txt");
-            Dictionary<string, Actor> actors = Actor.ReadHashActorsFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\actors.txt");
-            Dictionary<string, Director> directors = Director.ReadHashDirectorsFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\directors.txt");
+            //movies = Movie.ReadMoviesFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\movies.txt");
+            //Dictionary<string, Actor> actors = Actor.ReadHashActorsFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\actors.txt");
+            //Dictionary<string, Director> directors = Director.ReadHashDirectorsFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\directors.txt");
 
+            //foreach (Movie movie in movies)
+            //{
+            //    movie.GetDetailedInfo(actors, directors);
+            //}
+            //FileAO.ExportMoviesDetailedToCSV(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailed.txt");
+
+            movies = Movie.ReadMoviesFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailed.txt");
             foreach (Movie movie in movies)
             {
-                movie.GetDetailedInfo(actors, directors);
+                movie.GetBusinessInfo();
+                Console.WriteLine("Movie [" + movie.EnglishName + "]: " + counter + "/" + movies.Count);
+                counter++;
             }
-            FileAO.ExportMoviesDetailedToCSV(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailed.txt");
+
+            FileAO.ExportMoviesDetailedBusinessToCSV(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailedBusiness.txt");
+            Console.Read();
         }
 
     }

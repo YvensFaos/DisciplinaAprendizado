@@ -114,6 +114,22 @@ namespace ImdbCrawler.Model
             get { return oscarActors; }
             set { oscarActors = value; }
         }
+
+        private string budget;
+
+        public string Budget
+        {
+            get { return budget; }
+            set { budget = value; }
+        }
+
+        private string englishName;
+
+        public string EnglishName
+        {
+            get { return englishName; }
+            set { englishName = value; }
+        }
 #endregion
 
         public Movie()
@@ -142,7 +158,13 @@ namespace ImdbCrawler.Model
                 movie.Genre = parameters[i++];
                 movie.Certificate = parameters[i++];
                 movie.Runtime = float.Parse(parameters[i++]);
-
+                if (parameters.Length > i)
+                {
+                    movie.AwardedDirector = (parameters[i++][0] == 'T') ? true : false;
+                    movie.OscarDirector =   (parameters[i++][0] == 'T') ? true : false;
+                    movie.AwardedActors =   (parameters[i++][0] == 'T') ? true : false;
+                    movie.OscarActors =     (parameters[i++][0] == 'T') ? true : false;
+                }
                 movies.Add(movie);
             }
 
@@ -347,6 +369,44 @@ namespace ImdbCrawler.Model
             }
         }
 
+        public void GetBusinessInfo()
+        {
+            string url = "http://www.imdb.com/title/@/business?ref_=ttco_ql_4";
+
+            url = url.Replace("@", nameUrl);
+            string htmlPage = WebAO.CodeHtml(url);
+            string[] pageLines = htmlPage.Split('\n');
+
+            EnglishName = "";
+            int i = 0;
+            for (i = 0; i < pageLines.Length; i++)
+            {
+                string line = pageLines[i].Trim();
+                if (line.Contains("Budget"))
+                {
+                    line = pageLines[++i].Trim();
+
+                    Budget = (line.Substring(1, line.IndexOf(" ("))).Replace(",", "");
+                }
+
+                if (line.Contains("<span class=\"title-extra\""))
+                {
+                    //Pode ser que o nome nacional seja igual ao nome original
+                    int indexItalic = line.IndexOf("<i>(or");
+                    if (indexItalic != -1)
+                    {
+                        int jump = line.IndexOf("<span class=\"title-extra\">") + "<span class=\"title-extra\">".Length;
+
+                        EnglishName = line.Substring(jump, line.IndexOf("<i>(or") - (jump + 1));
+                    }
+                }
+            }
+            if (EnglishName.Length == 0)
+            {
+                EnglishName = Name;
+            }
+        }
+
         public override string ToString()
         {
             return Name + ";" + NameUrl + ";" + Rating + ";" + Director + ";" + DirectorUrl + ";" + Actors + ";" + ActorsUrl + ";" + Genre + ";" + Certificate + ";" + Runtime;
@@ -356,9 +416,11 @@ namespace ImdbCrawler.Model
         {
             return Name + ";" + NameUrl + ";" + Rating + ";" + Director + ";" + DirectorUrl + ";" + Actors + ";" + ActorsUrl + ";" + Genre + ";" + Certificate + ";" + Runtime + ";" + AwardedDirector + ";" + OscarDirector + ";" + AwardedActors + ";" + OscarActors;
         }
-    }
 
-    //http://www.imdb.com/name/nm1547964/awards?ref_=nm_ql_2
-    //http://www.imdb.com/name/(n)m0014960/awards?ref_=nm_ql_2
+        public string ToStringDetailedBusiness()
+        {
+            return Name + ";" + NameUrl + ";" + Rating + ";" + Director + ";" + DirectorUrl + ";" + Actors + ";" + ActorsUrl + ";" + Genre + ";" + Certificate + ";" + Runtime + ";" + AwardedDirector + ";" + OscarDirector + ";" + AwardedActors + ";" + OscarActors + ";" + Budget + ";" + EnglishName;
+        }
+    }
 
 }
