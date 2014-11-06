@@ -165,6 +165,10 @@ namespace ImdbCrawler.Model
                     movie.AwardedActors =   (parameters[i++][0] == 'T') ? true : false;
                     movie.OscarActors =     (parameters[i++][0] == 'T') ? true : false;
                 }
+                if (parameters.Length > i)
+                {
+
+                }
                 movies.Add(movie);
             }
 
