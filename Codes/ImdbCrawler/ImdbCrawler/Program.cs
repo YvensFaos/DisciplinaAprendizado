@@ -167,16 +167,21 @@ namespace ImdbCrawler
             //}
             //FileAO.ExportMoviesDetailedToCSV(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailed.txt");
 
-            movies = Movie.ReadMoviesFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailed.txt");
-            foreach (Movie movie in movies)
-            {
-                movie.GetBusinessInfo();
-                Console.WriteLine("Movie [" + movie.EnglishName + "]: " + counter + "/" + movies.Count);
-                counter++;
-            }
+            //movies = Movie.ReadMoviesFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailed.txt");
+            //foreach (Movie movie in movies)
+            //{
+            //    movie.GetBusinessInfo();
+            //    Console.WriteLine("Movie [" + movie.EnglishName + "]: " + counter + "/" + movies.Count);
+            //    counter++;
+            //}
 
-            FileAO.ExportMoviesDetailedBusinessToCSV(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailedBusiness.txt");
-            Console.Read();
+            //FileAO.ExportMoviesDetailedBusinessToCSV(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailedBusiness.txt");
+            //Console.Read();
+
+            movies = Movie.ReadMoviesFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailed.txt");
+
+            //Movie.GetStatistics(movies);
+            Movie.ExportMoviesToWeka(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\movies.arff");
         }
 
     }

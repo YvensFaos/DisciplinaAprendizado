@@ -44,6 +44,17 @@ namespace ImdbCrawler.Utils
             }
         }
 
+        public static void ExportToArff(List<string> fileLines, string destination)
+        {
+            foreach (string line in fileLines)
+            {
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter(destination, true))
+                {
+                    file.WriteLine(line);
+                }
+            }
+        }
+
         public static void ExportDirectorsToCSV(List<Director> directors, string destination)
         {
             foreach (Director director in directors)

@@ -352,6 +352,159 @@ namespace ImdbCrawler.Model
             return movies;
         }
 
+        public static void ExportMoviesToWeka(List<Movie> movies, string destination)
+        {
+            List<string> fileLines = new List<string>();
+
+            fileLines.Add("@RELATION movie");
+            fileLines.Add("@ATTRIBUTE duration NUMERIC");
+            fileLines.Add("@ATTRIBUTE awardedDirector {0,1}");
+            fileLines.Add("@ATTRIBUTE oscarDirector {0,1}");
+            fileLines.Add("@ATTRIBUTE awardedActor {0,1}");
+            fileLines.Add("@ATTRIBUTE oscarActor {0,1}");
+            fileLines.Add("@ATTRIBUTE genre {Drama,Horror,Action,Comedy,Others}");
+            fileLines.Add("@ATTRIBUTE certificate {R, PG_13, PG, NOT_RATED}");
+            fileLines.Add("@ATTRIBUTE rating {Bad,Regular,Good}");
+            fileLines.Add("@DATA");
+
+            string line = "";
+
+            int a = 0, b = 0, c = 0;
+
+            int drama = 0, horror = 0, action = 0, comedy = 0, others = 0;
+            foreach (Movie movie in movies)
+            {
+                line += movie.Runtime + ",";
+                line += ((movie.AwardedDirector)? "1" : "0") + ",";
+                line += ((movie.OscarDirector)? "1" : "0") + ",";
+                line += ((movie.AwardedActors)? "1" : "0") + ",";
+                line += ((movie.OscarActors)? "1" : "0") + ",";
+
+                string genre = "";
+                string actualGenre = movie.Genre.Split('@')[0];
+                #region defining genre
+                if (actualGenre.Equals("Drama") || actualGenre.Equals("Family") || actualGenre.Equals("Romance") || actualGenre.Equals("History") || actualGenre.Equals("Reality-TV") || actualGenre.Equals("Adult") || actualGenre.Equals("Biography"))
+                {
+                    genre = "Drama";
+                    drama++;
+                }
+                else if(actualGenre.Equals("Horror") || actualGenre.Equals("Thriller") || actualGenre.Equals("Mistery"))
+                {
+                    genre = "Horror";
+                    horror++;
+                }
+                else if (actualGenre.Equals("Action") || actualGenre.Equals("Adventure") || actualGenre.Equals("Crime") || actualGenre.Equals("Sci-Fi") || actualGenre.Equals("Fantasy") || actualGenre.Equals("War") || actualGenre.Equals("Western") || actualGenre.Equals("Sport"))
+                {
+                    genre = "Action";
+                    action++;
+                }
+                else if (actualGenre.Equals("Comedy"))
+                {
+                    genre = "Comedy";
+                    comedy++;
+                }
+                else
+                {
+                    genre = "Others";
+                    others++;
+                }
+                #endregion
+
+                line += genre + ",";
+
+                string certificate = "";
+                if (movie.Certificate.Equals("R"))
+                {
+                    certificate = "R";
+                }
+                else if (movie.Certificate.Equals("PG_13"))
+                {
+                    certificate = "PG_13";
+                }
+                else if (movie.Certificate.Equals("PG"))
+                {
+                    certificate = "PG";
+                }
+                else
+                {
+                    certificate = "NOT_RATED";
+                }
+
+                line += certificate + ",";
+
+                string rating = "";
+                if (movie.Rating < 50.0f)
+                {
+                    rating = "Bad";
+                    c++;
+                }
+                else if (movie.Rating < 70.0f)
+                {
+                    rating = "Regular";
+                    b++;
+                }
+                else
+                {
+                    rating = "Good";
+                    a++;
+                }
+                line += rating;
+                fileLines.Add(line);
+                line = "";
+            }
+
+            Console.WriteLine("drama = " + drama);
+            Console.WriteLine("horror = " + horror);
+            Console.WriteLine("action = " + action);
+            Console.WriteLine("comedy = " + comedy);
+            Console.WriteLine("others = " + others);
+
+            Console.WriteLine();
+
+            Console.WriteLine("Bad = " + c);
+            Console.WriteLine("Regular = " + b);
+            Console.WriteLine("Good = " + a);
+
+            FileAO.ExportToArff(fileLines, destination);
+        }
+
+        public static void GetStatistics(List<Movie> movies)
+        {
+            Dictionary<string, int> certificates = new Dictionary<string, int>();
+            Dictionary<string, int> genres  = new Dictionary<string, int>();
+
+            foreach (Movie movie in movies)
+            {
+                if (!certificates.ContainsKey(movie.Certificate))
+                {
+                    certificates.Add(movie.Certificate, 0);
+                }
+
+                certificates[movie.Certificate]++;
+
+                string genre = movie.Genre.Split('@')[0];
+                if (!genres.ContainsKey(genre))
+                {
+                    genres.Add(genre, 0);
+                }
+
+                genres[genre]++;
+            }
+
+            foreach (string key in certificates.Keys)
+            {
+                Console.WriteLine(key + " " + certificates[key]);
+            }
+
+            Console.WriteLine();
+            foreach (string key in genres.Keys)
+            {
+                Console.WriteLine(key + " " + genres[key]);
+            }
+
+            Console.ReadLine();
+        }
+
         public void GetDetailedInfo(Dictionary<string, Actor> actors, Dictionary<string, Director> directors)
         {
             if (Director.Length != 0)
@@ -428,5 +581,4 @@ namespace ImdbCrawler.Model
             return Name + ";" + NameUrl + ";" + Rating + ";" + Director + ";" + DirectorUrl + ";" + Actors + ";" + ActorsUrl + ";" + Genre + ";" + Certificate + ";" + Runtime + ";" + AwardedDirector + ";" + OscarDirector + ";" + AwardedActors + ";" + OscarActors + ";" + Budget + ";" + EnglishName;
         }
     }
-
 }
