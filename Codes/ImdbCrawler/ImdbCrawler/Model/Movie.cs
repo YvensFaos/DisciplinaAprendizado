@@ -357,13 +357,14 @@ namespace ImdbCrawler.Model
             List<string> fileLines = new List<string>();
 
             fileLines.Add("@RELATION movie");
-            fileLines.Add("@ATTRIBUTE duration NUMERIC");
+            //fileLines.Add("@ATTRIBUTE duration NUMERIC");
+            fileLines.Add("@ATTRIBUTE duration {Short,Regular,Long,Very_Long}");
             fileLines.Add("@ATTRIBUTE awardedDirector {0,1}");
             fileLines.Add("@ATTRIBUTE oscarDirector {0,1}");
             fileLines.Add("@ATTRIBUTE awardedActor {0,1}");
             fileLines.Add("@ATTRIBUTE oscarActor {0,1}");
             fileLines.Add("@ATTRIBUTE genre {Drama,Horror,Action,Comedy,Others}");
-            fileLines.Add("@ATTRIBUTE certificate {R, PG_13, PG, NOT_RATED}");
+            fileLines.Add("@ATTRIBUTE certificate {G, R, PG_13, PG, NOT_RATED}");
             fileLines.Add("@ATTRIBUTE rating {Bad,Regular,Good}");
             fileLines.Add("@DATA");
 
@@ -372,9 +373,34 @@ namespace ImdbCrawler.Model
             int a = 0, b = 0, c = 0;
 
             int drama = 0, horror = 0, action = 0, comedy = 0, others = 0;
+            int shorte = 0, regular = 0, longe = 0, verylong = 0;
             foreach (Movie movie in movies)
             {
-                line += movie.Runtime + ",";
+                //line += movie.Runtime + ",";
+
+                string runtime = "";
+                if (movie.Runtime < 88.0f)
+                {
+                    runtime = "Short";
+                    shorte++;
+                }
+                else if (movie.Runtime < 122.0f)
+                {
+                    runtime = "Regular";
+                    regular++;
+                }
+                else if (movie.Runtime < 160.0f)
+                {
+                    runtime = "Long";
+                    longe++;
+                }
+                else
+                {
+                    runtime = "Very_Long";
+                    verylong++;
+                }
+                line += runtime + ",";
+
                 line += ((movie.AwardedDirector)? "1" : "0") + ",";
                 line += ((movie.OscarDirector)? "1" : "0") + ",";
                 line += ((movie.AwardedActors)? "1" : "0") + ",";
@@ -416,6 +442,10 @@ namespace ImdbCrawler.Model
                 if (movie.Certificate.Equals("R"))
                 {
                     certificate = "R";
+                }
+                else if (movie.Certificate.Equals("G"))
+                {
+                    certificate = "G";
                 }
                 else if (movie.Certificate.Equals("PG_13"))
                 {
@@ -465,6 +495,13 @@ namespace ImdbCrawler.Model
             Console.WriteLine("Regular = " + b);
             Console.WriteLine("Good = " + a);
 
+            Console.WriteLine();
+
+            Console.WriteLine("shorte = " + shorte);
+            Console.WriteLine("regular = " + regular);
+            Console.WriteLine("longe = " + longe);
+            Console.WriteLine("verylong = " + verylong);
+
             FileAO.ExportToArff(fileLines, destination);
         }
 
@@ -511,8 +548,9 @@ namespace ImdbCrawler.Model
             {
                 Director director = directors[Director];
                 AwardedDirector = (director.Awards > 0) ? true : false;
-                AwardedDirector = director.Oscar;
+                OscarDirector = director.Oscar;
             }
+
             if (Actors.Length != 0)
             {
                 string[] actorsName = Actors.Split('@');

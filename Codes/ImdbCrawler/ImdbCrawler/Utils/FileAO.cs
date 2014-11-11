@@ -46,11 +46,13 @@ namespace ImdbCrawler.Utils
 
         public static void ExportToArff(List<string> fileLines, string destination)
         {
+            int counter = 0;
             foreach (string line in fileLines)
             {
                 using (System.IO.StreamWriter file = new System.IO.StreamWriter(destination, true))
                 {
                     file.WriteLine(line);
+                    Console.WriteLine(++counter + "/ " + fileLines.Count);
                 }
             }
         }

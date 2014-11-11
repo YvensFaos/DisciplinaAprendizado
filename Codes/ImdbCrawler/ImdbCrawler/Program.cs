@@ -165,7 +165,7 @@ namespace ImdbCrawler
             //{
             //    movie.GetDetailedInfo(actors, directors);
             //}
-            //FileAO.ExportMoviesDetailedToCSV(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailed.txt");
+            //FileAO.ExportMoviesDetailedToCSV(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailed_2.txt");
 
             //movies = Movie.ReadMoviesFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailed.txt");
             //foreach (Movie movie in movies)
@@ -178,9 +178,10 @@ namespace ImdbCrawler
             //FileAO.ExportMoviesDetailedBusinessToCSV(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailedBusiness.txt");
             //Console.Read();
 
-            movies = Movie.ReadMoviesFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailed.txt");
 
             //Movie.GetStatistics(movies);
+
+            movies = Movie.ReadMoviesFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\moviesDetailed_2.txt");
             Movie.ExportMoviesToWeka(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\movies.arff");
         }
 
