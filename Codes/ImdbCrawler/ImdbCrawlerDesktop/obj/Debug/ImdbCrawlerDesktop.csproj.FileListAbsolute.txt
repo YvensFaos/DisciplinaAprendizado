@@ -1,0 +1,9 @@
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawlerDesktop\bin\Debug\ImdbCrawlerDesktop.exe.config
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawlerDesktop\bin\Debug\ImdbCrawlerDesktop.exe
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawlerDesktop\bin\Debug\ImdbCrawlerDesktop.pdb
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawlerDesktop\obj\Debug\ImdbCrawlerDesktop.ICMainWindow.resources
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawlerDesktop\obj\Debug\ImdbCrawlerDesktop.Properties.Resources.resources
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawlerDesktop\obj\Debug\ImdbCrawlerDesktop.csproj.GenerateResource.Cache
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawlerDesktop\obj\Debug\ImdbCrawlerDesktop.exe
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawlerDesktop\obj\Debug\ImdbCrawlerDesktop.pdb
+C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\ImdbCrawlerDesktop\obj\Debug\ImdbCrawlerDesktop.csprojResolveAssemblyReference.cache

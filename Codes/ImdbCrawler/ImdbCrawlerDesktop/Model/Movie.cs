@@ -255,8 +255,16 @@ namespace ImdbCrawler.Model
                     int indexStart = line.IndexOf("<span class=\"rating-rating\"><span class=\"value\">");
                     int indexEnd = line.IndexOf("</span><span class=\"grey\">/");
 
-                    rating = float.Parse(line.Substring(indexStart + "<span class=\"rating-rating\"><span class=\"value\">".Length,
-                        indexEnd - (indexStart + "<span class=\"rating-rating\"><span class=\"value\">".Length)));
+                    try
+                    {
+                        rating = float.Parse(line.Substring(indexStart + "<span class=\"rating-rating\"><span class=\"value\">".Length,
+                            indexEnd - (indexStart + "<span class=\"rating-rating\"><span class=\"value\">".Length)));
+                    }
+                    catch (Exception e)
+                    {
+                        rating = 0;
+                    }
+
                     Console.WriteLine(rating);
                 }
                 if (line.Contains("Dir:"))
