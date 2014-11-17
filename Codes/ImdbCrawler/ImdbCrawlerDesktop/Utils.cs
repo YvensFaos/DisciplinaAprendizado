@@ -29,6 +29,6 @@ namespace ImdbCrawlerDesktop
 
     public enum ChartType
     {
-        MOVIES_BY_RATING
+        MOVIES_BY_RATING, MOVIE_BY_GENRE
     }
 }

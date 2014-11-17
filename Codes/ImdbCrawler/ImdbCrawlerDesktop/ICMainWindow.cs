@@ -79,12 +79,18 @@ namespace ImdbCrawlerDesktop
 
         private void ComboBoxCharts_SelectedIndexChanged(object sender, System.EventArgs e)
         {
+            moviesMutex.WaitOne();
             switch (comboBoxCharts.SelectedIndex)
             {
                 case 0:
                     updateCharts(ChartType.MOVIES_BY_RATING);
+
+                    break;
+                case 3:
+                    updateCharts(ChartType.MOVIE_BY_GENRE);
                     break;
             }
+            moviesMutex.Release();
         }
 
         private void updateCharts(ChartType chartType)
@@ -144,6 +150,74 @@ namespace ImdbCrawlerDesktop
                         chartArea.Series.Add(movieSeries);
                     }
                     break;
+                case ChartType.MOVIE_BY_GENRE:
+                    {
+                        chartArea.Titles.Clear();
+                        chartArea.Titles.Add(new Title("Filmes por gênero"));
+                        chartArea.Series.Clear();
+
+                        int drama = 0, horror = 0, action = 0, comedy = 0, others = 0;
+
+                        Series movieSeries = new Series("Classificação");
+                        foreach (string key in hashMovies.Keys)
+                        {
+                            Movie movie = hashMovies[key];
+                            movie.GetMovieGenre();
+
+                            switch (movie.Genre)
+                            {
+                                case "Drama":
+                                    drama++; break;
+                                case "Horror":
+                                    horror++; break;
+                                case "Action":
+                                    action++; break;
+                                case "Comedy":
+                                    comedy++; break;
+                                case "Others":
+                                    others++; break;
+                            }
+                        }
+
+                        int i = 1;
+                        movieSeries.Points.AddXY(i++, drama);
+                        movieSeries.Points.AddXY(i++, horror);
+                        movieSeries.Points.AddXY(i++, action);
+                        movieSeries.Points.AddXY(i++, comedy);
+                        movieSeries.Points.AddXY(i++, others);
+
+                        area.RecalculateAxesScale();
+
+                        area.AxisX.Interval = 1;
+                        area.AxisX.Maximum = 6;
+
+                        double j = 1.0;
+                        area.AxisX.TextOrientation = TextOrientation.Horizontal;
+                        area.AxisX.CustomLabels.Add(j - 0.1, j + 0.1, "Drama");
+                        j += 1.0;
+                        area.AxisX.CustomLabels.Add(j - 0.1, j + 0.1, "Horror");
+                        j += 1.0;
+                        area.AxisX.CustomLabels.Add(j - 0.1, j + 0.1, "Action");
+                        j += 1.0;
+                        area.AxisX.CustomLabels.Add(j - 0.1, j + 0.1, "Comedy");
+                        j += 1.0;
+                        area.AxisX.CustomLabels.Add(j - 0.1, j + 0.1, "Others");
+                        j += 1.0;
+
+                        if (logging())
+                        {
+                            logInfo("Qtde. Drama:  " + drama);
+                            logInfo("Qtde. Horror: " + horror);
+                            logInfo("Qtde. Action: " + action);
+                            logInfo("Qtde. Comedy: " + comedy);
+                            logInfo("Qtde. Others: " + others);
+                        }
+
+                        movieSeries.ChartType = SeriesChartType.Column;
+
+                        chartArea.Series.Add(movieSeries);
+                    }
+                    break;
             }
         }
 
@@ -188,7 +262,7 @@ namespace ImdbCrawlerDesktop
                 }
             }
 
-            updateCharts(ChartType.MOVIES_BY_RATING);
+            //updateCharts(ChartType.MOVIES_BY_RATING);
             updateMoviesCount(hashMovies.Count);
             moviesMutex.Release();
         }

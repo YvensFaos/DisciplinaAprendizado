@@ -424,33 +424,8 @@ namespace ImdbCrawler.Model
 
                 string genre = "";
                 string actualGenre = movie.Genre.Split('@')[0];
-                #region defining genre
-                if (actualGenre.Equals("Drama") || actualGenre.Equals("Family") || actualGenre.Equals("Romance") || actualGenre.Equals("History") || actualGenre.Equals("Reality-TV") || actualGenre.Equals("Adult") || actualGenre.Equals("Biography"))
-                {
-                    genre = "Drama";
-                    drama++;
-                }
-                else if(actualGenre.Equals("Horror") || actualGenre.Equals("Thriller") || actualGenre.Equals("Mistery"))
-                {
-                    genre = "Horror";
-                    horror++;
-                }
-                else if (actualGenre.Equals("Action") || actualGenre.Equals("Adventure") || actualGenre.Equals("Crime") || actualGenre.Equals("Sci-Fi") || actualGenre.Equals("Fantasy") || actualGenre.Equals("War") || actualGenre.Equals("Western") || actualGenre.Equals("Sport"))
-                {
-                    genre = "Action";
-                    action++;
-                }
-                else if (actualGenre.Equals("Comedy"))
-                {
-                    genre = "Comedy";
-                    comedy++;
-                }
-                else
-                {
-                    genre = "Others";
-                    others++;
-                }
-                #endregion
+                movie.Genre = actualGenre;
+                movie.GetMovieGenre();
 
                 line += genre + ",";
 
@@ -624,6 +599,37 @@ namespace ImdbCrawler.Model
             }
 
             Classification = classification;
+        }
+
+        public void GetMovieGenre()
+        {
+            if(Genre.Contains('@'))
+            {
+                Genre = Genre.Split('@')[0];
+            }
+
+            #region defining genre
+            if (Genre.Equals("Drama") || Genre.Equals("Family") || Genre.Equals("Romance") || Genre.Equals("History") || Genre.Equals("Reality-TV") || Genre.Equals("Adult") || Genre.Equals("Biography"))
+            {
+                Genre = "Drama";
+            }
+            else if (Genre.Equals("Horror") || Genre.Equals("Thriller") || Genre.Equals("Mistery"))
+            {
+                Genre = "Horror";
+            }
+            else if (Genre.Equals("Action") || Genre.Equals("Adventure") || Genre.Equals("Crime") || Genre.Equals("Sci-Fi") || Genre.Equals("Fantasy") || Genre.Equals("War") || Genre.Equals("Western") || Genre.Equals("Sport"))
+            {
+                Genre = "Action";
+            }
+            else if (Genre.Equals("Comedy"))
+            {
+                Genre = "Comedy";
+            }
+            else
+            {
+                Genre = "Others";
+            }
+            #endregion
         }
 
         public override string ToString()
