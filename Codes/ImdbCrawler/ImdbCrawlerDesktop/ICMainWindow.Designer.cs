@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             this.panel1 = new System.Windows.Forms.Panel();
             this.comboBoxAction = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -43,10 +43,10 @@
             this.textBoxCustomURL = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.buttonFindMovies = new System.Windows.Forms.Button();
-            this.textBoxYear = new System.Windows.Forms.TextBox();
+            this.textBoxYear1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButtonDesc = new System.Windows.Forms.RadioButton();
+            this.radioButtonAsc = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.graphPanel = new System.Windows.Forms.Panel();
@@ -61,6 +61,8 @@
             this.buttonExport = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.labelTotalMovies = new System.Windows.Forms.Label();
+            this.textBoxYear2 = new System.Windows.Forms.TextBox();
+            this.textBoxLastIndex = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -133,6 +135,8 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.textBoxLastIndex);
+            this.panel4.Controls.Add(this.textBoxYear2);
             this.panel4.Controls.Add(this.labelTotalMovies);
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.buttonExport);
@@ -146,10 +150,10 @@
             this.panel4.Controls.Add(this.textBoxCustomURL);
             this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.buttonFindMovies);
-            this.panel4.Controls.Add(this.textBoxYear);
+            this.panel4.Controls.Add(this.textBoxYear1);
             this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.radioButton2);
-            this.panel4.Controls.Add(this.radioButton1);
+            this.panel4.Controls.Add(this.radioButtonDesc);
+            this.panel4.Controls.Add(this.radioButtonAsc);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.label3);
             this.panel4.Location = new System.Drawing.Point(3, 3);
@@ -212,12 +216,13 @@
             this.buttonFindMovies.UseVisualStyleBackColor = true;
             this.buttonFindMovies.Click += new System.EventHandler(this.buttonFindMovies_Click);
             // 
-            // textBoxYear
+            // textBoxYear1
             // 
-            this.textBoxYear.Location = new System.Drawing.Point(7, 126);
-            this.textBoxYear.Name = "textBoxYear";
-            this.textBoxYear.Size = new System.Drawing.Size(177, 20);
-            this.textBoxYear.TabIndex = 5;
+            this.textBoxYear1.Location = new System.Drawing.Point(7, 126);
+            this.textBoxYear1.Name = "textBoxYear1";
+            this.textBoxYear1.Size = new System.Drawing.Size(177, 20);
+            this.textBoxYear1.TabIndex = 5;
+            this.textBoxYear1.Text = "2009";
             // 
             // label5
             // 
@@ -228,27 +233,27 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Ano";
             // 
-            // radioButton2
+            // radioButtonDesc
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Checked = true;
-            this.radioButton2.Location = new System.Drawing.Point(95, 46);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(89, 17);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Descendente";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButtonDesc.AutoSize = true;
+            this.radioButtonDesc.Location = new System.Drawing.Point(95, 46);
+            this.radioButtonDesc.Name = "radioButtonDesc";
+            this.radioButtonDesc.Size = new System.Drawing.Size(89, 17);
+            this.radioButtonDesc.TabIndex = 3;
+            this.radioButtonDesc.Text = "Descendente";
+            this.radioButtonDesc.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // radioButtonAsc
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(6, 46);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(82, 17);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.Text = "Ascendente";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButtonAsc.AutoSize = true;
+            this.radioButtonAsc.Checked = true;
+            this.radioButtonAsc.Location = new System.Drawing.Point(6, 46);
+            this.radioButtonAsc.Name = "radioButtonAsc";
+            this.radioButtonAsc.Size = new System.Drawing.Size(82, 17);
+            this.radioButtonAsc.TabIndex = 2;
+            this.radioButtonAsc.TabStop = true;
+            this.radioButtonAsc.Text = "Ascendente";
+            this.radioButtonAsc.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -304,10 +309,10 @@
             // 
             // chartArea
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartArea.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartArea.Legends.Add(legend1);
+            chartArea4.Name = "ChartArea1";
+            this.chartArea.ChartAreas.Add(chartArea4);
+            legend4.Name = "Legend1";
+            this.chartArea.Legends.Add(legend4);
             this.chartArea.Location = new System.Drawing.Point(3, 53);
             this.chartArea.Name = "chartArea";
             this.chartArea.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
@@ -340,8 +345,9 @@
             // 
             this.textBoxStartIndex.Location = new System.Drawing.Point(7, 87);
             this.textBoxStartIndex.Name = "textBoxStartIndex";
-            this.textBoxStartIndex.Size = new System.Drawing.Size(177, 20);
+            this.textBoxStartIndex.Size = new System.Drawing.Size(81, 20);
             this.textBoxStartIndex.TabIndex = 13;
+            this.textBoxStartIndex.Text = "1";
             // 
             // label9
             // 
@@ -396,6 +402,22 @@
             this.labelTotalMovies.TabIndex = 18;
             this.labelTotalMovies.Text = "0";
             // 
+            // textBoxYear2
+            // 
+            this.textBoxYear2.Location = new System.Drawing.Point(187, 126);
+            this.textBoxYear2.Name = "textBoxYear2";
+            this.textBoxYear2.Size = new System.Drawing.Size(177, 20);
+            this.textBoxYear2.TabIndex = 19;
+            this.textBoxYear2.Text = "2009";
+            // 
+            // textBoxLastIndex
+            // 
+            this.textBoxLastIndex.Location = new System.Drawing.Point(92, 87);
+            this.textBoxLastIndex.Name = "textBoxLastIndex";
+            this.textBoxLastIndex.Size = new System.Drawing.Size(92, 20);
+            this.textBoxLastIndex.TabIndex = 20;
+            this.textBoxLastIndex.Text = "0";
+            // 
             // ICMainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -432,9 +454,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.TextBox textBoxYear;
+        private System.Windows.Forms.RadioButton radioButtonDesc;
+        private System.Windows.Forms.RadioButton radioButtonAsc;
+        private System.Windows.Forms.TextBox textBoxYear1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button buttonFindMovies;
@@ -453,6 +475,8 @@
         private System.Windows.Forms.Button buttonExport;
         private System.Windows.Forms.Label labelTotalMovies;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBoxYear2;
+        private System.Windows.Forms.TextBox textBoxLastIndex;
     }
 }
 

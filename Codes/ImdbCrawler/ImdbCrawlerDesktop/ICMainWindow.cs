@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 using System.Windows.Forms.DataVisualization.Charting;
 
@@ -19,12 +20,16 @@ namespace ImdbCrawlerDesktop
     {
         private Dictionary<string, Movie> hashMovies;
 
+        private Semaphore logMutex;
+        private Semaphore moviesMutex;
+
         public ICMainWindow()
         {
             InitializeComponent();
 
             comboBoxAction.SelectedIndex = 0;
             comboBoxCharts.SelectedIndex = 0;
+            comboBoxSortBy.SelectedIndex = 0;
 
             comboBoxCharts.SelectedIndexChanged += new System.EventHandler(ComboBoxCharts_SelectedIndexChanged);
 
@@ -33,16 +38,38 @@ namespace ImdbCrawlerDesktop
             CheckForIllegalCrossThreadCalls = false;
 
             hashMovies = new Dictionary<string, Movie>();
+
+            logMutex = new Semaphore(0, 1);
+            logMutex.Release();
+            moviesMutex = new Semaphore(0, 1);
+            moviesMutex.Release();
         }
 
         private void buttonFindMovies_Click(object sender, EventArgs e)
         {
+            int startIndex = int.Parse(textBoxStartIndex.Text);
+            int finalIndex = int.Parse(textBoxLastIndex.Text);
+            if (finalIndex <= startIndex)
+            {
+                finalIndex = startIndex;
+            }
 
+            string asc = (radioButtonAsc.Checked) ? "asc" : "desc";
+            string sortBy = comboBoxSortBy.SelectedItem.ToString();
+            for (int index = startIndex; index <= finalIndex; index += 50)
+            {
+                string url = "http://www.imdb.com/search/title?at=0&sort=" + sortBy + "," + asc + "&start=" + index + "&title_type=feature&year=" + textBoxYear1.Text + "," + textBoxYear2.Text;
+
+                Thread thread = new Thread(() => GetMovies(url));
+                thread.Start();
+            }
         }
 
         private void buttonFindCustom_Click(object sender, EventArgs e)
         {
-            GetMovies(textBoxCustomURL.Text);
+            string url = textBoxCustomURL.Text;
+            Thread thread = new Thread(() => GetMovies(url));
+            thread.Start();
         }
 
         private void buttonClearCustom_Click(object sender, EventArgs e)
@@ -107,9 +134,9 @@ namespace ImdbCrawlerDesktop
 
                         if (logging())
                         {
-                            logInfo("Qtde. Bad: " + bad);
+                            logInfo("Qtde. Bad:     " + bad);
                             logInfo("Qtde. Regular: " + regular);
-                            logInfo("Qtde. Good: " + good);
+                            logInfo("Qtde. Good:    " + good);
                         }
 
                         movieSeries.ChartType = SeriesChartType.Column;
@@ -122,13 +149,20 @@ namespace ImdbCrawlerDesktop
 
         private void logInfo(string message)
         {
+            logMutex.WaitOne();
             message = DateTime.Now.ToString("%h:mm:ss") + " >  " + message + "\r\n";
             textBoxLog.Text = message + textBoxLog.Text;
+            logMutex.Release();
         }
 
-        private bool logging()
+        public bool logging()
         {
             return checkBoxLog.Checked;
+        }
+
+        public void updateMoviesCount(int count)
+        {
+            labelTotalMovies.Text = count.ToString();
         }
 
         private void GetMovies(string url)
@@ -145,6 +179,7 @@ namespace ImdbCrawlerDesktop
                 logInfo("Filmes encontrados: " + movies.Count);
             }
 
+            moviesMutex.WaitOne();
             foreach (Movie movie in movies)
             {
                 if (!hashMovies.ContainsKey(movie.NameUrl))
@@ -154,7 +189,8 @@ namespace ImdbCrawlerDesktop
             }
 
             updateCharts(ChartType.MOVIES_BY_RATING);
-            labelTotalMovies.Text = hashMovies.Count.ToString();
+            updateMoviesCount(hashMovies.Count);
+            moviesMutex.Release();
         }
 
         private void buttonExport_Click(object sender, EventArgs e)
