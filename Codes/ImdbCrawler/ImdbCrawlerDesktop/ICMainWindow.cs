@@ -19,9 +19,13 @@ namespace ImdbCrawlerDesktop
     public partial class ICMainWindow : Form
     {
         private Dictionary<string, Movie> hashMovies;
+        private Dictionary<string, Director> hashDirectors;
+        private Dictionary<string, Actor> hashActors;
 
         private Semaphore logMutex;
         private Semaphore moviesMutex;
+        private Semaphore directorsMutex;
+        private Semaphore actorsMutex;
 
         public ICMainWindow()
         {
@@ -38,11 +42,17 @@ namespace ImdbCrawlerDesktop
             CheckForIllegalCrossThreadCalls = false;
 
             hashMovies = new Dictionary<string, Movie>();
+            hashDirectors = new Dictionary<string, Director>();
+            hashActors = new Dictionary<string, Actor>();
 
             logMutex = new Semaphore(0, 1);
             logMutex.Release();
             moviesMutex = new Semaphore(0, 1);
             moviesMutex.Release();
+            directorsMutex = new Semaphore(0, 1);
+            directorsMutex.Release();
+            actorsMutex = new Semaphore(0, 1);
+            actorsMutex.Release();
         }
 
         private void buttonFindMovies_Click(object sender, EventArgs e)
@@ -239,6 +249,16 @@ namespace ImdbCrawlerDesktop
             labelTotalMovies.Text = count.ToString();
         }
 
+        public void updateDirectorsCount(int count)
+        {
+            labelTotalDirectors.Text = count.ToString();
+        }
+
+        public void updateActorsCount(int count)
+        {
+            labelTotalActors.Text = count.ToString();
+        }
+
         private void GetMovies(string url)
         {
             if (logging())
@@ -262,7 +282,6 @@ namespace ImdbCrawlerDesktop
                 }
             }
 
-            //updateCharts(ChartType.MOVIES_BY_RATING);
             updateMoviesCount(hashMovies.Count);
             moviesMutex.Release();
         }
@@ -273,21 +292,140 @@ namespace ImdbCrawlerDesktop
             
             saveFileDialog.InitialDirectory = @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\";
             saveFileDialog.Filter = "txt files (*.txt)|*.txt";
-            saveFileDialog.FilterIndex = 2;
+            saveFileDialog.FilterIndex = 1;
             saveFileDialog.RestoreDirectory = true;
 
             string path = "";
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
                 path = saveFileDialog.FileName;
-            }
 
-            List<Movie> movies = new List<Movie>();
-            foreach (string key in hashMovies.Keys)
-            {
-                movies.Add(hashMovies[key]);
+                List<Movie> movies = new List<Movie>();
+                foreach (string key in hashMovies.Keys)
+                {
+                    movies.Add(hashMovies[key]);
+                }
+                FileAO.ExportMoviesToCSV(movies, path);
             }
-            FileAO.ExportMoviesToCSV(movies, path);
+        }
+
+        private void buttonOpenMovieList_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            openFileDialog.InitialDirectory = @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\";
+            openFileDialog.Filter = "txt files (*.txt)|*.txt";
+            openFileDialog.FilterIndex = 1;
+            openFileDialog.RestoreDirectory = true;
+
+            string path = "";
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                path = openFileDialog.FileName;
+
+                List<Movie> movies = Movie.ReadMoviesFromCSV(path);
+
+                moviesMutex.WaitOne();
+                foreach (Movie movie in movies)
+                {
+                    if (!hashMovies.ContainsKey(movie.NameUrl))
+                    {
+                        hashMovies.Add(movie.NameUrl, movie);
+                    }
+                }
+
+                updateMoviesCount(hashMovies.Count);
+                moviesMutex.Release();
+            }
+        }
+
+        private void buttonOpenDirectorsList_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            openFileDialog.InitialDirectory = @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\";
+            openFileDialog.Filter = "txt files (*.txt)|*.txt";
+            openFileDialog.FilterIndex = 1;
+            openFileDialog.RestoreDirectory = true;
+
+            string path = "";
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                path = openFileDialog.FileName;
+                if (logging())
+                {
+                    logInfo("Caminho do arquivo de diretores: " + path);
+                }
+                List<Director> directors = Director.ReadDirectorsFromCSV(path);
+
+                directorsMutex.WaitOne();
+                foreach (Director director in directors)
+                {
+                    if (!hashDirectors.ContainsKey(director.NameUrl))
+                    {
+                        hashDirectors.Add(director.NameUrl, director);
+                    }
+                }
+
+                if (logging())
+                {
+                    logInfo("Leitura de diretores concluída!");
+                }
+                updateDirectorsCount(hashDirectors.Count);
+                directorsMutex.Release();
+            }
+        }
+
+        private void buttonOpenActorsList_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            openFileDialog.InitialDirectory = @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\";
+            openFileDialog.Filter = "txt files (*.txt)|*.txt";
+            openFileDialog.FilterIndex = 1;
+            openFileDialog.RestoreDirectory = true;
+
+            string path = "";
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                path = openFileDialog.FileName;
+                if (logging())
+                {
+                    logInfo("Caminho do arquivo de atores: " + path);
+                }
+                List<Actor> actors = Actor.ReadActorsFromCSV(path);
+
+                actorsMutex.WaitOne();
+                foreach (Actor actor in actors)
+                {
+                    if (!hashActors.ContainsKey(actor.NameUrl))
+                    {
+                        hashActors.Add(actor.NameUrl, actor);
+                    }
+                }
+
+                if (logging())
+                {
+                    logInfo("Leitura de atores concluída!");
+                }
+                updateActorsCount(hashActors.Count);
+                actorsMutex.Release();
+            }
+        }
+
+        private void buttonExportActors_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonExportDirectors_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonExecuteAction_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

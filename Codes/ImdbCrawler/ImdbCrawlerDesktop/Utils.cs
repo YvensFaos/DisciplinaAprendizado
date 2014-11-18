@@ -31,4 +31,9 @@ namespace ImdbCrawlerDesktop
     {
         MOVIES_BY_RATING, MOVIE_BY_GENRE
     }
+
+    public enum ActionType
+    {
+        FIND_ACTORS, FIND_DIRECTORS
+    }
 }
