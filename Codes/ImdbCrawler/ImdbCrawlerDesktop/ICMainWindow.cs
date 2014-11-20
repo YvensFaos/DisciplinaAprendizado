@@ -94,7 +94,12 @@ namespace ImdbCrawlerDesktop
             {
                 case 0:
                     updateCharts(ChartType.MOVIES_BY_RATING);
-
+                    break;
+                case 1:
+                    updateCharts(ChartType.ACTORS_AWARDED);
+                    break;
+                case 2:
+                    updateCharts(ChartType.DIRECTORS_AWARDED);
                     break;
                 case 3:
                     updateCharts(ChartType.MOVIE_BY_GENRE);
@@ -143,6 +148,7 @@ namespace ImdbCrawlerDesktop
                         area.AxisX.Interval = 1;
                         area.AxisX.Maximum = 4;
 
+                        area.AxisX.CustomLabels.Clear();
                         area.AxisX.TextOrientation = TextOrientation.Horizontal;
                         area.AxisX.CustomLabels.Add(0.9, 1.1, "Bad");
                         area.AxisX.CustomLabels.Add(1.9, 2.1, "Regular");
@@ -202,6 +208,7 @@ namespace ImdbCrawlerDesktop
                         area.AxisX.Maximum = 6;
 
                         double j = 1.0;
+                        area.AxisX.CustomLabels.Clear();
                         area.AxisX.TextOrientation = TextOrientation.Horizontal;
                         area.AxisX.CustomLabels.Add(j - 0.1, j + 0.1, "Drama");
                         j += 1.0;
@@ -228,6 +235,126 @@ namespace ImdbCrawlerDesktop
                         chartArea.Series.Add(movieSeries);
                     }
                     break;
+                case ChartType.ACTORS_AWARDED:
+                    {
+                        chartArea.Titles.Clear();
+                        chartArea.Titles.Add(new Title("Atores Premiados"));
+                        chartArea.Series.Clear();
+
+                        int nonawarded = 0, awarded = 0, oscar = 0;
+
+                        Series actorSeries = new Series("Atores");
+                        foreach (string key in hashActors.Keys)
+                        {
+                            Actor actor = hashActors[key];
+
+                            if (actor.Awards > 0)
+                            {
+                                awarded++;
+                            }
+                            else if (actor.Oscar)
+                            {
+                                oscar++;
+                            }
+                            else
+                            {
+                                nonawarded++;
+                            }
+
+                        }
+
+                        int i = 1;
+                        actorSeries.Points.AddXY(i++, nonawarded);
+                        actorSeries.Points.AddXY(i++, awarded);
+                        actorSeries.Points.AddXY(i++, oscar);
+
+                        area.RecalculateAxesScale();
+
+                        area.AxisX.Interval = 1;
+                        area.AxisX.Maximum = 4;
+
+                        double j = 1.0;
+                        area.AxisX.CustomLabels.Clear();
+                        area.AxisX.TextOrientation = TextOrientation.Horizontal;
+                        area.AxisX.CustomLabels.Add(j - 0.1, j + 0.1, "Sem Prêmio");
+                        j += 1.0;
+                        area.AxisX.CustomLabels.Add(j - 0.1, j + 0.1, "Premiado");
+                        j += 1.0;
+                        area.AxisX.CustomLabels.Add(j - 0.1, j + 0.1, "Oscar");
+                        j += 1.0;
+
+                        if (logging())
+                        {
+                            logInfo("Qtde. Sem Prêmio: " + nonawarded);
+                            logInfo("Qtde. Premiado:   " + awarded);
+                            logInfo("Qtde. Oscar:      " + oscar);
+                        }
+
+                        actorSeries.ChartType = SeriesChartType.Column;
+
+                        chartArea.Series.Add(actorSeries);
+                    }
+                    break;
+                case ChartType.DIRECTORS_AWARDED:
+                    {
+                        chartArea.Titles.Clear();
+                        chartArea.Titles.Add(new Title("Diretores Premiados"));
+                        chartArea.Series.Clear();
+
+                        int nonawarded = 0, awarded = 0, oscar = 0;
+
+                        Series directorSeries = new Series("Diretores");
+                        foreach (string key in hashDirectors.Keys)
+                        {
+                            Director director = hashDirectors[key];
+
+                            if (director.Awards > 0)
+                            {
+                                awarded++;
+                            }
+                            else if (director.Oscar)
+                            {
+                                oscar++;
+                            }
+                            else
+                            {
+                                nonawarded++;
+                            }
+
+                        }
+
+                        int i = 1;
+                        directorSeries.Points.AddXY(i++, nonawarded);
+                        directorSeries.Points.AddXY(i++, awarded);
+                        directorSeries.Points.AddXY(i++, oscar);
+
+                        area.RecalculateAxesScale();
+
+                        area.AxisX.Interval = 1;
+                        area.AxisX.Maximum = 4;
+
+                        double j = 1.0;
+                        area.AxisX.CustomLabels.Clear();
+                        area.AxisX.TextOrientation = TextOrientation.Horizontal;
+                        area.AxisX.CustomLabels.Add(j - 0.1, j + 0.1, "Sem Prêmio");
+                        j += 1.0;
+                        area.AxisX.CustomLabels.Add(j - 0.1, j + 0.1, "Premiado");
+                        j += 1.0;
+                        area.AxisX.CustomLabels.Add(j - 0.1, j + 0.1, "Oscar");
+                        j += 1.0;
+
+                        if (logging())
+                        {
+                            logInfo("Qtde. Sem Prêmio: " + nonawarded);
+                            logInfo("Qtde. Premiado:   " + awarded);
+                            logInfo("Qtde. Oscar:      " + oscar);
+                        }
+
+                        directorSeries.ChartType = SeriesChartType.Column;
+
+                        chartArea.Series.Add(directorSeries);
+                    }
+                    break;
             }
         }
 
@@ -242,6 +369,11 @@ namespace ImdbCrawlerDesktop
         public bool logging()
         {
             return checkBoxLog.Checked;
+        }
+
+        public bool tempFile()
+        {
+            return checkBoxTempFile.Checked;
         }
 
         public void updateMoviesCount(int count)
@@ -415,17 +547,166 @@ namespace ImdbCrawlerDesktop
 
         private void buttonExportActors_Click(object sender, EventArgs e)
         {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
 
+            saveFileDialog.InitialDirectory = @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\";
+            saveFileDialog.Filter = "txt files (*.txt)|*.txt";
+            saveFileDialog.FilterIndex = 1;
+            saveFileDialog.RestoreDirectory = true;
+
+            string path = "";
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                path = saveFileDialog.FileName;
+
+                List<Actor> actors = new List<Actor>();
+                foreach (string key in hashActors.Keys)
+                {
+                    actors.Add(hashActors[key]);
+                }
+                FileAO.ExportActorsToCSV(actors, path);
+            }
         }
 
         private void buttonExportDirectors_Click(object sender, EventArgs e)
         {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
 
+            saveFileDialog.InitialDirectory = @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\";
+            saveFileDialog.Filter = "txt files (*.txt)|*.txt";
+            saveFileDialog.FilterIndex = 1;
+            saveFileDialog.RestoreDirectory = true;
+
+            string path = "";
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                path = saveFileDialog.FileName;
+
+                List<Director> directors = new List<Director>();
+                foreach (string key in hashDirectors.Keys)
+                {
+                    directors.Add(hashDirectors[key]);
+                }
+                FileAO.ExportDirectorsToCSV(directors, path);
+            }
         }
 
         private void buttonExecuteAction_Click(object sender, EventArgs e)
         {
+            if (comboBoxAction.SelectedIndex == 0)
+            {
+                Thread thread = new Thread(() => GetActors());
+                thread.Start();
+            }
+            else if (comboBoxAction.SelectedIndex == 1)
+            {
+                Thread thread = new Thread(() => GetActors());
+                thread.Start();
+            }
+        }
 
+        private void GetActors()
+        {
+            int counter = 0;
+            int actualActorsCount = hashActors.Count;
+
+            foreach (string key in hashMovies.Keys)
+            {
+                Movie movie = hashMovies[key];
+
+                progressBarProcess.Value = ((int)((counter / (float)hashMovies.Count) * 100.0f));
+
+                if (movie.Actors.Length != 0)
+                {
+                    string[] actorsName = movie.Actors.Split('@');
+                    string[] actorsUrl = movie.ActorsUrl.Split('@');
+
+                    for (int i = 0; i < actorsName.Length; i++)
+                    {
+                        Actor actor = new Actor();
+                        actor.Name = actorsName[i];
+                        actor.NameUrl = actorsUrl[i];
+
+                        if (!hashActors.ContainsKey(actor.NameUrl))
+                        {
+                            actor.GetInfo();
+                            actorsMutex.WaitOne();
+                            hashActors.Add(actor.NameUrl, actor);
+                            if (tempFile())
+                            {
+                                FileAO.ExportActorToCSV(actor, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\temp_actors.txt");
+                            }
+                            actorsMutex.Release();
+                        }
+                    }
+                }
+                counter++;
+            }
+
+            progressBarProcess.Value = 100;
+            actualActorsCount = hashActors.Count - actualActorsCount;
+            if (logging())
+            {
+                logInfo("Atores adicionados: " + actualActorsCount);
+            }
+        }
+
+        private void GetDirectors()
+        {
+            int counter = 0;
+            int actualDirectorsCount = hashDirectors.Count;
+
+            foreach (string key in hashMovies.Keys)
+            {
+                Movie movie = hashMovies[key];
+
+                progressBarProcess.Value = ((int)((counter / (float)hashMovies.Count) * 100.0f));
+
+                if (movie.Director.Length != 0)
+                {
+                    Director director = new Director();
+                    director.Name = movie.Director;
+                    director.NameUrl = movie.DirectorUrl;
+
+                    if (!hashDirectors.ContainsKey(director.NameUrl))
+                    {
+                        hashDirectors.Add(director.NameUrl, director);
+                        director.GetInfo();
+                    }
+                }
+                if (movie.Actors.Length != 0)
+                {
+                    string[] actorsName = movie.Actors.Split('@');
+                    string[] actorsUrl = movie.ActorsUrl.Split('@');
+
+                    for (int i = 0; i < actorsName.Length; i++)
+                    {
+                        Actor actor = new Actor();
+                        actor.Name = actorsName[i];
+                        actor.NameUrl = actorsUrl[i];
+
+                        if (!hashActors.ContainsKey(actor.NameUrl))
+                        {
+                            actor.GetInfo();
+                            actorsMutex.WaitOne();
+                            hashActors.Add(actor.NameUrl, actor);
+                            if (tempFile())
+                            {
+                                FileAO.ExportActorToCSV(actor, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\temp_actors.txt");
+                            }
+                            actorsMutex.Release();
+                        }
+                    }
+                }
+                counter++;
+            }
+
+            progressBarProcess.Value = 100;
+            actualDirectorsCount = hashActors.Count - actualDirectorsCount;
+            if (logging())
+            {
+                logInfo("Atores adicionados: " + actualDirectorsCount);
+            }
         }
     }
 }

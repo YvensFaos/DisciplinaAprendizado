@@ -39,7 +39,7 @@ namespace ImdbCrawler
             //FileAO.ExportMoviesToCSV(movies, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\movies.txt");
 
             //movies = Movie.ReadMoviesFromCSV(@"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\movies.txt");
-            int counter = 1;
+            //int counter = 1;
 
             //Dictionary<string, Director> hashDirectors = new Dictionary<string, Director>();
             //foreach (Movie movie in movies)

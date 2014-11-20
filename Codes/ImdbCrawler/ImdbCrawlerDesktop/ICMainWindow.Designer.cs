@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.buttonExecuteAction = new System.Windows.Forms.Button();
             this.comboBoxAction = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -38,6 +39,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxLog = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.buttonExportActors = new System.Windows.Forms.Button();
+            this.buttonExportDirectors = new System.Windows.Forms.Button();
+            this.buttonOpenDirectorsList = new System.Windows.Forms.Button();
+            this.buttonOpenActorsList = new System.Windows.Forms.Button();
+            this.labelTotalDirectors = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.labelTotalActors = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.buttonOpenMovieList = new System.Windows.Forms.Button();
             this.textBoxLastIndex = new System.Windows.Forms.TextBox();
             this.textBoxYear2 = new System.Windows.Forms.TextBox();
             this.labelTotalMovies = new System.Windows.Forms.Label();
@@ -63,16 +73,9 @@
             this.comboBoxCharts = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.chartArea = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.buttonOpenMovieList = new System.Windows.Forms.Button();
-            this.buttonExecuteAction = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.labelTotalActors = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.labelTotalDirectors = new System.Windows.Forms.Label();
-            this.buttonOpenActorsList = new System.Windows.Forms.Button();
-            this.buttonOpenDirectorsList = new System.Windows.Forms.Button();
-            this.buttonExportDirectors = new System.Windows.Forms.Button();
-            this.buttonExportActors = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBoxThreads = new System.Windows.Forms.TextBox();
+            this.checkBoxTempFile = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -84,6 +87,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.checkBoxTempFile);
             this.panel1.Controls.Add(this.buttonExecuteAction);
             this.panel1.Controls.Add(this.comboBoxAction);
             this.panel1.Controls.Add(this.label2);
@@ -91,6 +95,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(179, 508);
             this.panel1.TabIndex = 0;
+            // 
+            // buttonExecuteAction
+            // 
+            this.buttonExecuteAction.Location = new System.Drawing.Point(6, 54);
+            this.buttonExecuteAction.Name = "buttonExecuteAction";
+            this.buttonExecuteAction.Size = new System.Drawing.Size(75, 23);
+            this.buttonExecuteAction.TabIndex = 2;
+            this.buttonExecuteAction.Text = "Executar";
+            this.buttonExecuteAction.UseVisualStyleBackColor = true;
+            this.buttonExecuteAction.Click += new System.EventHandler(this.buttonExecuteAction_Click);
             // 
             // comboBoxAction
             // 
@@ -159,6 +173,8 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.textBoxThreads);
+            this.panel4.Controls.Add(this.label12);
             this.panel4.Controls.Add(this.buttonExportActors);
             this.panel4.Controls.Add(this.buttonExportDirectors);
             this.panel4.Controls.Add(this.buttonOpenDirectorsList);
@@ -193,6 +209,92 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(369, 508);
             this.panel4.TabIndex = 1;
+            // 
+            // buttonExportActors
+            // 
+            this.buttonExportActors.Location = new System.Drawing.Point(263, 449);
+            this.buttonExportActors.Name = "buttonExportActors";
+            this.buttonExportActors.Size = new System.Drawing.Size(102, 23);
+            this.buttonExportActors.TabIndex = 29;
+            this.buttonExportActors.Text = "Exportar Atores";
+            this.buttonExportActors.UseVisualStyleBackColor = true;
+            this.buttonExportActors.Click += new System.EventHandler(this.buttonExportActors_Click);
+            // 
+            // buttonExportDirectors
+            // 
+            this.buttonExportDirectors.Location = new System.Drawing.Point(136, 449);
+            this.buttonExportDirectors.Name = "buttonExportDirectors";
+            this.buttonExportDirectors.Size = new System.Drawing.Size(102, 23);
+            this.buttonExportDirectors.TabIndex = 28;
+            this.buttonExportDirectors.Text = "Exportar Diretores";
+            this.buttonExportDirectors.UseVisualStyleBackColor = true;
+            this.buttonExportDirectors.Click += new System.EventHandler(this.buttonExportDirectors_Click);
+            // 
+            // buttonOpenDirectorsList
+            // 
+            this.buttonOpenDirectorsList.Location = new System.Drawing.Point(136, 422);
+            this.buttonOpenDirectorsList.Name = "buttonOpenDirectorsList";
+            this.buttonOpenDirectorsList.Size = new System.Drawing.Size(101, 23);
+            this.buttonOpenDirectorsList.TabIndex = 27;
+            this.buttonOpenDirectorsList.Text = "Carregar Diretores";
+            this.buttonOpenDirectorsList.UseVisualStyleBackColor = true;
+            this.buttonOpenDirectorsList.Click += new System.EventHandler(this.buttonOpenDirectorsList_Click);
+            // 
+            // buttonOpenActorsList
+            // 
+            this.buttonOpenActorsList.Location = new System.Drawing.Point(263, 422);
+            this.buttonOpenActorsList.Name = "buttonOpenActorsList";
+            this.buttonOpenActorsList.Size = new System.Drawing.Size(101, 23);
+            this.buttonOpenActorsList.TabIndex = 26;
+            this.buttonOpenActorsList.Text = "Carregar Atores";
+            this.buttonOpenActorsList.UseVisualStyleBackColor = true;
+            this.buttonOpenActorsList.Click += new System.EventHandler(this.buttonOpenActorsList_Click);
+            // 
+            // labelTotalDirectors
+            // 
+            this.labelTotalDirectors.AutoSize = true;
+            this.labelTotalDirectors.Location = new System.Drawing.Point(133, 398);
+            this.labelTotalDirectors.Name = "labelTotalDirectors";
+            this.labelTotalDirectors.Size = new System.Drawing.Size(13, 13);
+            this.labelTotalDirectors.TabIndex = 25;
+            this.labelTotalDirectors.Text = "0";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(4, 398);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(97, 13);
+            this.label13.TabIndex = 24;
+            this.label13.Text = "Total de Diretores: ";
+            // 
+            // labelTotalActors
+            // 
+            this.labelTotalActors.AutoSize = true;
+            this.labelTotalActors.Location = new System.Drawing.Point(133, 385);
+            this.labelTotalActors.Name = "labelTotalActors";
+            this.labelTotalActors.Size = new System.Drawing.Size(13, 13);
+            this.labelTotalActors.TabIndex = 23;
+            this.labelTotalActors.Text = "0";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(4, 385);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(85, 13);
+            this.label11.TabIndex = 22;
+            this.label11.Text = "Total de Atores: ";
+            // 
+            // buttonOpenMovieList
+            // 
+            this.buttonOpenMovieList.Location = new System.Drawing.Point(7, 420);
+            this.buttonOpenMovieList.Name = "buttonOpenMovieList";
+            this.buttonOpenMovieList.Size = new System.Drawing.Size(102, 23);
+            this.buttonOpenMovieList.TabIndex = 21;
+            this.buttonOpenMovieList.Text = "Carregar Filmes";
+            this.buttonOpenMovieList.UseVisualStyleBackColor = true;
+            this.buttonOpenMovieList.Click += new System.EventHandler(this.buttonOpenMovieList_Click);
             // 
             // textBoxLastIndex
             // 
@@ -428,10 +530,10 @@
             // 
             // chartArea
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chartArea.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chartArea.Legends.Add(legend4);
+            chartArea1.Name = "ChartArea1";
+            this.chartArea.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartArea.Legends.Add(legend1);
             this.chartArea.Location = new System.Drawing.Point(3, 53);
             this.chartArea.Name = "chartArea";
             this.chartArea.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
@@ -439,101 +541,34 @@
             this.chartArea.TabIndex = 0;
             this.chartArea.Text = "chart1";
             // 
-            // buttonOpenMovieList
+            // label12
             // 
-            this.buttonOpenMovieList.Location = new System.Drawing.Point(7, 420);
-            this.buttonOpenMovieList.Name = "buttonOpenMovieList";
-            this.buttonOpenMovieList.Size = new System.Drawing.Size(102, 23);
-            this.buttonOpenMovieList.TabIndex = 21;
-            this.buttonOpenMovieList.Text = "Carregar Filmes";
-            this.buttonOpenMovieList.UseVisualStyleBackColor = true;
-            this.buttonOpenMovieList.Click += new System.EventHandler(this.buttonOpenMovieList_Click);
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(260, 380);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(46, 13);
+            this.label12.TabIndex = 30;
+            this.label12.Text = "Threads";
             // 
-            // buttonExecuteAction
+            // textBoxThreads
             // 
-            this.buttonExecuteAction.Location = new System.Drawing.Point(6, 54);
-            this.buttonExecuteAction.Name = "buttonExecuteAction";
-            this.buttonExecuteAction.Size = new System.Drawing.Size(75, 23);
-            this.buttonExecuteAction.TabIndex = 2;
-            this.buttonExecuteAction.Text = "Executar";
-            this.buttonExecuteAction.UseVisualStyleBackColor = true;
-            this.buttonExecuteAction.Click += new System.EventHandler(this.buttonExecuteAction_Click);
+            this.textBoxThreads.Location = new System.Drawing.Point(263, 396);
+            this.textBoxThreads.Name = "textBoxThreads";
+            this.textBoxThreads.Size = new System.Drawing.Size(98, 20);
+            this.textBoxThreads.TabIndex = 31;
+            this.textBoxThreads.Text = "100";
             // 
-            // label11
+            // checkBoxTempFile
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(4, 385);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(85, 13);
-            this.label11.TabIndex = 22;
-            this.label11.Text = "Total de Atores: ";
-            // 
-            // labelTotalActors
-            // 
-            this.labelTotalActors.AutoSize = true;
-            this.labelTotalActors.Location = new System.Drawing.Point(133, 385);
-            this.labelTotalActors.Name = "labelTotalActors";
-            this.labelTotalActors.Size = new System.Drawing.Size(13, 13);
-            this.labelTotalActors.TabIndex = 23;
-            this.labelTotalActors.Text = "0";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(4, 398);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(97, 13);
-            this.label13.TabIndex = 24;
-            this.label13.Text = "Total de Diretores: ";
-            // 
-            // labelTotalDirectors
-            // 
-            this.labelTotalDirectors.AutoSize = true;
-            this.labelTotalDirectors.Location = new System.Drawing.Point(133, 398);
-            this.labelTotalDirectors.Name = "labelTotalDirectors";
-            this.labelTotalDirectors.Size = new System.Drawing.Size(13, 13);
-            this.labelTotalDirectors.TabIndex = 25;
-            this.labelTotalDirectors.Text = "0";
-            // 
-            // buttonOpenActorsList
-            // 
-            this.buttonOpenActorsList.Location = new System.Drawing.Point(263, 422);
-            this.buttonOpenActorsList.Name = "buttonOpenActorsList";
-            this.buttonOpenActorsList.Size = new System.Drawing.Size(101, 23);
-            this.buttonOpenActorsList.TabIndex = 26;
-            this.buttonOpenActorsList.Text = "Carregar Atores";
-            this.buttonOpenActorsList.UseVisualStyleBackColor = true;
-            this.buttonOpenActorsList.Click += new System.EventHandler(this.buttonOpenActorsList_Click);
-            // 
-            // buttonOpenDirectorsList
-            // 
-            this.buttonOpenDirectorsList.Location = new System.Drawing.Point(136, 422);
-            this.buttonOpenDirectorsList.Name = "buttonOpenDirectorsList";
-            this.buttonOpenDirectorsList.Size = new System.Drawing.Size(101, 23);
-            this.buttonOpenDirectorsList.TabIndex = 27;
-            this.buttonOpenDirectorsList.Text = "Carregar Diretores";
-            this.buttonOpenDirectorsList.UseVisualStyleBackColor = true;
-            this.buttonOpenDirectorsList.Click += new System.EventHandler(this.buttonOpenDirectorsList_Click);
-            // 
-            // buttonExportDirectors
-            // 
-            this.buttonExportDirectors.Location = new System.Drawing.Point(136, 449);
-            this.buttonExportDirectors.Name = "buttonExportDirectors";
-            this.buttonExportDirectors.Size = new System.Drawing.Size(102, 23);
-            this.buttonExportDirectors.TabIndex = 28;
-            this.buttonExportDirectors.Text = "Exportar Diretores";
-            this.buttonExportDirectors.UseVisualStyleBackColor = true;
-            this.buttonExportDirectors.Click += new System.EventHandler(this.buttonExportDirectors_Click);
-            // 
-            // buttonExportActors
-            // 
-            this.buttonExportActors.Location = new System.Drawing.Point(263, 449);
-            this.buttonExportActors.Name = "buttonExportActors";
-            this.buttonExportActors.Size = new System.Drawing.Size(102, 23);
-            this.buttonExportActors.TabIndex = 29;
-            this.buttonExportActors.Text = "Exportar Atores";
-            this.buttonExportActors.UseVisualStyleBackColor = true;
-            this.buttonExportActors.Click += new System.EventHandler(this.buttonExportActors_Click);
+            this.checkBoxTempFile.AutoSize = true;
+            this.checkBoxTempFile.Checked = true;
+            this.checkBoxTempFile.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxTempFile.Location = new System.Drawing.Point(6, 87);
+            this.checkBoxTempFile.Name = "checkBoxTempFile";
+            this.checkBoxTempFile.Size = new System.Drawing.Size(163, 17);
+            this.checkBoxTempFile.TabIndex = 3;
+            this.checkBoxTempFile.Text = "Salvar em arquivo temporário";
+            this.checkBoxTempFile.UseVisualStyleBackColor = true;
             // 
             // ICMainWindow
             // 
@@ -604,6 +639,9 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label labelTotalActors;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBoxThreads;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.CheckBox checkBoxTempFile;
     }
 }
 

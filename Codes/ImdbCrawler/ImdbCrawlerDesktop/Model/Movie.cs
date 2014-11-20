@@ -262,6 +262,7 @@ namespace ImdbCrawler.Model
                     }
                     catch (Exception e)
                     {
+                        Console.WriteLine(e.Message);
                         rating = 0;
                     }
 

@@ -29,7 +29,7 @@ namespace ImdbCrawlerDesktop
 
     public enum ChartType
     {
-        MOVIES_BY_RATING, MOVIE_BY_GENRE
+        MOVIES_BY_RATING, MOVIE_BY_GENRE, ACTORS_AWARDED, DIRECTORS_AWARDED
     }
 
     public enum ActionType
