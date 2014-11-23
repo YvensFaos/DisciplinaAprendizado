@@ -248,13 +248,13 @@ namespace ImdbCrawlerDesktop
                         {
                             Actor actor = hashActors[key];
 
-                            if (actor.Awards > 0)
-                            {
-                                awarded++;
-                            }
-                            else if (actor.Oscar)
+                            if (actor.Oscar)
                             {
                                 oscar++;
+                            }
+                            else if (actor.Awards > 0)
+                            {
+                                awarded++;
                             }
                             else
                             {
@@ -308,13 +308,14 @@ namespace ImdbCrawlerDesktop
                         {
                             Director director = hashDirectors[key];
 
-                            if (director.Awards > 0)
-                            {
-                                awarded++;
-                            }
-                            else if (director.Oscar)
+                           
+                            if (director.Oscar)
                             {
                                 oscar++;
+                            }
+                            else if (director.Awards > 0)
+                            {
+                                awarded++;
                             }
                             else
                             {
