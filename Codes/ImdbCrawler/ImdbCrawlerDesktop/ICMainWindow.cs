@@ -600,7 +600,7 @@ namespace ImdbCrawlerDesktop
             }
             else if (comboBoxAction.SelectedIndex == 1)
             {
-                Thread thread = new Thread(() => GetActors());
+                Thread thread = new Thread(() => GetDirectors());
                 thread.Start();
             }
         }
@@ -609,6 +609,7 @@ namespace ImdbCrawlerDesktop
         {
             int counter = 0;
             int actualActorsCount = hashActors.Count;
+            progressBarProcess.Value = 0;
 
             foreach (string key in hashMovies.Keys)
             {
@@ -655,6 +656,7 @@ namespace ImdbCrawlerDesktop
         {
             int counter = 0;
             int actualDirectorsCount = hashDirectors.Count;
+            progressBarProcess.Value = 0;
 
             foreach (string key in hashMovies.Keys)
             {
@@ -670,42 +672,25 @@ namespace ImdbCrawlerDesktop
 
                     if (!hashDirectors.ContainsKey(director.NameUrl))
                     {
-                        hashDirectors.Add(director.NameUrl, director);
                         director.GetInfo();
-                    }
-                }
-                if (movie.Actors.Length != 0)
-                {
-                    string[] actorsName = movie.Actors.Split('@');
-                    string[] actorsUrl = movie.ActorsUrl.Split('@');
 
-                    for (int i = 0; i < actorsName.Length; i++)
-                    {
-                        Actor actor = new Actor();
-                        actor.Name = actorsName[i];
-                        actor.NameUrl = actorsUrl[i];
-
-                        if (!hashActors.ContainsKey(actor.NameUrl))
+                        directorsMutex.WaitOne();
+                        hashDirectors.Add(director.NameUrl, director);
+                        if (tempFile())
                         {
-                            actor.GetInfo();
-                            actorsMutex.WaitOne();
-                            hashActors.Add(actor.NameUrl, actor);
-                            if (tempFile())
-                            {
-                                FileAO.ExportActorToCSV(actor, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\temp_actors.txt");
-                            }
-                            actorsMutex.Release();
+                            FileAO.ExportDirectorToCSV(director, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\temp_directors.txt");
                         }
+                        directorsMutex.Release();
                     }
                 }
                 counter++;
             }
 
             progressBarProcess.Value = 100;
-            actualDirectorsCount = hashActors.Count - actualDirectorsCount;
+            actualDirectorsCount = hashDirectors.Count - actualDirectorsCount;
             if (logging())
             {
-                logInfo("Atores adicionados: " + actualDirectorsCount);
+                logInfo("Diretores adicionados: " + actualDirectorsCount);
             }
         }
     }
