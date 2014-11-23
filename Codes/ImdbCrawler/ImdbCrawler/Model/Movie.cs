@@ -360,6 +360,112 @@ namespace ImdbCrawler.Model
             return movies;
         }
 
+        public static void ExportMoviesToWeka(Dictionary<string, Movie> movies, string destination)
+        {
+            List<string> fileLines = new List<string>();
+
+            fileLines.Add("@RELATION movie");
+            fileLines.Add("@ATTRIBUTE duration {Short,Regular,Long,Very_Long}");
+            fileLines.Add("@ATTRIBUTE awardedDirector {0,1}");
+            fileLines.Add("@ATTRIBUTE oscarDirector {0,1}");
+            fileLines.Add("@ATTRIBUTE awardedActor {0,1}");
+            fileLines.Add("@ATTRIBUTE oscarActor {0,1}");
+            fileLines.Add("@ATTRIBUTE genre {Drama,Horror,Action,Comedy,Others}");
+            fileLines.Add("@ATTRIBUTE certificate {G, R, PG_13, PG, NOT_RATED}");
+            fileLines.Add("@ATTRIBUTE rating {Bad,Regular,Good}");
+            fileLines.Add("@DATA");
+
+            string line = "";
+            foreach(string key in movies.Keys)
+            {
+                Movie movie = movies[key];
+
+                string runtime = "";
+                if (movie.Runtime < 88.0f)
+                {
+                    runtime = "Short";
+                }
+                else if (movie.Runtime < 122.0f)
+                {
+                    runtime = "Regular";
+                }
+                else if (movie.Runtime < 160.0f)
+                {
+                    runtime = "Long";
+                }
+                else
+                {
+                    runtime = "Very_Long";
+                }
+                line += runtime + ",";
+
+                line += ((movie.AwardedDirector) ? "1" : "0") + ",";
+                line += ((movie.OscarDirector) ? "1" : "0") + ",";
+                line += ((movie.AwardedActors) ? "1" : "0") + ",";
+                line += ((movie.OscarActors) ? "1" : "0") + ",";
+
+                string genre = "";
+                string actualGenre = movie.Genre.Split('@')[0];
+                #region defining genre
+                if (actualGenre.Equals("Drama") || actualGenre.Equals("Family") || actualGenre.Equals("Romance") || actualGenre.Equals("History") || actualGenre.Equals("Reality-TV") || actualGenre.Equals("Adult") || actualGenre.Equals("Biography"))
+                {
+                    genre = "Drama";
+                }
+                else if (actualGenre.Equals("Horror") || actualGenre.Equals("Thriller") || actualGenre.Equals("Mistery"))
+                {
+                    genre = "Horror";
+                }
+                else if (actualGenre.Equals("Action") || actualGenre.Equals("Adventure") || actualGenre.Equals("Crime") || actualGenre.Equals("Sci-Fi") || actualGenre.Equals("Fantasy") || actualGenre.Equals("War") || actualGenre.Equals("Western") || actualGenre.Equals("Sport"))
+                {
+                    genre = "Action";
+                }
+                else if (actualGenre.Equals("Comedy"))
+                {
+                    genre = "Comedy";
+                }
+                else
+                {
+                    genre = "Others";
+                }
+                #endregion
+
+                line += genre + ",";
+
+                string certificate = "";
+                if (movie.Certificate.Equals("R"))
+                {
+                    certificate = "R";
+                }
+                else if (movie.Certificate.Equals("G"))
+                {
+                    certificate = "G";
+                }
+                else if (movie.Certificate.Equals("PG_13"))
+                {
+                    certificate = "PG_13";
+                }
+                else if (movie.Certificate.Equals("PG"))
+                {
+                    certificate = "PG";
+                }
+                else
+                {
+                    certificate = "NOT_RATED";
+                }
+
+                line += certificate + ",";
+
+                movie.GetClassification();
+                string rating = movie.Classification;
+
+                line += rating;
+                fileLines.Add(line);
+                line = "";
+            }
+
+            FileAO.ExportToArff(fileLines, destination);
+        }
+
         public static void ExportMoviesToWeka(List<Movie> movies, string destination)
         {
             List<string> fileLines = new List<string>();

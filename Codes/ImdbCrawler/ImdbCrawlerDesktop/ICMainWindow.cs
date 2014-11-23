@@ -604,6 +604,23 @@ namespace ImdbCrawlerDesktop
                 Thread thread = new Thread(() => GetDirectors());
                 thread.Start();
             }
+            else if (comboBoxAction.SelectedIndex == 2)
+            {
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Reset();
+                saveFileDialog.InitialDirectory = @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\";
+                saveFileDialog.Filter = "arff files (*.arff)|*.arff";
+                saveFileDialog.FilterIndex = 1;
+                saveFileDialog.RestoreDirectory = true;
+
+                string path = "";
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    path = saveFileDialog.FileName;
+                    Thread thread = new Thread(() => ExportToWeka(path));
+                    thread.Start();
+                }
+            }
         }
 
         private void GetActors()
@@ -693,6 +710,25 @@ namespace ImdbCrawlerDesktop
             {
                 logInfo("Diretores adicionados: " + actualDirectorsCount);
             }
+        }
+
+        private void ExportToWeka(string destination)
+        {
+            if (logging())
+            {
+                logInfo("Exportando para WEKA.");
+            }
+            int counter = 0;
+
+            foreach (string key in hashMovies.Keys)
+            {
+                hashMovies[key].GetDetailedInfo(hashActors, hashDirectors);
+                progressBarProcess.Value = ((int)((counter / (float)hashMovies.Count) * 50.0f));
+            }
+
+            Movie.ExportMoviesToWeka(hashMovies, destination);
+
+            progressBarProcess.Value = 100;
         }
     }
 }

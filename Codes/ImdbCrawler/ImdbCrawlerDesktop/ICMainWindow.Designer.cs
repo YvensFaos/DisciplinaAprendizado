@@ -31,6 +31,7 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.checkBoxTempFile = new System.Windows.Forms.CheckBox();
             this.buttonExecuteAction = new System.Windows.Forms.Button();
             this.comboBoxAction = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -39,6 +40,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxLog = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.textBoxThreads = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.buttonExportActors = new System.Windows.Forms.Button();
             this.buttonExportDirectors = new System.Windows.Forms.Button();
             this.buttonOpenDirectorsList = new System.Windows.Forms.Button();
@@ -73,9 +76,6 @@
             this.comboBoxCharts = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.chartArea = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBoxThreads = new System.Windows.Forms.TextBox();
-            this.checkBoxTempFile = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -96,6 +96,18 @@
             this.panel1.Size = new System.Drawing.Size(179, 508);
             this.panel1.TabIndex = 0;
             // 
+            // checkBoxTempFile
+            // 
+            this.checkBoxTempFile.AutoSize = true;
+            this.checkBoxTempFile.Checked = true;
+            this.checkBoxTempFile.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxTempFile.Location = new System.Drawing.Point(6, 87);
+            this.checkBoxTempFile.Name = "checkBoxTempFile";
+            this.checkBoxTempFile.Size = new System.Drawing.Size(163, 17);
+            this.checkBoxTempFile.TabIndex = 3;
+            this.checkBoxTempFile.Text = "Salvar em arquivo temporário";
+            this.checkBoxTempFile.UseVisualStyleBackColor = true;
+            // 
             // buttonExecuteAction
             // 
             this.buttonExecuteAction.Location = new System.Drawing.Point(6, 54);
@@ -111,7 +123,8 @@
             this.comboBoxAction.FormattingEnabled = true;
             this.comboBoxAction.Items.AddRange(new object[] {
             "Buscar Atores",
-            "Buscar Diretores"});
+            "Buscar Diretores",
+            "Exportar para Weka"});
             this.comboBoxAction.Location = new System.Drawing.Point(6, 26);
             this.comboBoxAction.Name = "comboBoxAction";
             this.comboBoxAction.Size = new System.Drawing.Size(168, 21);
@@ -209,6 +222,23 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(369, 508);
             this.panel4.TabIndex = 1;
+            // 
+            // textBoxThreads
+            // 
+            this.textBoxThreads.Location = new System.Drawing.Point(263, 396);
+            this.textBoxThreads.Name = "textBoxThreads";
+            this.textBoxThreads.Size = new System.Drawing.Size(98, 20);
+            this.textBoxThreads.TabIndex = 31;
+            this.textBoxThreads.Text = "100";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(260, 380);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(46, 13);
+            this.label12.TabIndex = 30;
+            this.label12.Text = "Threads";
             // 
             // buttonExportActors
             // 
@@ -540,35 +570,6 @@
             this.chartArea.Size = new System.Drawing.Size(419, 275);
             this.chartArea.TabIndex = 0;
             this.chartArea.Text = "chart1";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(260, 380);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(46, 13);
-            this.label12.TabIndex = 30;
-            this.label12.Text = "Threads";
-            // 
-            // textBoxThreads
-            // 
-            this.textBoxThreads.Location = new System.Drawing.Point(263, 396);
-            this.textBoxThreads.Name = "textBoxThreads";
-            this.textBoxThreads.Size = new System.Drawing.Size(98, 20);
-            this.textBoxThreads.TabIndex = 31;
-            this.textBoxThreads.Text = "100";
-            // 
-            // checkBoxTempFile
-            // 
-            this.checkBoxTempFile.AutoSize = true;
-            this.checkBoxTempFile.Checked = true;
-            this.checkBoxTempFile.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxTempFile.Location = new System.Drawing.Point(6, 87);
-            this.checkBoxTempFile.Name = "checkBoxTempFile";
-            this.checkBoxTempFile.Size = new System.Drawing.Size(163, 17);
-            this.checkBoxTempFile.TabIndex = 3;
-            this.checkBoxTempFile.Text = "Salvar em arquivo temporário";
-            this.checkBoxTempFile.UseVisualStyleBackColor = true;
             // 
             // ICMainWindow
             // 
