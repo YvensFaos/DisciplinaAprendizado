@@ -766,6 +766,7 @@ namespace ImdbCrawlerDesktop
             mean /= hashMovies.Count;
 
             logInfo("Média das notas: " + mean);
+            progressBarProcess.Value = 100;
 
             float standard = 0;
             counter = 0;
@@ -781,6 +782,45 @@ namespace ImdbCrawlerDesktop
             logInfo("Desvio padrão das notas: " + standard);
 
             progressBarProcess.Value = 100;
+
+            //Teste
+            int b = 0, c = 0, d = 0, e = 0, f = 0;
+            mean = 0.0f;
+
+            foreach (string key in hashMovies.Keys)
+            {
+                Movie movie = hashMovies[key];
+
+                if (movie.Rating <= 40)
+                {
+                    //mean += movie.Rating;
+                    b++;
+                }
+                else if (movie.Rating <= 52)
+                {
+                    //mean += movie.Rating;
+                    c++;
+                }
+                else if (movie.Rating <= 64)
+                {
+                    d++;
+                }
+                else if (movie.Rating <= 79)
+                {
+                    e++;
+                }
+                else
+                {
+                    f++;
+                }
+
+            }
+            logInfo("Desvio 00 a 40: " + b);
+            //mean /= c;
+            logInfo("Desvio 40 a 52: " + c);
+            logInfo("Desvio 52 a 64: " + d);
+            logInfo("Desvio 64 a 79: " + e);
+            logInfo("Desvio 79 a 99: " + f);
         }
 
         private void GetMovieTags()

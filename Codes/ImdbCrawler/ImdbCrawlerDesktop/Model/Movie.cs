@@ -138,7 +138,140 @@ namespace ImdbCrawler.Model
             get { return classification; }
             set { classification = value; }
         }
+
+        private bool isViolent;
+
+        public bool IsViolent
+        {
+            get { return isViolent; }
+            set { isViolent = value; }
+        }
+        private bool haveFireguns;
+
+        public bool HaveFireguns
+        {
+            get { return haveFireguns; }
+            set { haveFireguns = value; }
+        }
+        private bool isGoreViolent;
+
+        public bool IsGoreViolent
+        {
+            get { return isGoreViolent; }
+            set { isGoreViolent = value; }
+        }
+        private bool hasSex;
+
+        public bool HasSex
+        {
+            get { return hasSex; }
+            set { hasSex = value; }
+        }
+        private bool hasNudeScenes;
+
+        public bool HasNudeScenes
+        {
+            get { return hasNudeScenes; }
+            set { hasNudeScenes = value; }
+        }
+        private bool aboutRelationships;
+
+        public bool AboutRelationships
+        {
+            get { return aboutRelationships; }
+            set { aboutRelationships = value; }
+        }
+        private bool aboutFamily;
+
+        public bool AboutFamily
+        {
+            get { return aboutFamily; }
+            set { aboutFamily = value; }
+        }
+        private bool hasFlashbacks;
+
+        public bool HasFlashbacks
+        {
+            get { return hasFlashbacks; }
+            set { hasFlashbacks = value; }
+        }
+        private bool hasSurpriseEnding;
+
+        public bool HasSurpriseEnding
+        {
+            get { return hasSurpriseEnding; }
+            set { hasSurpriseEnding = value; }
+        }
+        private bool aboutHumanDrama;
+
+        public bool AboutHumanDrama
+        {
+            get { return aboutHumanDrama; }
+            set { aboutHumanDrama = value; }
+        }
+        private bool aboutNatureOrCity;
+
+        public bool AboutNatureOrCity
+        {
+            get { return aboutNatureOrCity; }
+            set { aboutNatureOrCity = value; }
+        }
+        private bool hasNowadaysTechnology;
+
+        public bool HasNowadaysTechnology
+        {
+            get { return hasNowadaysTechnology; }
+            set { hasNowadaysTechnology = value; }
+        }
+        private bool isSequel;
+
+        public bool IsSequel
+        {
+            get { return isSequel; }
+            set { isSequel = value; }
+        }
+        private bool isBasedOnNovel;
+
+        public bool IsBasedOnNovel
+        {
+            get { return isBasedOnNovel; }
+            set { isBasedOnNovel = value; }
+        }
+        private bool isWrittenByDirector;
+
+        public bool IsWrittenByDirector
+        {
+            get { return isWrittenByDirector; }
+            set { isWrittenByDirector = value; }
+        }
+        private bool isIndependent;
+
+        public bool IsIndependent
+        {
+            get { return isIndependent; }
+            set { isIndependent = value; }
+        }
+        private bool hasCameraWorks;
+
+        public bool HasCameraWorks
+        {
+            get { return hasCameraWorks; }
+            set { hasCameraWorks = value; }
+        }
 #endregion
+
+        private static List<string> violent;
+        private static List<string> firegun;
+        private static List<string> gore;
+        private static List<string> sex;
+        private static List<string> nude;
+        private static List<string> relationship;
+        private static List<string> family;
+        private static List<string> humandrama;
+        private static List<string> natureorcity;
+        private static List<string> nowadaystechnology;
+        private static List<string> camerawork;
+
 
         public Movie()
         { }
@@ -172,10 +305,6 @@ namespace ImdbCrawler.Model
                     movie.OscarDirector =   (parameters[i++][0] == 'T') ? true : false;
                     movie.AwardedActors =   (parameters[i++][0] == 'T') ? true : false;
                     movie.OscarActors =     (parameters[i++][0] == 'T') ? true : false;
-                }
-                if (parameters.Length > i)
-                {
-
                 }
                 movies.Add(movie);
             }
@@ -382,7 +511,7 @@ namespace ImdbCrawler.Model
             fileLines.Add("@ATTRIBUTE oscarActor {0,1}");
             fileLines.Add("@ATTRIBUTE genre {Drama,Horror,Action,Comedy,Others}");
             fileLines.Add("@ATTRIBUTE certificate {G, R, PG_13, PG, NOT_RATED}");
-            fileLines.Add("@ATTRIBUTE rating {Bad,Regular,Good}");
+            fileLines.Add("@ATTRIBUTE rating {Very Bad, Bad,Regular,Good, Excellent}");
             fileLines.Add("@DATA");
 
             string line = "";
@@ -393,8 +522,6 @@ namespace ImdbCrawler.Model
             int shorte = 0, regular = 0, longe = 0, verylong = 0;
             foreach (Movie movie in movies)
             {
-                //line += movie.Runtime + ",";
-
                 string runtime = "";
                 if (movie.Runtime < 88.0f)
                 {
@@ -669,13 +796,22 @@ namespace ImdbCrawler.Model
                 {
                     i++;
                     line = pageLines[i].Trim();
-                    //">nazis</a>"
 
                     string tag = line.Substring(1);
                     int pos = tag.IndexOf("</");
                     tag = tag.Substring(0, pos);
                     tags.Add(tag);
                     Console.WriteLine();
+                }
+            }
+
+            //Verificar as tags
+            if (tags.Count > 0)
+            {
+                foreach (string tag in tags)
+                {
+                    //isViolent
+                    
                 }
             }
 
