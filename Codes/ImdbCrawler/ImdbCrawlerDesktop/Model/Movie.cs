@@ -655,6 +655,33 @@ namespace ImdbCrawler.Model
             FileAO.ExportToArff(fileLines, destination);
         }
 
+        public List<string> GetTags()
+        {
+            List<string> tags = new List<string>();
+
+            string htmlPage = WebAO.CodeHtml("http://www.imdb.com/title/"+NameUrl+"/keywords?ref_=ttpl_sa_3");
+            string[] pageLines = htmlPage.Split('\n');
+
+            for (int i = 0; i < pageLines.Length; i++)
+            {
+                string line = pageLines[i].Trim();
+                if (line.Contains("<a href=\"/keyword"))
+                {
+                    i++;
+                    line = pageLines[i].Trim();
+                    //">nazis</a>"
+
+                    string tag = line.Substring(1);
+                    int pos = tag.IndexOf("</");
+                    tag = tag.Substring(0, pos);
+                    tags.Add(tag);
+                    Console.WriteLine();
+                }
+            }
+
+            return tags;
+        }
+
         public void GetBusinessInfo()
         {
             string url = "http://www.imdb.com/title/@/business?ref_=ttco_ql_4";

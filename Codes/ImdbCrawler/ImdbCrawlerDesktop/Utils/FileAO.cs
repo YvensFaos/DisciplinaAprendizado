@@ -95,6 +95,17 @@ namespace ImdbCrawler.Utils
             }
         }
 
+        public static void ExportTagsToTxt(Dictionary<string, int> tags, string destination)
+        {
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(destination, true))
+            {
+                foreach (string tag in tags.Keys)
+                {
+                    file.WriteLine(tag+";"+tags[tag]);
+                }
+            }
+        }
+
         public static string[] ReadFile(string filepath)
         {
             string[] lines = File.ReadAllLines(filepath);

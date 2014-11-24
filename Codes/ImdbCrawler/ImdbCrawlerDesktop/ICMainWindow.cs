@@ -21,6 +21,7 @@ namespace ImdbCrawlerDesktop
         private Dictionary<string, Movie> hashMovies;
         private Dictionary<string, Director> hashDirectors;
         private Dictionary<string, Actor> hashActors;
+        private Dictionary<string, int> hashTags;
 
         private Semaphore logMutex;
         private Semaphore moviesMutex;
@@ -31,7 +32,7 @@ namespace ImdbCrawlerDesktop
         {
             InitializeComponent();
 
-            comboBoxAction.SelectedIndex = 0;
+            comboBoxAction.SelectedIndex = 3;
             comboBoxCharts.SelectedIndex = 0;
             comboBoxSortBy.SelectedIndex = 0;
 
@@ -44,6 +45,7 @@ namespace ImdbCrawlerDesktop
             hashMovies = new Dictionary<string, Movie>();
             hashDirectors = new Dictionary<string, Director>();
             hashActors = new Dictionary<string, Actor>();
+            hashTags = new Dictionary<string, int>();
 
             logMutex = new Semaphore(0, 1);
             logMutex.Release();
@@ -621,6 +623,11 @@ namespace ImdbCrawlerDesktop
                     thread.Start();
                 }
             }
+            else if (comboBoxAction.SelectedIndex == 3)
+            {
+                Thread thread = new Thread(() => GetMovieTags());
+                thread.Start();
+            }
         }
 
         private void GetActors()
@@ -729,6 +736,53 @@ namespace ImdbCrawlerDesktop
             Movie.ExportMoviesToWeka(hashMovies, destination);
 
             progressBarProcess.Value = 100;
+
+            if (logging())
+            {
+                logInfo("Exportado para: " + destination);
+            }
+        }
+
+        private void GetMovieTags()
+        {
+            if (logging())
+            {
+                logInfo("Carregando tags dos filmes.");
+            }
+            int counter = 0;
+
+            try
+            {
+                foreach (string key in hashMovies.Keys)
+                {
+                    List<string> tags = hashMovies[key].GetTags();
+                    progressBarProcess.Value = ((int)((counter++ / (float)hashMovies.Count) * 100.0f));
+
+                    foreach (string tag in tags)
+                    {
+                        if (hashTags.ContainsKey(tag))
+                        {
+                            hashTags[tag]++;
+                        }
+                        else
+                        {
+                            hashTags.Add(tag, 1);
+                        }
+                    }
+                }
+            }
+            catch
+            {
+                FileAO.ExportTagsToTxt(hashTags, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\temp_tags.txt");
+            }
+
+            FileAO.ExportTagsToTxt(hashTags, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\tags.txt");
+            progressBarProcess.Value = 100;
+
+            if (logging())
+            {
+                logInfo("Sucesso!");
+            }
         }
     }
 }

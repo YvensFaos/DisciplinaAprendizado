@@ -124,7 +124,8 @@
             this.comboBoxAction.Items.AddRange(new object[] {
             "Buscar Atores",
             "Buscar Diretores",
-            "Exportar para Weka"});
+            "Exportar para Weka",
+            "Buscar tags"});
             this.comboBoxAction.Location = new System.Drawing.Point(6, 26);
             this.comboBoxAction.Name = "comboBoxAction";
             this.comboBoxAction.Size = new System.Drawing.Size(168, 21);
