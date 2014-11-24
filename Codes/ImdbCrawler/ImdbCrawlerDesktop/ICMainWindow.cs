@@ -837,6 +837,7 @@ namespace ImdbCrawlerDesktop
                 foreach (string key in hashMovies.Keys)
                 {
                     List<string> tags = hashMovies[key].GetTags();
+                    FileAO.ExportMovieTagToCSV(hashMovies[key], @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\movie_temp_tags.txt");
                     progressBarProcess.Value = ((int)((counter++ / (float)hashMovies.Count) * 100.0f));
 
                     foreach (string tag in tags)

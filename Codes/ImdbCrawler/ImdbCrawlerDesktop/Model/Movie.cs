@@ -146,12 +146,12 @@ namespace ImdbCrawler.Model
             get { return isViolent; }
             set { isViolent = value; }
         }
-        private bool haveFireguns;
+        private bool hasFireguns;
 
-        public bool HaveFireguns
+        public bool HasFireguns
         {
-            get { return haveFireguns; }
-            set { haveFireguns = value; }
+            get { return hasFireguns; }
+            set { hasFireguns = value; }
         }
         private bool isGoreViolent;
 
@@ -272,6 +272,186 @@ namespace ImdbCrawler.Model
         private static List<string> nowadaystechnology;
         private static List<string> camerawork;
 
+        static Movie()
+        {
+            violent = new List<string>();
+            firegun = new List<string>();
+            gore = new List<string>();
+            sex = new List<string>();
+            nude = new List<string>();
+            relationship = new List<string>();
+            family = new List<string>();
+            humandrama = new List<string>();
+            natureorcity = new List<string>();
+            nowadaystechnology = new List<string>();
+            camerawork = new List<string>();
+
+            camerawork.Add("photograph");
+            camerawork.Add("slow motion scene");
+            camerawork.Add("lens flare");
+            camerawork.Add("subjective camera");
+            camerawork.Add("character's point of view camera shot");
+
+            nowadaystechnology.Add("cell phone");
+            nowadaystechnology.Add("telephone call");
+            nowadaystechnology.Add("helicopter");
+            nowadaystechnology.Add("news report");
+            nowadaystechnology.Add("watching tv");
+            nowadaystechnology.Add("motorcycle");
+            nowadaystechnology.Add("airplane");
+            nowadaystechnology.Add("airport");
+
+            natureorcity.Add("new york city");
+            natureorcity.Add("snow");
+            natureorcity.Add("rain");
+            natureorcity.Add("beach");
+            natureorcity.Add("forest");
+            natureorcity.Add("los angeles california");
+            natureorcity.Add("london england");
+            natureorcity.Add("desert");
+            natureorcity.Add("airport");
+
+            humandrama.Add("death");
+            humandrama.Add("violence");
+            humandrama.Add("friendship");
+            humandrama.Add("revenge");
+            humandrama.Add("love");
+            humandrama.Add("cigarette smoking");
+            humandrama.Add("hospital");
+            humandrama.Add("kidnapping");
+            humandrama.Add("drunkenness");
+            humandrama.Add("deception");
+            humandrama.Add("betrayal");
+            humandrama.Add("crying");
+            humandrama.Add("infidelity");
+            humandrama.Add("fear");
+            humandrama.Add("money");
+            humandrama.Add("drinking");
+            humandrama.Add("marriage");
+            humandrama.Add("drugs");
+            humandrama.Add("teacher");
+
+            family.Add("husband wife relationship");
+            family.Add("father son relationship");
+            family.Add("father daughter relationship");
+            family.Add("mother son relationship");
+            family.Add("mother daughter relationship");
+            family.Add("family relationships");
+            family.Add("brother sister relationship");
+            family.Add("brother brother relationship");
+            family.Add("pregnancy");
+            family.Add("death of father");
+            family.Add("wedding");
+            family.Add("marriage");
+            family.Add("sister sister relationship");
+            family.Add("death of mother");
+
+            relationship.Add("husband wife relationship");
+            relationship.Add("father son relationship");
+            relationship.Add("father daughter relationship");
+            relationship.Add("mother son relationship");
+            relationship.Add("friendship");
+            relationship.Add("love");
+            relationship.Add("mother daughter relationship");
+            relationship.Add("boyfriend girlfriend relationship");
+            relationship.Add("family relationships");
+            relationship.Add("brother sister relationship");
+            relationship.Add("character says i love you");
+            relationship.Add("brother brother relationship");
+            relationship.Add("pregnancy");
+            relationship.Add("friend");
+            relationship.Add("infidelity");
+            relationship.Add("death of father");
+            relationship.Add("death of friend");
+            relationship.Add("teenage boy");
+            relationship.Add("boy");
+            relationship.Add("wedding");
+            relationship.Add("marriage");
+            relationship.Add("sister sister relationship");
+            relationship.Add("jealousy");
+            relationship.Add("death of mother");
+            relationship.Add("school");
+
+            nude.Add("female nudity");
+            nude.Add("topless female nudity");
+            nude.Add("bare breasts");
+            nude.Add("male rear nudity");
+            nude.Add("nudity");
+            nude.Add("male nudity");
+            nude.Add("female frontal nudity");
+            nude.Add("female rear nudity");
+            nude.Add("male frontal nudity");
+
+            sex.Add("bare chested male");
+            sex.Add("female nudity");
+            sex.Add("kiss");
+            sex.Add("topless female nudity");
+            sex.Add("bare breasts");
+            sex.Add("male rear nudity");
+            sex.Add("nudity");
+            sex.Add("sex");
+            sex.Add("male nudity");
+            sex.Add("sex scene");
+            sex.Add("masturbation");
+            sex.Add("kissing");
+            sex.Add("prostitute");
+            sex.Add("female frontal nudity");
+            sex.Add("female rear nudity");
+            sex.Add("male frontal nudity");
+
+            gore.Add("blood");
+            gore.Add("corpse");
+            gore.Add("torture");
+            gore.Add("gore");
+            gore.Add("blood splatter");
+            gore.Add("blood spatter");
+            gore.Add("exploding body");
+            gore.Add("decapitation");
+
+            firegun.Add("pistol");
+            firegun.Add("shot in the chest");
+            firegun.Add("shot to death");
+            firegun.Add("shot in the head");
+            firegun.Add("shot in the back");
+            firegun.Add("shotgun");
+            firegun.Add("gun");
+            firegun.Add("shot in the forehead");
+
+            violent.Add("murder");
+            violent.Add("blood");
+            violent.Add("death");
+            violent.Add("violence");
+            violent.Add("pistol");
+            violent.Add("punched in the face");
+            violent.Add("revenge");
+            violent.Add("shot in the chest");
+            violent.Add("shot to death");
+            violent.Add("shot in the head");
+            violent.Add("corpse");
+            violent.Add("knife");
+            violent.Add("kidnapping");
+            violent.Add("beating");
+            violent.Add("shot in the back");
+            violent.Add("martial arts");
+            violent.Add("shotgun");
+            violent.Add("torture");
+            violent.Add("gore");
+            violent.Add("blood splatter");
+            violent.Add("gun");
+            violent.Add("suicide");
+            violent.Add("stabbed in the chest");
+            violent.Add("stabbed to death");
+            violent.Add("hostage");
+            violent.Add("hand to hand combat");
+            violent.Add("shot in the forehead");
+            violent.Add("blood spatter");
+            violent.Add("stabbed in the back");
+            violent.Add("exploding body");
+            violent.Add("decapitation");
+            violent.Add("battle");
+            violent.Add("impalement");
+            violent.Add("severed head");
+        }
 
         public Movie()
         { }
@@ -418,7 +598,6 @@ namespace ImdbCrawler.Model
 
                     foreach (string act1 in actorParams)
                     {
-                        //act = "<a href=\"/name/nm0705356/\">Daniel Radcliffe</a>"
                         string act = act1.Trim();
                         int size = "<a href=\"/name/".Length;
                         int indexEnd1 = act.IndexOf("/\">");
@@ -503,7 +682,6 @@ namespace ImdbCrawler.Model
             List<string> fileLines = new List<string>();
 
             fileLines.Add("@RELATION movie");
-            //fileLines.Add("@ATTRIBUTE duration NUMERIC");
             fileLines.Add("@ATTRIBUTE duration {Short,Regular,Long,Very_Long}");
             fileLines.Add("@ATTRIBUTE awardedDirector {0,1}");
             fileLines.Add("@ATTRIBUTE oscarDirector {0,1}");
@@ -516,32 +694,24 @@ namespace ImdbCrawler.Model
 
             string line = "";
 
-            int a = 0, b = 0, c = 0;
-
-            int drama = 0, horror = 0, action = 0, comedy = 0, others = 0;
-            int shorte = 0, regular = 0, longe = 0, verylong = 0;
             foreach (Movie movie in movies)
             {
                 string runtime = "";
                 if (movie.Runtime < 88.0f)
                 {
                     runtime = "Short";
-                    shorte++;
                 }
                 else if (movie.Runtime < 122.0f)
                 {
                     runtime = "Regular";
-                    regular++;
                 }
                 else if (movie.Runtime < 160.0f)
                 {
                     runtime = "Long";
-                    longe++;
                 }
                 else
                 {
                     runtime = "Very_Long";
-                    verylong++;
                 }
                 line += runtime + ",";
 
@@ -588,25 +758,6 @@ namespace ImdbCrawler.Model
                 fileLines.Add(line);
                 line = "";
             }
-
-            Console.WriteLine("drama = " + drama);
-            Console.WriteLine("horror = " + horror);
-            Console.WriteLine("action = " + action);
-            Console.WriteLine("comedy = " + comedy);
-            Console.WriteLine("others = " + others);
-
-            Console.WriteLine();
-
-            Console.WriteLine("Bad = " + c);
-            Console.WriteLine("Regular = " + b);
-            Console.WriteLine("Good = " + a);
-
-            Console.WriteLine();
-
-            Console.WriteLine("shorte = " + shorte);
-            Console.WriteLine("regular = " + regular);
-            Console.WriteLine("longe = " + longe);
-            Console.WriteLine("verylong = " + verylong);
 
             FileAO.ExportToArff(fileLines, destination);
         }
@@ -805,13 +956,74 @@ namespace ImdbCrawler.Model
                 }
             }
 
-            //Verificar as tags
             if (tags.Count > 0)
             {
                 foreach (string tag in tags)
                 {
-                    //isViolent
-                    
+                    if (violent.Contains(tag))
+                    {
+                        IsViolent = true;
+                    }
+                    if (firegun.Contains(tag))
+                    {
+                        hasFireguns = true;
+                    }
+                    if (gore.Contains(tag))
+                    {
+                        isGoreViolent = true;
+                    }
+                    if (sex.Contains(tag))
+                    {
+                        hasSex = true;
+                    }
+                    if (nude.Contains(tag))
+                    {
+                        hasNudeScenes = true;
+                    }
+                    if (relationship.Contains(tag))
+                    {
+                        aboutRelationships = true;
+                    }
+                    if (family.Contains(tag))
+                    {
+                        aboutFamily = true;
+                    }
+                    if (tag.Contains("flashback"))
+                    {
+                        hasFlashbacks = true;
+                    }
+                    if (tag.Contains("surprise ending"))
+                    {
+                        hasSurpriseEnding = true;
+                    }
+                    if (humandrama.Contains(tag))
+                    {
+                        aboutHumanDrama = true;
+                    }
+                    if (nowadaystechnology.Contains(tag))
+                    {
+                        hasNowadaysTechnology = true;
+                    }
+                    if (tag.Contains("sequel"))
+                    {
+                        isSequel = true;
+                    }
+                    if (tag.Contains("based on novel"))
+                    {
+                        isBasedOnNovel = true;
+                    }
+                    if (tag.Contains("written by director"))
+                    {
+                        isWrittenByDirector = true;
+                    }
+                    if (tag.Contains("independent"))
+                    {
+                        isIndependent = true;
+                    }
+                    if (camerawork.Contains(tag))
+                    {
+                        hasCameraWorks = true;
+                    }
                 }
             }
 
@@ -916,6 +1128,11 @@ namespace ImdbCrawler.Model
         public string ToStringDetailed()
         {
             return Name + ";" + NameUrl + ";" + Rating + ";" + Director + ";" + DirectorUrl + ";" + Actors + ";" + ActorsUrl + ";" + Genre + ";" + Certificate + ";" + Runtime + ";" + AwardedDirector + ";" + OscarDirector + ";" + AwardedActors + ";" + OscarActors;
+        }
+
+        public string ToStringDetailedTags()
+        {
+            return Name + ";" + NameUrl + ";" + Rating + ";" + Director + ";" + DirectorUrl + ";" + Actors + ";" + ActorsUrl + ";" + Genre + ";" + Certificate + ";" + Runtime + ";" + AwardedDirector + ";" + OscarDirector + ";" + AwardedActors + ";" + OscarActors + ";" + isViolent + ";" + hasFireguns + ";" + isGoreViolent + ";" + hasSex + ";" + hasNudeScenes + ";" + aboutRelationships + ";" + aboutFamily + ";" + hasFlashbacks + ";" + hasSurpriseEnding + ";" + aboutHumanDrama + ";" + aboutNatureOrCity + ";" + hasNowadaysTechnology + ";" + isSequel + ";" + isBasedOnNovel + ";" + isWrittenByDirector + ";" + isIndependent + ";" + hasCameraWorks;
         }
 
         public string ToStringDetailedBusiness()
