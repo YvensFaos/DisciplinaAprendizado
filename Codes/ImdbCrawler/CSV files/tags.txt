@@ -30922,7 +30922,7 @@ wanting to steal a car;1
 beaded curtain;1
 song bird;1
 pinching someone's nose;1
-character says you;re all i have left in the world now;1
+character says you're all i have left in the world now;1
 almost hit by a car;2
 freeing a caged bird;1
 police truck;1

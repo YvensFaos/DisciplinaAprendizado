@@ -125,7 +125,8 @@
             "Buscar Atores",
             "Buscar Diretores",
             "Exportar para Weka",
-            "Buscar tags"});
+            "Buscar tags",
+            "Arimética dos Filmes"});
             this.comboBoxAction.Location = new System.Drawing.Point(6, 26);
             this.comboBoxAction.Name = "comboBoxAction";
             this.comboBoxAction.Size = new System.Drawing.Size(168, 21);

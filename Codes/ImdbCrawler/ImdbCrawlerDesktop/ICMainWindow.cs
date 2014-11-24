@@ -628,6 +628,11 @@ namespace ImdbCrawlerDesktop
                 Thread thread = new Thread(() => GetMovieTags());
                 thread.Start();
             }
+            else if (comboBoxAction.SelectedIndex == 4)
+            {
+                Thread thread = new Thread(() => MoviesArithmetic());
+                thread.Start();
+            }
         }
 
         private void GetActors()
@@ -741,6 +746,41 @@ namespace ImdbCrawlerDesktop
             {
                 logInfo("Exportado para: " + destination);
             }
+        }
+
+        private void MoviesArithmetic()
+        {
+            if (logging())
+            {
+                logInfo("Fazendo cálculos com os filmes.");
+            }
+            progressBarProcess.Value = 0;
+
+            float mean = 0;
+            int counter = 0;
+            foreach (string key in hashMovies.Keys)
+            {
+                mean += hashMovies[key].Rating;
+                progressBarProcess.Value = ((int)((counter++ / (float)hashMovies.Count) * 100.0f));
+            }
+            mean /= hashMovies.Count;
+
+            logInfo("Média das notas: " + mean);
+
+            float standard = 0;
+            counter = 0;
+            progressBarProcess.Value = 0;
+            foreach (string key in hashMovies.Keys)
+            {
+                standard += (float)Math.Pow((double)(hashMovies[key].Rating - mean), 2.0f);
+                progressBarProcess.Value = ((int)((counter++ / (float)hashMovies.Count) * 100.0f));
+            }
+
+            standard /= hashMovies.Count;
+            standard = (float)Math.Sqrt((double)standard);
+            logInfo("Desvio padrão das notas: " + standard);
+
+            progressBarProcess.Value = 100;
         }
 
         private void GetMovieTags()
