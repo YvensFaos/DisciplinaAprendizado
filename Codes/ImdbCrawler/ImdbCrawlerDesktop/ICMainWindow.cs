@@ -750,6 +750,7 @@ namespace ImdbCrawlerDesktop
                 logInfo("Carregando tags dos filmes.");
             }
             int counter = 0;
+            int actual = progressBarProcess.Value - 1;
 
             try
             {
@@ -768,6 +769,16 @@ namespace ImdbCrawlerDesktop
                         {
                             hashTags.Add(tag, 1);
                         }
+                    }
+
+                    if (progressBarProcess.Value % 10 == 0 && progressBarProcess.Value != actual)
+                    {
+                        actual = progressBarProcess.Value;
+                        FileAO.ExportTagsToTxt(hashTags, @"C:\Users\Yvens\Documents\GitHub\DisciplinaAprendizado\Codes\ImdbCrawler\CSV files\temp_tags" + progressBarProcess.Value + ".txt");
+                    }
+                    if (logging())
+                    {
+                        logInfo("Filme nº: " + counter);
                     }
                 }
             }

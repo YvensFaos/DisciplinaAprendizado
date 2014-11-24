@@ -1,0 +1,196 @@
+nazis;1
+german;1
+soldier;1
+france;1
+colonel;1
+jewish american;1
+bar shootout;1
+reference to berlin olympics;1
+reference to jesse owens;1
+black african;1
+hermann göring;1
+racism;1
+sole survivor;1
+film projectionist;1
+multiple perspectives;1
+escape from prison;1
+champagne;1
+exploding building;1
+lighting cigarette for woman;1
+translator;1
+betrayal;1
+strangulation;1
+psychopath;1
+paris france;1
+massacre;1
+holocaust;1
+secret military operation;1
+bomb;1
+reference to adolf hitler;1
+intentionally misspelled title;1
+cult film;1
+nazi;1
+germany;1
+world war two;1
+1940s;1
+actor shares first name with character;1
+jewish;1
+actress;1
+military;1
+german army;1
+scalping;1
+theatre;1
+lieutenant;1
+spy;1
+revenge;1
+missspelled title;1
+stabbing a pillow;1
+pistol;1
+graphic violence;1
+grisly shootout;1
+street shootout;1
+nonlinear timeline;1
+blood spatter;1
+knife fight;1
+brutality;1
+exit wound;1
+shootout;1
+gun sau;1
+gun kata;1
+gun fu;1
+gunfight;1
+combat;1
+fistfight;1
+bloodbath;1
+bullet ballet;1
+bullet time;1
+slow motion scene;1
+slow motion shootout;1
+blood splatter;1
+defenestration;1
+racial slur;1
+mutilation;1
+black dress;1
+nazi hunter;1
+war hero;1
+beaten to death with a baseball bat;1
+hit with a baseball bat;1
+garrotting;1
+threaten with a baseball bat;1
+anti semitism;1
+torture threat;1
+lens flare;1
+rear entry sex;1
+man strangles woman;1
+dead woman with eyes open;1
+woman strangled to death;1
+dead woman on floor;1
+shooting a woman;1
+camera shot of feet;1
+kiss leaves lipstick;1
+projectionist;1
+historically inaccurate;1
+evil man;1
+special forces;1
+hand kissing;1
+thrown through a window;1
+anger;1
+tension;1
+danger;1
+red dress;1
+dog;1
+reference to charlie chaplin;1
+italian;1
+suspicion;1
+axe;1
+village;1
+bell tower;1
+nickname;1
+golem;1
+record player;1
+telephone call;1
+milk;1
+sergeant;1
+bayonet;1
+newspaper;1
+flashback;1
+hiding under floorboards;1
+murder of family;1
+film critic;1
+autograph;1
+farm;1
+film reel;1
+basement;1
+flash forward;1
+gun;1
+movie theater;1
+film projection booth;1
+machine gun;1
+investigation;1
+corpse;1
+waitress;1
+strudel;1
+farmhouse;1
+peasant;1
+sniper;1
+whipping;1
+baseball bat;1
+bag over head;1
+uncle niece relationship;1
+held at gunpoint;1
+detective;1
+truck;1
+bar;1
+winston churchill;1
+austrian;1
+fire;1
+waiter;1
+knife;1
+fake identity;1
+film projector;1
+whipped cream;1
+love;1
+dairy farm;1
+person on fire;1
+metaphorical language;1
+restaurant;1
+wilhelm scream;1
+general;1
+rat;1
+search;1
+escape;1
+violence;1
+blood;1
+title appears in text;1
+fear;1
+splicing film;1
+aunt niece relationship;1
+stabbing;1
+torture;1
+forest;1
+secret mission;1
+veterinarian;1
+sister sister relationship;1
+english subtitles in original;1
+alternate history;1
+epilogue;1
+title appears in writing;1
+throat slitting;1
+self sacrifice;1
+scar;1
+multiple languages;1
+interrogation;1
+historical fiction;1
+bomb in public place;1
+voice over narration;1
+unsubtitled foreign language;1
+sadism;1
+murder;1
+gore;1
+explosion;1
+death;1
+death of family;1
+carving into human flesh;1
+beaten to death;1
+african american;1
+nazi propaganda;1
