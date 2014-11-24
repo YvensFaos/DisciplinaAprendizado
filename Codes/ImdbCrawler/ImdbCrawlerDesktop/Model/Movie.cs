@@ -486,6 +486,26 @@ namespace ImdbCrawler.Model
                     movie.AwardedActors =   (parameters[i++][0] == 'T') ? true : false;
                     movie.OscarActors =     (parameters[i++][0] == 'T') ? true : false;
                 }
+                if (parameters.Length > i)
+                {
+                    movie.isViolent = (parameters[i++][0] == 'T') ? true : false;
+                    movie.hasFireguns = (parameters[i++][0] == 'T') ? true : false;
+                    movie.isGoreViolent = (parameters[i++][0] == 'T') ? true : false;
+                    movie.hasSex = (parameters[i++][0] == 'T') ? true : false;
+                    movie.hasNudeScenes = (parameters[i++][0] == 'T') ? true : false;
+                    movie.aboutRelationships = (parameters[i++][0] == 'T') ? true : false;
+                    movie.aboutFamily = (parameters[i++][0] == 'T') ? true : false;
+                    movie.hasFlashbacks = (parameters[i++][0] == 'T') ? true : false;
+                    movie.hasSurpriseEnding = (parameters[i++][0] == 'T') ? true : false;
+                    movie.aboutHumanDrama = (parameters[i++][0] == 'T') ? true : false;
+                    movie.aboutNatureOrCity = (parameters[i++][0] == 'T') ? true : false;
+                    movie.hasNowadaysTechnology = (parameters[i++][0] == 'T') ? true : false;
+                    movie.isSequel = (parameters[i++][0] == 'T') ? true : false;
+                    movie.isBasedOnNovel = (parameters[i++][0] == 'T') ? true : false;
+                    movie.isWrittenByDirector = (parameters[i++][0] == 'T') ? true : false;
+                    movie.isIndependent = (parameters[i++][0] == 'T') ? true : false;
+                    movie.hasCameraWorks = (parameters[i++][0] == 'T') ? true : false;
+                }
                 movies.Add(movie);
             }
 
@@ -690,6 +710,8 @@ namespace ImdbCrawler.Model
             fileLines.Add("@ATTRIBUTE genre {Drama,Horror,Action,Comedy,Others}");
             fileLines.Add("@ATTRIBUTE certificate {G, R, PG_13, PG, NOT_RATED}");
             fileLines.Add("@ATTRIBUTE rating {Very Bad, Bad,Regular,Good, Excellent}");
+
+            //
             fileLines.Add("@DATA");
 
             string line = "";
@@ -839,6 +861,23 @@ namespace ImdbCrawler.Model
             fileLines.Add("@ATTRIBUTE oscarActor {0,1}");
             fileLines.Add("@ATTRIBUTE genre {Drama,Horror,Action,Comedy,Others}");
             fileLines.Add("@ATTRIBUTE certificate {G, R, PG_13, PG, NOT_RATED}");
+            fileLines.Add("@ATTRIBUTE isViolent {0,1}");
+            fileLines.Add("@ATTRIBUTE hasFireguns {0,1}");
+            fileLines.Add("@ATTRIBUTE isGoreViolent {0,1}");
+            fileLines.Add("@ATTRIBUTE hasSex {0,1}");
+            fileLines.Add("@ATTRIBUTE hasNudeScenes {0,1}");
+            fileLines.Add("@ATTRIBUTE aboutRelationships {0,1}");
+            fileLines.Add("@ATTRIBUTE aboutFamily {0,1}");
+            fileLines.Add("@ATTRIBUTE hasFlashbacks {0,1}");
+            fileLines.Add("@ATTRIBUTE hasSurpriseEnding {0,1}");
+            fileLines.Add("@ATTRIBUTE aboutHumanDrama {0,1}");
+            fileLines.Add("@ATTRIBUTE aboutNatureOrCity {0,1}");
+            fileLines.Add("@ATTRIBUTE hasNowadaysTechnology {0,1}");
+            fileLines.Add("@ATTRIBUTE isSequel {0,1}");
+            fileLines.Add("@ATTRIBUTE isBasedOnNovel {0,1}");
+            fileLines.Add("@ATTRIBUTE isWrittenByDirector {0,1}");
+            fileLines.Add("@ATTRIBUTE isIndependent {0,1}");
+            fileLines.Add("@ATTRIBUTE hasCameraWorks {0,1}");
             fileLines.Add("@ATTRIBUTE rating {Bad,Regular,Good}");
             fileLines.Add("@DATA");
 
@@ -924,6 +963,29 @@ namespace ImdbCrawler.Model
 
                 movie.GetClassification();
                 string rating = movie.Classification;
+
+                //isViolent + ";" + hasFireguns + ";" + isGoreViolent + ";" + hasSex + ";" + hasNudeScenes + ";" + 
+                //aboutRelationships + ";" + aboutFamily + ";" + hasFlashbacks + ";" + hasSurpriseEnding + ";" + 
+                //aboutHumanDrama + ";" + aboutNatureOrCity + ";" + hasNowadaysTechnology + ";" + isSequel + ";" + 
+                //isBasedOnNovel + ";" + isWrittenByDirector + ";" + isIndependent + ";" + hasCameraWorks;
+
+                line += ((movie.IsViolent) ? "1" : "0") + ",";
+                line += ((movie.HasFireguns) ? "1" : "0") + ",";
+                line += ((movie.IsGoreViolent) ? "1" : "0") + ",";
+                line += ((movie.HasSex) ? "1" : "0") + ",";
+                line += ((movie.HasNudeScenes) ? "1" : "0") + ",";
+                line += ((movie.AboutRelationships) ? "1" : "0") + ",";
+                line += ((movie.AboutFamily) ? "1" : "0") + ",";
+                line += ((movie.HasFlashbacks) ? "1" : "0") + ",";
+                line += ((movie.HasSurpriseEnding) ? "1" : "0") + ",";
+                line += ((movie.AboutHumanDrama) ? "1" : "0") + ",";
+                line += ((movie.AboutNatureOrCity) ? "1" : "0") + ",";
+                line += ((movie.HasNowadaysTechnology) ? "1" : "0") + ",";
+                line += ((movie.IsSequel) ? "1" : "0") + ",";
+                line += ((movie.IsBasedOnNovel) ? "1" : "0") + ",";
+                line += ((movie.IsWrittenByDirector) ? "1" : "0") + ",";
+                line += ((movie.IsIndependent) ? "1" : "0") + ",";
+                line += ((movie.HasCameraWorks) ? "1" : "0") + ",";
 
                 line += rating;
                 fileLines.Add(line);
