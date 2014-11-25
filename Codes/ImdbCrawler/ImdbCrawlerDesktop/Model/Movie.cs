@@ -592,7 +592,7 @@ namespace ImdbCrawler.Model
                     catch (Exception e)
                     {
                         Console.WriteLine(e.Message);
-                        rating = 0;
+                        rating = -1;
                     }
 
                     Console.WriteLine(rating);
@@ -679,7 +679,10 @@ namespace ImdbCrawler.Model
                     movie.Genre = genre;
                     movie.Certificate = certificate;
                     movie.Runtime = runtime;
-                    movies.Add(movie);
+                    if (rating > 0)
+                    {
+                        movies.Add(movie);
+                    }
 
                     name = "";
                     nameUrl = "";
