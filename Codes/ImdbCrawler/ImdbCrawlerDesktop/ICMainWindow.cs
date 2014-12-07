@@ -633,6 +633,100 @@ namespace ImdbCrawlerDesktop
                 Thread thread = new Thread(() => MoviesArithmetic());
                 thread.Start();
             }
+            else if (comboBoxAction.SelectedIndex == 5)
+            {
+                Thread thread = new Thread(() => RemoveSurfeit());
+                thread.Start();
+            }
+        }
+
+        private void RemoveSurfeit()
+        {
+            int bad = 0, regular = 0, good = 0;
+
+            foreach (string key in hashMovies.Keys)
+            {
+                Movie movie = hashMovies[key];
+                movie.GetClassification();
+
+                switch (movie.Classification)
+                {
+                    case "Bad":
+                        bad++; break;
+                    case "Regular":
+                        regular++; break;
+                    case "Good":
+                        good++; break;
+                }
+            }
+
+            int lowest = bad;
+            if (lowest > regular)
+            {
+                lowest = regular;
+            }
+            if (lowest > good)
+            {
+                lowest = good;
+            }
+
+            if (logging())
+            {
+                logInfo("Menor quantidade: " + lowest);
+            }
+
+            List<Movie> movies = new List<Movie>();
+
+            bad = 0;
+            regular = 0;
+            good = 0;
+            foreach (string key in hashMovies.Keys)
+            {
+                Movie movie = hashMovies[key];
+
+                switch (movie.Classification)
+                {
+                    case "Bad":
+                        if (bad <= lowest)
+                        {
+                            movies.Add(movie);
+                            bad++;
+                        }
+                        break;
+                    case "Regular":
+                        if (regular <= lowest)
+                        {
+                            movies.Add(movie);
+                            regular++;
+                        }
+                        break;
+                    case "Good":
+                        if (good <= lowest)
+                        {
+                            movies.Add(movie);
+                            good++;
+                        }
+                        break;
+                }
+            }
+
+            moviesMutex.WaitOne();
+            hashMovies.Clear();
+            if (logging())
+            {
+                logInfo("Limpando hash de filmes.");
+                logInfo("Qtde. de filmes: " + movies.Count);
+            }
+            foreach (Movie movie in movies)
+            {
+                if (!hashMovies.ContainsKey(movie.NameUrl))
+                {
+                    hashMovies.Add(movie.NameUrl, movie);
+                }
+
+            }
+            updateMoviesCount(hashMovies.Count);
+            moviesMutex.Release();
         }
 
         private void GetActors()
