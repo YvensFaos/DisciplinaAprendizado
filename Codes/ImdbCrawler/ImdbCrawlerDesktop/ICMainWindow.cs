@@ -638,6 +638,11 @@ namespace ImdbCrawlerDesktop
                 Thread thread = new Thread(() => RemoveSurfeit());
                 thread.Start();
             }
+            else if (comboBoxAction.SelectedIndex == 6)
+            {
+                Thread thread = new Thread(() => GetByGenre());
+                thread.Start();
+            }
         }
 
         private void RemoveSurfeit()
@@ -968,6 +973,42 @@ namespace ImdbCrawlerDesktop
             if (logging())
             {
                 logInfo("Sucesso!");
+            }
+        }
+
+        private void GetByGenre()
+        {
+            string genre = textBoxGenre.Text;
+            if (!genre.Equals(""))
+            {
+                moviesMutex.WaitOne();
+
+                List<Movie> movies = new List<Movie>();
+                foreach (string key in hashMovies.Keys)
+                {
+                    if (hashMovies[key].Genre.Equals(genre))
+                    {
+                        movies.Add(hashMovies[key]);
+                    }
+                }
+
+                hashMovies.Clear();
+                if (logging())
+                {
+                    logInfo("Limpando hash de filmes.");
+                    logInfo("Qtde. de filmes: " + movies.Count);
+                }
+
+                foreach (Movie movie in movies)
+                {
+                    if (!hashMovies.ContainsKey(movie.NameUrl))
+                    {
+                        hashMovies.Add(movie.NameUrl, movie);
+                    }
+                }
+
+                updateMoviesCount(hashMovies.Count);
+                moviesMutex.Release();
             }
         }
     }

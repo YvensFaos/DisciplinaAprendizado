@@ -23499,3 +23499,2736 @@ motorscooter;1
 lottery;1
 flying boy;1
 adhesive tape;1
+cheating husband;3
+written by director;4
+driving;1
+construction site;1
+project manager;1
+problem solver;1
+calm in a crisis;1
+driving at night;2
+driving while on a cell phone;2
+marital trouble;2
+birmingham england;1
+london england;3
+motorway;1
+bmw;1
+unfaithful husband;2
+husband wife relationship;15
+father son relationship;14
+mobile phone;3
+break up over the phone;1
+car phone;1
+telephone conversation;1
+cell phone;8
+gps;1
+crying baby;1
+night cityscape;1
+night;1
+man crying;2
+car driving;1
+road;1
+break up;2
+woman in labor;1
+pregnancy;6
+ringing telephone;1
+unseen wife;1
+unseen character;1
+telephone number;1
+one night;1
+late night;1
+night time;1
+minimal cast;2
+answering the telephone;1
+on the road;2
+high visibility jacket;1
+fired from the job;5
+suv;1
+adultery;4
+telephone call;8
+soccer match;2
+welshman;1
+welsh;1
+england;3
+british;2
+concrete pour;1
+chamberplay;1
+one person;1
+dead father;1
+soccer fan;1
+construction foreman;1
+construction worker;1
+one word title;14
+character name in title;9
+oil;1
+capitalism;1
+land;1
+california;3
+prospector;1
+money;6
+preacher;3
+power;2
+business;1
+adopted son;1
+20th century;1
+wealth;1
+turn of the century;1
+religion;5
+pipeline;1
+faith healer;1
+twin;1
+church;8
+greed;2
+19th century;2
+same actor playing twin role;1
+sitting;1
+lifting male in air;1
+villain played by lead actor;1
+lifting person in air;1
+critically acclaimed;2
+striking oil;1
+blood spatter;1
+underwater scene;2
+actor playing multiple roles;1
+injury;2
+male slaps male;1
+beaten to death with a bowling pin;1
+tower;1
+building collapse;1
+ex convict;4
+whistling;1
+wedding;3
+waiter;2
+violence;6
+underwear;3
+unconsciousness;1
+uncle nephew relationship;2
+tuberculosis;1
+train;5
+train depot;1
+tool;1
+tent;1
+telescope;1
+telephone;4
+tears;5
+swimming;2
+surrogate son;1
+surrogate father;1
+superstition;1
+sulphur;1
+song;6
+sinner;1
+singing;6
+singer;5
+silver city new mexico;1
+signature;1
+signal hill california;1
+sermon;2
+san francisco california;2
+salvation;1
+rural setting;2
+restaurant;6
+religious zealot;1
+religious fanatic;1
+reading;4
+railway station;2
+railroad track;1
+radio;1
+quail hunting;1
+price of fame;1
+prayer;3
+port wyanimi california;1
+pipe smoking;2
+photograph;7
+passing out;1
+pacific ocean;1
+oil well;1
+oil tycoon;1
+oil rig;1
+oil industry;1
+oil gusher;1
+napkin;1
+mud;2
+mother son relationship;11
+mission;2
+missionary;1
+minister;1
+mining;1
+mining equipment;1
+mine;1
+matches;1
+map;1
+mansion;1
+loss of hearing;1
+long underwear;1
+letter;2
+lantern;1
+land surveying;1
+land grabbing;1
+ladder;2
+reference to jesus christ;2
+irrigation;1
+interpreter;2
+industry;1
+impersonation;2
+hymn;1
+horse;2
+horse and wagon;1
+hammer;2
+half brother;2
+gun;7
+gun held to one's head;2
+great depression;2
+gospel;2
+reference to god;1
+goat;2
+goat farmer;1
+food;7
+fon du lac wisconsin;1
+flask;1
+flashback;11
+flash forward;2
+fire;6
+firewood;1
+farming;1
+farmer;1
+false prophet;1
+explosive;1
+explosion;2
+exploration;1
+evangelist;1
+epic;2
+ear exam;1
+drilling for oil;1
+dress;1
+dragged by one's hair;1
+doctor;7
+digging a grave;2
+diary;1
+death;11
+death in childbirth;1
+deafness;2
+dead body;4
+dark comedy;1
+crying;8
+cross;3
+control freak;1
+construction;2
+confession;3
+competition;1
+cigarette smoking;9
+childbirth;2
+chain gang;1
+camp;1
+campfire;2
+cafe;3
+butler;1
+businessman;1
+business deal;1
+business associate;1
+burial;1
+brother sister relationship;11
+brother brother relationship;6
+bride and groom;2
+bowling pin;1
+bludgeoning;1
+bible;3
+beating;6
+beach;5
+bar;5
+backpack;1
+automobile;1
+arthritis;1
+arson;3
+american;2
+americana;1
+ambition;1
+adoption;2
+accidental death;2
+1930s;2
+1920s;1
+1900s;1
+1890s;1
+face slap;6
+sparks;1
+pickaxe;1
+lighting fuse;1
+falling off a ladder;1
+dynamite;1
+baby;5
+spiritual healing;1
+single father;3
+sign language;2
+renovation;1
+religious intolerance;1
+quail;1
+public speaking;1
+prostitute;4
+oil derrick;1
+impotence;2
+freak accident;1
+false promise;1
+child romance;1
+blasphemy;1
+experimental soundtrack;1
+famous line;1
+rivalry;1
+no opening credits;4
+lifting someone into the air;1
+ice cream parlor;1
+claim in title;2
+long take;2
+murder;10
+milk;1
+hunting;4
+horse riding;1
+baptism;1
+mustache;1
+milkshake;1
+desert;2
+twin brother;1
+threat;2
+shotgun;2
+shot in the head;2
+set on fire;2
+rifle;6
+revelation;1
+pistol;4
+pick axe;1
+orphan;2
+marriage;4
+loss of father;2
+loss of brother;3
+impostor;1
+falling from height;2
+child abuse;5
+child abandonment;1
+broken leg;1
+bowling ball;1
+blood;13
+beaten to death;1
+alcoholic;4
+small town;5
+alcoholism;2
+1910s;1
+child uses gun;2
+misanthrope;2
+bowling alley;1
+silver mine;1
+based on novel;7
+actor shares first name with character;2
+surprise ending;2
+male frontal nudity;6
+hollywood;1
+aspiring actor;1
+mother daughter incest;2
+male nudity;9
+actress;3
+child star;1
+ghost;1
+interrupted sex;1
+film within a film;1
+hollywood sign;1
+scientology;2
+stage mother;1
+shallow;2
+name dropping;1
+tragic ending;2
+suicide pact;1
+cowardice;1
+reference to oprah winfrey;1
+reference to lance armstrong;1
+escaped mental patient;1
+head bashed in;1
+reference to nicole kidman;1
+reference to halle berry;1
+sex with client;1
+spontaneous sex;1
+doggystyle sex;1
+erection;3
+overbearing father;1
+doting mother;1
+answering machine message;1
+green panties;1
+dysfunctional family;5
+reference to ebay;1
+brother sister incest;2
+flatulence;3
+child ghost;1
+wet dress;1
+black dress;1
+white dress;1
+abusive stepfather;2
+vomit scene;1
+woman sitting on a toilet;1
+sheepdog;1
+dog killed;3
+holocaust joke;1
+restraining order;1
+prescription drug abuse;1
+energy drink;1
+schadenfreude;1
+reference to jim carrey;1
+red bra and panties;1
+red panties;1
+red bra;1
+incest overtone;1
+reference to the dalai lama;1
+reference to mother teresa;1
+anti semitic slur;1
+homophobic slur;1
+male diva;1
+vicodin;1
+reference to david cassidy;1
+reference to al gore;1
+constipation;1
+reference to shirley temple;1
+female nudity;12
+menage a trois;1
+three some;1
+lesbian sex;3
+male full frontal nudity;2
+burnt face;1
+menstruation;1
+hollywood california;1
+suicide;9
+child murder;1
+wedding ring;1
+ring;1
+burning body;1
+swimming pool;4
+reference to google;2
+toilet;4
+13 year old;1
+limousine;2
+poem;3
+reference to imdb;2
+threesome;3
+sex in a car;1
+incest;6
+personal assistant;2
+chauffeur;1
+mental illness;3
+applying for a job;1
+drug abuse;1
+haunted by the past;2
+film making;1
+burn victim;1
+party;4
+soccer coach;1
+soccer;2
+coach;1
+high school;3
+virgin;2
+jumping into a swimming pool;1
+jumping into water;1
+kiss;7
+playing video game;1
+babysitting;2
+babysitter;1
+painting;3
+probation;1
+police arrest;1
+car accident;5
+vomiting;3
+drugs;3
+cemetery;4
+sports team;1
+soccer player;1
+girls' soccer;1
+teenager;7
+youth;2
+bare chested male;7
+teenage girl;9
+teenage boy;9
+city name in title;1
+high school student;2
+palo alto california;1
+based on book;2
+crush;1
+two word title;6
+actress shares first name with character;2
+library;2
+arrest;3
+police;5
+alcohol;3
+boxer shorts;4
+son;1
+lie;6
+kindergarten teacher;1
+kindergarten;1
+love;5
+hunt;1
+man with glasses;2
+male kindergarten teacher;1
+shouting;3
+glasses;1
+bloody nose;2
+broken window;3
+deer;2
+gunshot;3
+friendship between men;1
+blood on face;1
+punched in the face;4
+choir;2
+crying man;2
+christmas;3
+christmas eve;1
+kitchen;1
+father;1
+boy crying;1
+undressing;3
+sex scene;10
+false accusation of child abuse;1
+lying child;1
+holding hands;2
+divorced man;1
+dog;8
+naked man;1
+male rear nudity;3
+pet killed;1
+children;3
+gossip;2
+teacher;5
+depression;5
+attempted murder;2
+judgment;1
+hairy chest;1
+nursery school;1
+argument;4
+ex husband ex wife relationship;2
+beard;1
+boxer briefs;2
+skinny dipping;2
+male underwear;2
+abuse;3
+falsely accused;2
+witch hunt;1
+danish;1
+buttocks whipped;1
+deviant sex;1
+older woman younger woman relationship;1
+spontaneous orgasm;1
+nymphomania;2
+explicit sex;2
+erotica;3
+nymphomaniac;2
+unsimulated sex;2
+male explicit nudity;2
+sadomasochism;2
+extreme pain;1
+labia;1
+vagina spreading;1
+attempted rape;1
+masochism;1
+penis;3
+erect penis;2
+lesbian kiss;2
+breast sucking;1
+fellatio;3
+pedophilia;4
+fisting;1
+clitoris;1
+whip;1
+bondage;1
+virginity;2
+female masturbation;1
+sex addict;3
+female frontal nudity;5
+urination;6
+bleeding;2
+man punching a woman;1
+messalina;1
+ear;1
+asexuality;1
+levitation;1
+hypocrite;1
+second part;1
+black screen;1
+car fire;2
+duck;1
+self referential;1
+debt collector;1
+reference to james bond;1
+reference to ian fleming;1
+burning car;1
+mirror;3
+group therapy;2
+motherhood;1
+waiting room;1
+black african;1
+car trouble;1
+reference to ludwig van beethoven;1
+reference to thomas mann;1
+caesarean birth;1
+dessert spoon;1
+reference to andrei rublev;1
+religious icon;1
+reference to richard wagner;1
+biblical reference;1
+reference to roman emperor claudius;1
+story within a story;2
+first person narration;2
+chapter headings;2
+controversial;3
+navy;1
+cause;1
+right hand man;1
+drifter;1
+charismatic leader;1
+cult;1
+lust;2
+copulation;2
+coitus;2
+leg spreading;2
+public nudity;2
+female pubic hair;2
+female full frontal nudity;3
+nudity;8
+nude girl;1
+nude;1
+no panties;2
+breasts;1
+scantily clad female;2
+cleavage;2
+motorcycle riding;1
+clapping to music;1
+playing bass violin;1
+psychiatric evaluation;1
+sailor;1
+erlenmeyer flask;1
+cabbage;1
+posing for a portrait;1
+rorschach test;1
+v j day;1
+woman sand sculpture;1
+masturbation;5
+pubic hair;3
+poisoning;2
+dream;3
+first love;1
+riding a tricycle;1
+woman on top;1
+riding motorcycle;1
+men hugging;1
+locked in jail;1
+playing cello;1
+river boat;1
+pulling a man's neck tie;1
+photographer;3
+woman wearing black lingerie;1
+sand sculpture;1
+wrestling;1
+coconut;1
+sea;3
+black comedy;1
+world war two;1
+author;1
+imagining someone naked;1
+rorschach inkblot;1
+female rear nudity;3
+picturing woman naked;1
+older woman nude;1
+topless female nudity;4
+bare breasts;4
+pregnant woman;3
+control;1
+sex obsession;1
+manipulation;1
+psychological testing;1
+past life;1
+naked woman;1
+world war two veteran;1
+70mm film;1
+writer;2
+religious cult;1
+nuclear physicist;1
+cult leader;1
+1950s;1
+professor;1
+philosophy;1
+student;2
+christian;2
+philosophy professor;1
+atheist;1
+freshman;1
+pastor;2
+university student;1
+university;1
+muslim;2
+religious conversion;1
+accident;1
+hit by a car;2
+concert;2
+dementia;2
+teacher student relationship;3
+reference to charles darwin;1
+reference to lee strobel;1
+hospital;8
+reference to bertrand russell;1
+reference to stephen hawking;1
+reference to richard dawkins;1
+lecture;1
+boyfriend girlfriend relationship;4
+religious differences;1
+cancer;3
+faith;2
+atheism;1
+theology;1
+apologetics;1
+christianity;2
+college student;1
+christian film;2
+priest;3
+death threat;1
+ireland;1
+confessional;1
+catholic church;1
+throwing a gun into water;1
+murdered priest;1
+murder of a priest;1
+murder of priest;1
+church on fire;1
+dancing;5
+old man;2
+urinating on a painting;1
+urinating;2
+child's painting;1
+altar boy;1
+infidelity;3
+black man;1
+suicide attempt;7
+priest's daughter;1
+father daughter relationship;9
+death of pet;1
+recovering alcoholic;1
+disillusionment;1
+romanian;1
+dentist;2
+electroshock therapy;1
+broken engagement;1
+engagement;1
+engagement ring;1
+looking for work;1
+working class;2
+nonlinear timeline;3
+soliloquy;1
+mental breakdown;2
+medical assistant;1
+sister sister estrangement;1
+financial fraud;1
+tax evasion;1
+louis vuitton luggage;1
+coast to coast;1
+dental receptionist;1
+self deception;1
+riches to rags;1
+workplace harassment;1
+tragedy;3
+san francisco bay;1
+tea;3
+wystones tea;1
+narcissistic personality disorder;1
+narcissism;2
+investment fraud;1
+reference to chuck e. cheese;1
+drinking vodka;1
+xanax;2
+sexual harassment;2
+caught in a lie;1
+watching boxing on tv;1
+grocery store checkout clerk;1
+computer class;1
+interior design;1
+fifth avenue manhattan new york city;1
+sister sister relationship;4
+plant in title;1
+flower in title;1
+color in title;1
+nipples visible through clothing;1
+anal sex;1
+cunnilingus;1
+vagina;2
+loss of virginity;3
+eroticism;1
+sodomy;1
+anal virginity lost;1
+sexual intercourse;1
+sex in hospital;1
+loveless sex;1
+mother daughter estrangement;1
+sex with multiple partners;1
+casual sex;1
+long delayed sex;1
+sex on a train;1
+schoolgirl uniform;1
+underage sex;2
+exhibitionism;1
+split screen;2
+delirium tremens;1
+sex in toilet;1
+self deprecation;1
+sin;1
+death of father;5
+organ music;1
+fly fishing;1
+fishing;1
+confessor;1
+first part;1
+woods;3
+reference to fibonacci;1
+polyphony;1
+judaism;1
+bathroom;5
+solitaire;1
+husband leaves family;1
+wife meets mistress;1
+deserted wife;1
+reference to edgar allan poe;1
+ash tree;1
+bud;1
+leaf;1
+herbarium;1
+secretary;1
+angling;1
+title appears in song;2
+fibonacci sequence;1
+reference to bach;1
+cat;4
+frog;1
+tree;2
+part of trilogy;1
+dysfunctional familiy;1
+father son conflict;1
+courtroom;2
+judge;2
+funeral;6
+court;2
+indiana;1
+lawyer;4
+bullying behavior;1
+convenience store;2
+broken car headlight;1
+damaged fender;1
+bully;2
+former alcoholic;1
+heart attack;1
+matching blood evidence;1
+surveillance tape evidence;1
+homicidal anger;1
+rage;1
+inept lawyer;1
+grandfather granddaughter relationship;3
+lake;2
+witness impeachment;1
+cross examination;1
+hardball lawyer;1
+special prosecutor;1
+police interrogation;2
+trailer trash;1
+chemotherapy effects;1
+judge on trial;1
+lawyer with grudge;1
+murder trial;1
+same day verdict and sentence;1
+tornado warning;1
+storm siren;1
+uncle daughter sex;1
+illegitimate daughter;1
+tattooed woman;1
+mentally retarded brother;1
+movie camera;1
+8mm film;1
+home movie;1
+dystopia;1
+postmodernism;1
+f word;4
+stage four cancer;1
+defecating on floor;1
+diarrhea;1
+vomit;2
+surveillance footage;1
+video surveillance;1
+paternity revealed;1
+paternity;1
+considering divorce;1
+riding a bicycle;2
+bicycling;1
+memory loss;1
+amnesia;1
+memory;2
+boat;2
+urinating on someone;1
+terminal illness;1
+tombstone;1
+girl;4
+mother daughter relationship;11
+drunkenness;4
+drinking;5
+drink;4
+tornado;1
+family relationships;10
+suspicion;4
+death of wife;3
+father son estrangement;1
+pride;2
+cynicism;2
+redemption;6
+hit and run;2
+accused of murder;1
+trial;2
+chicago illinois;1
+female bartender;1
+ex boyfriend ex girlfriend relationship;1
+reference to willie nelson;1
+reference to pink floyd;1
+reference to metallica;1
+death of mother;3
+plot twist;2
+man made waterfall;1
+racist;1
+racism;4
+race relations;2
+asian american;2
+racial profiling;1
+stereotype;1
+black american;3
+social problem;1
+social injustice;1
+racial tension;2
+latino;1
+class differences;2
+arab american;1
+hispanic american;3
+police detective;2
+detective;3
+partner;1
+locksmith;1
+district attorney;1
+bullet;2
+hate;2
+mexican housekeeper;1
+n word;2
+coincidence;1
+insurance adjuster;1
+reference to rodney king;1
+dumpster;1
+irony;1
+fender bender;1
+police sergeant;1
+moviemaking;1
+subtitles;1
+automatic dishwasher;1
+graffiti;2
+death of brother;3
+rap music;3
+country western music;1
+bird's eye shot;1
+crane shot;1
+sex slave;1
+thai american;1
+mexican american;1
+puerto rican;1
+groping;1
+murder of a police officer;1
+blow job in a car;1
+fellatio in a car;1
+street gang;2
+homeboy;1
+jive;1
+starbucks;1
+ventura boulevard los angeles;1
+one day time span;1
+24 hours;1
+mexico;2
+el salvador;1
+puerto rico;1
+reference to the black panthers;1
+reference to bobby seale;1
+reference to eldridge cleaver;1
+reference to huey newton;1
+traffic accident;1
+dignity;1
+reference to saddam hussein;1
+rear ending a car;1
+burning a car;1
+fairy;1
+fairy tale;1
+invisible cloak;1
+reference to barry gibb;1
+mercedes;1
+voodoo;1
+door lock;1
+university of california los angeles;1
+gang banger;1
+equestrian team;1
+equestrian;1
+insurance company;1
+black american slur;1
+african american slur;1
+key;2
+clinic;1
+diner;2
+patrolman;1
+car theft;1
+fireman;2
+firefighter;1
+fire extinguisher;1
+groceries;2
+country music;2
+accidental shooting;2
+knitting;1
+grocery store;1
+prostate;1
+los angeles kings;1
+hip hop;1
+fbi;1
+trapped in a car;1
+hiding under a bed;1
+policeman;5
+harassment;1
+humiliation;6
+embarrassment;2
+car chase;2
+chase;5
+evidence;2
+witness;2
+flashlight;3
+waitress;1
+racial discrimination;2
+reckless driving;3
+narc;1
+illegal immigrant;2
+storytelling;2
+studio city california;1
+stolen car;1
+theft;1
+thief;1
+self defense;1
+abuse of power;1
+body search;1
+reckless endangerment;1
+cambodian american;1
+sherman oaks california;1
+santa monica california;1
+burbank california;1
+fear;3
+christmas tree;2
+staples center los angeles;1
+los angeles police department;1
+lapd;1
+snowing;2
+urban setting;1
+illegal alien;1
+oral sex in a car;1
+dark humor;1
+black humor;1
+television director;1
+tattoo;3
+robbery;1
+reputation;1
+political corruption;1
+police harassment;1
+moral corruption;1
+korean american;1
+inner city;1
+firearm;1
+ensemble film;1
+dysfunctional marriage;2
+drug addict;1
+cultural conflict;1
+crisis of conscience;1
+criminal;2
+confrontation;4
+car crash;2
+bigot;2
+automobile theft;1
+automobile accident;1
+bullet through a window;1
+abusive policeman;1
+trunk;1
+bus;4
+persian american;1
+fingering;1
+shooting;1
+moral choice;1
+interracial sex;1
+interracial marriage;1
+chinese american;1
+arab slur;1
+buddhist;1
+multiple storyline;2
+urinary tract infection;1
+snow;3
+slavery;2
+saint christopher;1
+revenge;4
+rescue;1
+press conference;1
+police corruption;1
+police car;3
+morality;1
+insurance;1
+human smuggling;1
+gun shop;1
+drug addiction;1
+crime scene;1
+chop shop;1
+carjacking;1
+latina;1
+african american;3
+prejudice;2
+vandalism;1
+shot in the chest;3
+loss of son;3
+immigrant;3
+grand theft auto;1
+falling down stairs;2
+exploding car;1
+corruption;3
+corrupt cop;1
+corpse;3
+child in peril;2
+blank bullet;1
+kindness;1
+social commentary;1
+idealism;1
+hope;4
+compassion;3
+quote;1
+police officer;2
+los angeles california;1
+intolerance;1
+death of son;2
+independent film;5
+title spoken by character;10
+anger;3
+18th century;1
+portrait;1
+abolitionist;1
+white male black female relationship;1
+illegitimate child;2
+biracial child;1
+inspired by true events;1
+law student;1
+coming of age;3
+cousin cousin relationship;3
+slave;1
+georgian era;1
+costume drama;1
+period piece;1
+1780s;1
+interracial relationship;4
+illegitimacy;1
+biracial;1
+zong massacre;1
+blond man;1
+neighbor;4
+adhd;1
+high school teacher;1
+institutionalization;1
+stuttering;1
+mother;1
+single mother;4
+hyperactivity;1
+singing out of tune;1
+troubled teenager;1
+violent child;1
+violent youth;1
+violent behavior;1
+psychiatric hospital;1
+psychiatric ward;1
+committed to institution;1
+involuntary commitment;1
+attempted suicide;1
+house cleaning;1
+missing father;1
+widow;1
+reference to celine dion;1
+mother son reconciliation;1
+mother son conflict;1
+son hits mother;1
+lighting a cigarette from a cigarette;1
+karaoke;1
+juvenile crime;1
+juvenile delinquent;1
+montreal quebec canada;1
+quebec canada;1
+near future;1
+title appears in writing;4
+2010s;3
+racial slur;1
+homeschooling;1
+budding friendship;1
+female friendship;1
+friendship;7
+moving away;1
+slow motion;1
+supermarket;1
+gay slur;2
+montage;3
+dream sequence;1
+awkward situation;2
+stutterer;1
+stutter;1
+son kisses mother;1
+male in bathtub;1
+slitting wrists;1
+strait jacket;1
+confinement;1
+taser;1
+woman crying;2
+crying woman;2
+grief;3
+widescreen;1
+aspect ratio;1
+shopping cart;1
+behavioral disorder;1
+necklace;1
+mother son kiss;1
+caught masturbating;3
+clothesline;1
+selfie;1
+neighbor neighbor relationship;1
+domestic violence;1
+assistant;1
+divorce;2
+alps;1
+bad news;1
+ex lover ex lover relationship;1
+black & white sequence;1
+passage of time;1
+growing old;1
+giggling;1
+memorizing lines;1
+rehearsing lines;1
+playwright;1
+theatre rehearsal;1
+theatre director;1
+theatre production;1
+burning a manuscript;1
+award ceremony;1
+zurich switzerland;1
+divorce papers;1
+divorce proceedings;1
+woman in underwear;1
+reference to sydney pollack;1
+reference to lindsay lohan;1
+reference to neil young;1
+female protagonist;5
+paparazzi;1
+sudden disappearance;1
+disappearance;2
+nude woman swimming;1
+nude swimming;1
+reference to harrison ford;1
+casino;1
+movie theatre;1
+movie theater;1
+watching a movie;1
+film in film;1
+watching a video on a computer;1
+watching a video;1
+clouds;1
+swiss alps;1
+mountain;1
+hotel room;3
+hotel;4
+tablet computer;1
+googling for information;1
+switzerland;1
+play rehearsal;2
+rehearsal;1
+theater;2
+theatrical play;1
+movie actress;1
+film actress;1
+place name in title;2
+location in title;2
+heart;1
+kissing while having sex;1
+organ donor;1
+vegetarian;2
+main character dies;1
+death of title character;1
+weeding;1
+printing press;1
+tragic event;3
+death of protagonist;2
+death of hero;2
+imposture;1
+widower;3
+weak heart;1
+transplant recipient;1
+sibling relationship;1
+rain;4
+organ transplant;1
+organ transplantation;1
+lung transplant;1
+liver transplant;1
+kidney transplant;1
+human heart;1
+heart transplant;1
+heart patient;1
+heart disease;1
+guilty conscience;1
+eye transplant;1
+engineer;1
+doctor patient relationship;1
+critically bashed;3
+bone marrow transplant;1
+blood type;1
+best friend;1
+beach house;1
+atonement;1
+aeronautical engineering;1
+abusive boyfriend;1
+suicide via jellyfish;1
+emotional healing;1
+pianist;1
+motel;1
+jellyfish;1
+fraud;1
+irs agent;1
+heart condition;1
+blind;1
+number in title;3
+gang;1
+hmong;1
+gran torino;1
+veteran;1
+korean war veteran;1
+gangster;1
+birthday;5
+car;1
+heavy smoker;1
+villain arrested;1
+crucified hero pose;1
+boy;6
+teen angst;3
+tradition versus modernity;1
+self parody;1
+bathtub;4
+ford torino;1
+teen smoking;1
+product placement;1
+pabst blue ribbon beer;1
+golden retriever;1
+american flag;2
+cough foreshadows death;1
+finger gun;1
+film with ambiguous title;1
+white male pretending to be black;1
+uzi;1
+tradition;1
+thug;1
+raised middle finger;1
+nose ring;1
+navel piercing;1
+father figure;2
+cooler;1
+blockbuster;2
+beer;2
+alpha male;1
+will reading;1
+wd 40 oil;1
+tool belt;1
+spitting;1
+shot repeatedly;1
+shot multiple times;1
+off screen rape;1
+moral transformation;1
+misanthropy;1
+male virgin;1
+male bonding;1
+lapsed catholic;1
+italian american;1
+irish american;1
+incest rape;1
+incest overtones;1
+handyman;1
+granddaughter;1
+generation gap;1
+gang rape;1
+ethnic slur;1
+ethnic humor;1
+duct tape;1
+disinheritance;1
+confession booth;1
+ceiling fan;1
+catholic priest;1
+bully comeuppance;1
+barber;1
+anti hero;1
+woman doctor;1
+war medal;1
+vintage car;1
+tools;1
+polish american;1
+korea veteran;1
+house repairs;1
+hip hop music;1
+heroism;1
+funeral repast;1
+barbecue grill;1
+forgiveness;1
+christ figure;2
+pearl necklace;1
+workshop;1
+silver star;1
+shaman;1
+horoscope;1
+hardware store;1
+garden gnome;1
+child translates for adult;1
+zippo lighter;1
+medal of valor;1
+handgun;1
+rape victim;1
+kicked in the face;1
+held at gunpoint;1
+gardening;1
+disrespect;1
+malcontent;1
+driveby shooting;1
+curmudgeon;1
+urban decay;1
+tragic hero;1
+tough guy;1
+shot to death;1
+self sacrifice;1
+rape;3
+medal;1
+machismo;1
+machine gun;1
+lung cancer;1
+loner;1
+insult;1
+gift;1
+ghetto;1
+drive by shooting;1
+detroit michigan;1
+coughing blood;1
+community service;1
+burned with a cigarette;1
+battle fatigue;1
+asian mob;1
+anti semitism;3
+racist neighbor;1
+racist insult;1
+racial prejudice;1
+racial issues;2
+racial intolerance;1
+racial diversity;1
+racial barrier;1
+nasty neighbor;1
+bigotry;1
+bigoted neighbor;1
+bias;1
+wasted life;1
+racist joke;1
+mentor;2
+culture clash;1
+classic car;1
+catholic;2
+birthday party;1
+barber shop;1
+directed by star;2
+death of friend;1
+bath;2
+provocation;1
+porn;1
+shame;2
+sex addiction;1
+addiction;2
+borderline personality disorder;1
+office;1
+thirty something;1
+computer;3
+new york city;3
+brassiere;1
+supper club;1
+jazz singer;1
+blurred boundaries;1
+first date;1
+cocaine;1
+webcam;1
+pornography;1
+fear of intimacy;1
+self destructiveness;1
+self loathing;1
+fight;5
+jogging;2
+running;3
+watching tv;6
+scar;2
+punched in the stomach;1
+gay club;1
+reference to the rolling stones;1
+employer employee relationship;2
+throwing away a porn video;1
+masturbating in a shower;1
+blow job;2
+oral sex;1
+gay kiss;1
+group sex;1
+laptop;1
+elevator;2
+outdoor sex;1
+extramarital affair;2
+martini;1
+passion;1
+torment;1
+crying in the rain;1
+face wound;2
+sex club;1
+interracial couple;1
+porn video;1
+porn magazine;1
+promiscuity;1
+pick up;1
+male male kiss;1
+watching porn on a computer;1
+obsession;2
+anguish;1
+arm scar;1
+wrist slitting;2
+sex standing up;1
+rear entry sex;1
+subway;3
+anonymous sex;1
+gay sex;1
+heaven;1
+serial killer;1
+purgatory;1
+investigation;1
+pedophile;1
+1970s;1
+afterlife;1
+three word title;2
+shoes;2
+death of teenage girl;1
+floating in space;1
+sink;1
+washing machine;1
+beauty treatment;1
+kitchen fire;1
+vacuum cleaner;2
+alternate reality;1
+roll of film;1
+record player;2
+breaking glass bottle;1
+soda pop;1
+bottle opener;1
+hammer and nails;1
+breakfast;1
+stocking cap;1
+school bus;1
+female anatomy model;1
+farm;2
+back from the dead;1
+reference to laurence olivier;1
+wheat field;1
+figurine;1
+child molester;1
+note;1
+voice over note;1
+clubhouse;1
+reference to seventeen the magazine;1
+film developing;1
+fantasy sequence;2
+charm bracelet;1
+overflowing washing nmachine;1
+delaware;1
+assault;2
+grandfather clock;1
+multiple murders;1
+reference to coca cola;1
+dead girl;1
+lock of hair;1
+falling into water;1
+dead body in a bag;1
+kicking in a glass window;1
+breaking a glass window;1
+climbing out a window;1
+birds flying in v formation;1
+newspaper delivery boy;1
+hiding under floorboards;1
+hiding;1
+fruit picker;1
+lightning;1
+standing in the middle of traffic;1
+icicle;1
+baseball bat;2
+diver;1
+painting toenails;1
+shopping mall;1
+leg in a cast;1
+breaking and entering;2
+cellar;1
+scrapbook;1
+newspaper clipping;1
+wall safe;1
+flowers;1
+breaking down a door;1
+voyeurism;2
+voyeur;2
+photo album;2
+taxi driver;1
+taxi;1
+axe;2
+knife;2
+pursuit;2
+returning home;1
+straight edge razor;1
+electric train;1
+toy store;1
+dollhouse;1
+book;1
+model ship;1
+school locker;1
+school;5
+suitcase;1
+running in water;1
+shipwreck;1
+lighthouse;1
+poetry;1
+stuffed animal toy;2
+teddy bear;1
+eyeglasses;2
+blood splatter;1
+teenage crush;2
+digging;1
+candle;1
+curiosity;1
+trapdoor;1
+being watched;1
+watching someone;1
+suspense;1
+being followed;2
+following someone;2
+cornfield;1
+bicycle bell;1
+bicycle;3
+painter;1
+dancer;2
+eating;4
+missing child;1
+search;3
+little girl;2
+camera;3
+subjective camera;3
+girl driving a car;1
+year 1973;1
+grandmother granddaughter relationship;2
+little boy;4
+saving a life;1
+first kiss;2
+hat;1
+rapist;1
+sinkhole;1
+instamatic camera;1
+toy penguin;1
+snowglobe;1
+teenage love;1
+hit with a baseball bat;1
+lost love;1
+model builder;1
+murder victim;1
+death of sister;1
+death of daughter;1
+suburbia;1
+underground hideout;1
+field;1
+ship in a bottle;1
+home invasion;1
+dead teenager;1
+gazebo;1
+voice over narration;2
+murder investigation;1
+surrealism;1
+stalker;1
+box office flop;1
+narration from the grave;1
+stocking feet;1
+dead child;1
+valet;1
+love triangle;1
+year 1890;1
+river;2
+doll;2
+based on play;4
+bonus;1
+singing in a car;3
+weekend;1
+job;1
+ice cream;1
+48 hours;1
+shot in sequence;2
+belgium;1
+arthouse;1
+medicine overdose;1
+clinical depression;1
+working mom;1
+loss of job;1
+laundry;1
+boss;1
+vote;1
+money problems;3
+co worker;2
+threat of job loss;1
+passionate kiss;1
+bear;1
+north carolina;1
+femme fatale;1
+melodrama;2
+nature conservation;1
+jealousy;1
+horseback riding;1
+miscarriage;3
+debt;1
+madness;1
+rattlesnake;1
+eagle;1
+panther;1
+timber business;1
+year 1929;1
+logging;1
+teen parent;1
+sheriff;2
+texas;1
+growing up;1
+musician;1
+parenting;1
+family dinner;1
+road trip;1
+empty nest;1
+busboy;1
+restaurant manager;1
+reference to twilight;1
+chile con queso;1
+hide and seek;1
+reference to harry potter;1
+reference to obi wan kenobi;1
+college professor;1
+domestic abuse;1
+graduation party;1
+college roommate;1
+hiking;1
+leaving home;1
+12 year time span;1
+reference to 9 11;1
+iphone;1
+reference to facebook;1
+homophobia;2
+parent talking about sex to child;1
+shooting practice;1
+reference to star wars;1
+haircut;2
+separated parents;2
+divorced parents;1
+golf practice;1
+reference to pavlov's dogs;1
+iraq war;1
+iraq veteran;1
+apple computer;1
+reference to britney spears;1
+big bend texas;1
+vodka;3
+liquor;1
+confederate flag;1
+liberal;1
+obama election;1
+obama campaign;1
+reference to sarah palin;1
+2000s;1
+year 2013;2
+year 2012;1
+year 2011;1
+year 2010;1
+year 2009;1
+year 2008;1
+year 2007;1
+year 2004;1
+year 2006;1
+year 2005;1
+year 2003;1
+year 2002;1
+thanksgiving dinner;1
+thanksgiving;1
+flirting;2
+elementary school;1
+middle school;1
+abusive relationship;1
+check;1
+liquor store;1
+swimming hole;1
+swimming in underwear;1
+guitarist;2
+guitar;2
+van;2
+baseball;2
+pot smoking;2
+marijuana;3
+stepsister stepsister relationship;1
+abusive father;1
+abusive husband;1
+liar;2
+football;1
+darkroom;1
+classroom;2
+class;1
+playing a video game;1
+video game;1
+remarriage;1
+stepbrother stepbrother relationship;1
+stepbrother stepsister relationship;1
+stepgrandmother stepgrandson relationship;1
+target practice;2
+teenage sex;2
+sex;2
+austin texas;1
+houston texas;1
+step grandfather step grandson relationship;1
+photography;1
+bowling;1
+drunk driving;3
+roommate;1
+dorm room;1
+camping trip;1
+dishwasher;1
+school bully;1
+moving out;1
+underage drinking;2
+child with a gun;1
+grandmother grandson relationship;1
+alcoholic husband;1
+reference to ringo starr;1
+reference to george harrison;1
+reference to paul mccartney;1
+reference to john lennon;1
+reference to the beatles;1
+reference to john mccain;1
+reference to joe biden;1
+reference to john kerry;1
+reference to george w. bush;1
+reference to barack obama;1
+reference to bob dylan;1
+singing in a tent;1
+teenage daughter;1
+pills;3
+county;1
+broken marriage;1
+cruel;1
+bitterness;1
+swearing;1
+family secret;2
+cousins in love;1
+rebellious teenager;1
+in fighting;1
+hit with a shovel;1
+meanness;1
+playboy;1
+hired help;1
+native american;1
+grudge;1
+fighting;2
+incestuous relationship;1
+gramophone;1
+obnoxious;1
+sports car;1
+verbal abuse;1
+hair falling out;1
+mouth cancer;1
+bechdel test passed;3
+family matriarch;1
+lesbian slur;1
+sibling rivalry;1
+tony award source;1
+county name in title;1
+near death experience;1
+vision;2
+supernatural experience;1
+reporter;1
+doubt;1
+emergency room;1
+sick child;1
+based on true story;1
+mississippi;1
+maid;1
+1960s;2
+jackson mississippi;1
+black servant;1
+expectant mother;1
+pregnant wife;1
+aging;1
+pie;2
+year 1963;1
+chocolate pie;1
+racial hatred;1
+dying from cancer;1
+adult living with parents;1
+first job;1
+writing a novel;1
+baking;1
+trophy wife;1
+southern belle;1
+class divide;1
+high class;1
+rich parents;1
+university of mississippi;1
+pregnant;2
+daughters of the american revolution;1
+southern u.s.;1
+reference to martin luther king jr.;2
+university education;1
+intimidation;1
+newspaper columnist;1
+exploitation;1
+moral courage;1
+emotional manipulation;1
+ressentiment;1
+friend;3
+kissing;2
+14 year old;1
+bounty hunter;1
+girlfriend;1
+pearls;1
+message;1
+pact;1
+fugitive;1
+shoe print;1
+climbing a tree;1
+penthouse magazine;1
+protective male;1
+sharpshooter;1
+diving suit;1
+punch;1
+junkyard;1
+reuse;1
+black eye;1
+passing message;1
+state trooper;1
+boat in a tree;1
+motor boat;1
+wanted for murder;1
+wanted man;1
+eating from a can;1
+poisonous snake bite;1
+snake pit;1
+poisonous snake;1
+fisherman;1
+mysterious man;1
+nickname as title;1
+house boat;1
+forest;2
+man boy relationship;1
+bail;1
+drug trade;1
+crystal meth;1
+mentally ill mother;1
+bail bond;1
+hillbilly;1
+ozark mountains;1
+methamphetamine;1
+amateur detective;1
+title directed by female;1
+pet dog;1
+hands cut off;1
+chick;1
+family photograph;1
+breaking a car window;2
+some scenes in black and white;1
+snorting cocaine;1
+string band;1
+telescopic rifle;1
+german shepherd;1
+pet ferret;1
+marching drill;1
+hanging laundry;1
+family crisis;1
+neo noir;1
+character's point of view camera shot;1
+honor;1
+snitching;1
+patriarchy;1
+gun telescope;1
+conspiracy;1
+baby car seat;1
+sawing the hands off a dead body;1
+gunnysack;1
+bag over head;1
+baby doll;1
+military drill;1
+marching;1
+sweet pea;1
+woodchipper;1
+nickname;1
+out on bail;1
+deer stew;1
+waterton pond missouri;1
+puppy;1
+ferret;1
+bird;1
+female slaps a female;1
+hay bale;1
+hay;1
+sawing down a tree;1
+burned out building;1
+dead body in the water;1
+rowboat;1
+toy horse;1
+rocking horse;1
+clothes closet;1
+clothes;1
+cattle auction;1
+cattle;1
+auction;1
+farmhouse;1
+barn;1
+reading a note on the back of a photograph;1
+feeding a dog;1
+pet;1
+parenting class;1
+rotc;1
+fiddler;1
+fiddle;1
+butchering a squirrel;1
+murder of brother;1
+murder of father;1
+ice pack;1
+bloody mouth;1
+hand;1
+severed hand;2
+plastic bag;1
+police station;1
+joining the army;1
+army recruiter;1
+u.s. army;1
+black and white scene;1
+nightmare;2
+gutting a squirrel;1
+squirrel hunting;1
+squirrel;1
+butchering a deer;1
+combing someone's hair;1
+clothes line;1
+hanging clothes out to dry;1
+sleeping in a chair;2
+sleeping on a sofa;2
+cooking;3
+smashing a truck window;1
+courage;1
+cover up;1
+giving away a horse;1
+pleading for help;1
+derelict house;1
+chopping wood;1
+feeding a horse;1
+illness;1
+pickup truck;3
+drug use;3
+teaching someone how to shoot a rifle;1
+banjo player;1
+banjo;1
+skateboard;1
+trampoline;1
+prologue;2
+search for father;1
+uncle niece relationship;1
+women fight;1
+teenager with a gun;1
+chainsaw;1
+missing person;1
+swamp;1
+poverty;1
+raised by one's sibling;1
+drug dealer;2
+kidnapping;1
+missouri;1
+punctuation in title;1
+apostrophe in title;1
+prison;1
+interrupted hanging;1
+hanging;2
+attempted murder suicide;1
+solitary confinement;1
+face cut;1
+face slashed;1
+shower;2
+communal shower;1
+head in a toilet;1
+canteen;1
+toothbrush;1
+razor blade;1
+prison guard;1
+prisoner;1
+prison cell;1
+father in prison;2
+therapist;2
+new york;2
+playing against type;1
+teenage pregnancy;1
+lesbian couple;1
+african american lesbian;1
+lesbian;1
+physical abuse;1
+sexual abuse;1
+pregnant from rape;1
+pregnant by incest;1
+father daughter incest;2
+bad mother;1
+slow motion scene;3
+stairs;1
+present;1
+underwater;1
+throwing book;1
+water thrown in face;1
+hole in ceiling;1
+heroine;1
+bed;1
+broken glass window;1
+screaming;2
+ex drug addict;1
+candy;1
+microwave oven;1
+balloon;1
+literacy award;1
+wine;1
+reference to mcdonald's;1
+christmas present;1
+museum;1
+christmas card;1
+trophy;1
+motorcycle;1
+photograph comes to life;1
+wig;1
+writing;3
+manhattan new york city;1
+remote control;1
+stealing food;1
+ambiguous ending;1
+scarf;1
+pregnant teen;1
+year 1987;1
+hiv aids;1
+16 year old;1
+sociology;2
+reference to hurricane katrina;1
+fried chicken;1
+classmate;1
+1980s;1
+social worker;2
+winter;1
+anatolia;1
+drunk;3
+pneumonia;1
+throwing a stone at a car;1
+throwing a stone;1
+rural;2
+shakespeare's antony and cleopatra;1
+turkey;1
+shot;1
+dead hare;1
+hare;1
+husband wife conflict;1
+voice over inner thoughts;1
+killing a rabbit;1
+burning money;1
+pack of money;1
+reference to william shakespeare;1
+quoting shakespeare;1
+snowstorm;1
+contempt;1
+school teacher;1
+donation;1
+charity;1
+dysfunctional couple;1
+dysfunctional relationship;1
+comedian;1
+theater actor;1
+criticism;1
+boredom;1
+older husband younger wife relationship;1
+brother sister quarrel;1
+reference to omar sharif;1
+divorced woman;1
+writing a book;1
+writing an article;1
+japanese tourist;1
+wild horse;1
+lack of money;1
+late rent;1
+landlord tenant relationship;1
+tenant;1
+landlord;1
+hotel owner;1
+father hits son;1
+punishment;3
+broken car window;1
+throwing a stone at a window;1
+season in title;1
+cave dweller;1
+cappadocia turkey;1
+turkey the country;1
+20 something;1
+wearing an american flagh as a cape;1
+whiffle ball;1
+trepadone the drug;1
+watching the little rascals on tv;1
+toy;1
+smashing a windshield with a baseball bat;1
+taco;1
+hand on stomach;1
+portable cd player;1
+mother's boyfriend;1
+bongo drum;1
+applying eyeliner;1
+broken glass;1
+hand clapping game;1
+pretending to play the drums;1
+chef's hat;1
+banana;1
+aquarium;1
+date;1
+amulet;1
+bouncing a ball off a wall;1
+cleaning blood off someone;1
+filing one's fingernails;1
+notebook;2
+lamp;1
+diagnosis;1
+spitting on someone;1
+braiding someone's hair;1
+happy birthday;1
+earphones;1
+cutting one's self with one's fingernails;1
+cutting one's self;1
+defecation;1
+awol;1
+death of a fish;1
+sleeping;1
+trust;1
+abortion;2
+brushing one's teeth;1
+jumping rope;1
+stone amulet;1
+testicles;1
+bus stop;1
+foster father;1
+foster mother;1
+foster family;1
+giving a toast;1
+smashing a car window with a baseball bat;1
+therapy;1
+living together;1
+marriage proposal;1
+game playing;1
+suicide threat;1
+hysteria;1
+hit in the face;1
+spanish;1
+18 year old;1
+17 year old;2
+looking at one's self in a mirror;1
+male wearing an earring;1
+medication;1
+apology;1
+birthday card;1
+cupcake;1
+birthday present;1
+bracelet;1
+disturbed child;1
+two on a bicycle;1
+dead fish;1
+fish;1
+smashing a car window;1
+threaten with a baseball bat;1
+new employee;1
+new job;1
+mattress;1
+breaking a lamp;1
+desk lamp;1
+foot chase;1
+fishbowl;1
+inflatable toy;1
+sketching a portrait;1
+sketchbook;1
+sketching;1
+sketch;1
+drawing;1
+troubled teen;1
+self mutilation;1
+self cutting;1
+self harm;1
+female feet in socks;1
+based on short film;2
+problem child;1
+self injury;1
+unplanned pregnancy;1
+deeply disturbed person;1
+ptsd;1
+group home;1
+rapper;1
+child sexual abuse;1
+15 year old;1
+mute girl;1
+wounded;1
+shot in the shoulder;2
+whore;1
+search for dog;1
+dog versus dog;1
+poison;1
+redneck;1
+railway;1
+snake;2
+lighter;1
+bridge;1
+barking dog;1
+trees;1
+worker;1
+parole;1
+english;1
+flat;1
+block of flats;1
+pub;1
+council estate;1
+release from prison;1
+father son reunion;1
+poland;1
+nun;1
+jewish;1
+jew;1
+secret;1
+convent;1
+confronting the past;1
+murder of family;1
+murder of parents;1
+communist society;1
+persecution of jews;1
+polish jewish discrimination;1
+religious faith;1
+novitiate;1
+veil;1
+paternoster;1
+aunt niece relationship;1
+religious vows;1
+sign of the cross;1
+jewish cemetery;1
+one's origins unknown;1
+unearthed skeleton;1
+skull;1
+murder confession;1
+unmarked grave;1
+saxophone player;1
+female judge;1
+magistrate;1
+stalinism;1
+post world war two;1
+aunt nephew relationship;2
+jazz music;1
+suicide by jumping out a window;1
+ohio;1
+intern;1
+governor;2
+politics;1
+endorsement;1
+presidential campaign;1
+political thriller;1
+woman with glasses;1
+newspaper headline;1
+prescription drug overdose;1
+tv news;1
+cincinnati ohio;1
+reference to the new york times;1
+four word title;1
+written and directed by cast member;1
+reference to robert klein;1
+news reporter;1
+blackmail;1
+loyalty;1
+campaign speech;1
+presidential debate;1
+delegate count;1
+picket sign;1
+presidential candidate;1
+month in title;1
+title based on shakespeare;1
+older man older man relationship;1
+brooklyn new york city;1
+choir director;1
+homosexuality;1
+gay marriage;1
+catholic school;1
+gay teacher;1
+gay relationship;1
+gay couple;1
+gay lead character;1
+gay interest;1
+movement;1
+long term relationship;1
+gay cop;1
+gay love;1
+homosexual;1
+same sex marriage;1
+gay;1
+student prostitute;1
+holiday;1
+france;1
+prostitution;1
+pont neuf bridge;1
+underage;1
+text messaging;1
+text message;1
+smoking;1
+man in a swimsuit;1
+reference to rimbaud;1
+17 year old daughter;1
+17th birthday;1
+birthday cake;1
+sex on beach;1
+wad of cash;1
+stepfather stepdaughter relationship;1
+blended family;1
+mother daughter conflict;1
+sex with a minor;1
+dying during sex;1
+viagra;1
+hotel room sex;1
+older man younger woman relationship;2
+first time sex;1
+sunbathing;1
+teenage prostitution;1
+paris france;1
+cote d'azur;1
+mexican border;1
+destiny;2
+multiple perspectives;1
+cultural difference;1
+language barrier;1
+mexican;1
+morocco;1
+jackal;1
+housekeeper;1
+tour bus;1
+japan;1
+sids;1
+tourist;1
+nanny;1
+san diego california;1
+gunshot wound;1
+tokyo japan;1
+woman urinating;1
+goatherd;1
+stitching a wound;1
+border security;1
+customs;1
+chicken coop;1
+lip reading;1
+winchester rifle;1
+ambassador;1
+high heels;1
+hashish;1
+helicopter ambulance;1
+uh 1 huey helicopter;1
+deaf girl;1
+girls locker room;1
+firearms training;1
+mini skirt;1
+girl in panties;1
+white panties;1
+chaos theory;1
+mexican immigrant;1
+female removes her dress;1
+female removes her clothes;1
+cartridge;1
+camel;1
+ballpoint pen;1
+public telephone;1
+border guard;1
+water fight;1
+tv commercial;1
+graveyard;1
+panties;1
+water;1
+suspect;1
+valle de guadalupe mexico;1
+stitch;1
+penthouse;1
+goat skin;1
+referee;1
+shot in the back;1
+reference to mighty mouse;1
+wedding feast;1
+taking off panties;1
+mariachi band;1
+erfoud morocco;1
+tecate beer;1
+inspection;1
+interrogation;2
+watching a cartoon on tv;1
+washing clothes;1
+grave;1
+honking a car horn;1
+chicken;1
+strobe light;1
+pain;1
+peeping tom;1
+bleeding to death;1
+child with gun;1
+veterinarian;1
+gringo;1
+wedding cake;1
+disco;1
+death of baby;1
+tazarine morocco;1
+ambulance;1
+deaf mute;1
+ouarzazate morocco;1
+helicopter;1
+falling asleep;1
+cave;1
+upskirt;1
+street market;1
+ginza;1
+bus driver;1
+shootout;1
+rebellion;1
+gym;1
+wetting pants;1
+wedding reception;1
+deportation;1
+restroom;1
+girls' bathroom;1
+gangrene;1
+obscene gesture;1
+sudden infant death syndrome;1
+japanese hunter;1
+4 stories;1
+dental exam;1
+shochu;1
+pregnant bride;1
+band;1
+police brutality;1
+village;1
+indecent exposure;1
+game hunter;1
+suicide of mother;1
+stoned;1
+balcony;1
+video telephone;1
+volleyball;1
+threat of castration;1
+checkpoint;1
+dehydration;1
+shooting into the air;1
+fried egg plant;1
+police captain;1
+kicking;1
+listening to a radio;1
+wringing a chicken's neck;1
+locker room;1
+embassy;1
+target shooting;1
+ejected from a game;1
+whiskey;1
+bento box;1
+car search;1
+cell phone camera;1
+snorricam;1
+consumerism;1
+water fountain;1
+donkey;1
+helping someone urinate;1
+reading lips;1
+destroying a rifle;1
+child beating;1
+lifting up dress;1
+writing on hand;1
+u.s. ambassador;1
+terrorism;1
+suicide by shooting one's self in the head;1
+suicide by jumping;1
+suicide by gunshot;1
+shot in the leg;1
+shot in the arm;1
+seduction;1
+school uniform;1
+red cross;1
+jumping off a balcony;1
+cartoon on tv;1
+immigration;1
+mexican wedding;1
+television news;1
+ensemble cast;1
+actual animal killed;2
+translator;1
+tour guide;1
+border patrol;1
+passport;1
+u.s. mexico border;1
+shot in the neck;1
+death of child;1
+mayor;1
+attorney;1
+quoting bible;1
+bible quote;2
+picnic;1
+eminent domain;1
+whale;1
+convicted of murder;1
+jerusalem;1
+judas;1
+crucifixion;1
+last supper;1
+pontius pilate;1
+roman;1
+roman soldier;1
+suffering;1
+miracle;1
+torture;1
+temptation;1
+disciple;1
+betrayal;1
+soldier;1
+mel gibson;1
+foot bath;1
+foot closeup;1
+bare feet;1
+grindhouse;1
+based on the bible;1
+based on biblical story;1
+mercilessness;1
+religious persecution;1
+violent death;1
+tortured to death;1
+scream;1
+insanity;1
+brutality;1
+atrocity;1
+cult film;1
+blood of christ;1
+mob;1
+controversy;1
+english subtitles in original;1
+visceral;1
+sadism;1
+roman judea;1
+eyes pecked out;1
+ancient rome;1
+spear through chest;1
+wilderness;1
+villain;1
+thunderstorm;1
+severed finger;1
+peril;1
+gate;1
+eye;1
+evil;1
+escape;1
+doom;1
+attack;1
+virgin mary;1
+mary magdalene;1
+severed leg;1
+severed head;1
+severed arm;1
+remorse;1
+personality change;1
+messiah;1
+loss of friend;1
+hatred;1
+disfigured face;1
+chosen one;1
+armor;1
+no title at beginning;1
+corporal punishment;1
+whipping;1
+good versus evil;1
+sliced off ear;1
+stabbing;1
+killing a snake;1
+animal abuse;1
+execution;1
+tomb;1
+temple;1
+st. peter;1
+sermon on the mount;1
+scourging;1
+sacrifice;1
+prophecy;1
+passover;1
+judea;1
+demon;1
+carpenter;1
+carcass;1
+animal attack;1
+1st century;1
+stabbed in the hand;1
+severed ear;1
+eye gouging;1
+resurrection;1
+gore;1
+serpent;1
+crucifix;1
+reference to satan;1
+scuba diving;1
+siblings;1
+gay brother;1
+fraternal twins;1
+tied to a chair;1
+escaped convict;1
+eating disorder;1
+anorexia;1
+baseball practice;1
+boy in a wheelchair;1
+boy in wheelchair;1
+wheelchair;1
+handicapped boy;1
+physically handicapped;1
+handicapped;1
+appeared on tv news;1
+overflowing bathtub;1
+wife killed;1
+dead baby;1
+birth;1
+tied feet;1
+record turntable;1
+hamster;1
+narrator;1
+peach pie;1
+rope;1
+country house;1
+role playing;1
+sociology graduate;1
+sociological;1
+sociologist;1
+stockings;1
+von sacher masoch;1
+psychological manipulation;1
+dominance submissiveness;1
+submissive man;1
+cross dressing;1
+femdom;1
+s&m;1
+director;1
+power game;1
+anthropology;1
+stage lighting;1
+chewing gum;1
+reference to famous painting;1
+reference to titian;1
+phallic symbol;1
+cactus;1
+walking out on an audition;1
+stage director;1
+stage performance;1
+two hander;1
+foreign language adaptation;1
+reference to venus the roman goddess;1
+novel;1
+acting audition;1
+audition;1
+play;1
+play director;1
+huis clos;1

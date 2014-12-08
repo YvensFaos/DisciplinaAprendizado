@@ -1,64 +1,38 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Journal Article
-% LaTeX Template
-% Version 1.3 (9/9/13)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Frits Wenneker (http://www.howtotex.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
 \documentclass[twoside]{article}
-
 \usepackage{lipsum} % Package to generate dummy text throughout this template
 \usepackage[utf8]{inputenc}
 \usepackage[sc]{mathpazo} % Use the Palatino font
-\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+%\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 \linespread{1.05} % Line spacing - Palatino needs more space between lines
 \usepackage{microtype} % Slightly tweak font spacing for aesthetics
-
 \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
 \usepackage{multicol} % Used for the two-column layout of the document
 \usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
 \usepackage{booktabs} % Horizontal rules in tables
 \usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
 \usepackage{hyperref} % For hyperlinks in the PDF
-
 \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
 \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
-
 \usepackage{abstract} % Allows abstract customization
 \renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
 \renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
-
 \usepackage{titlesec} % Allows customization of titles
 \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
 \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
 \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
 \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
-
 \usepackage{fancyhdr} % Headers and footers
 \pagestyle{fancy} % All pages have headers and footers
 \fancyhead{} % Blank out the default header
 \fancyfoot{} % Blank out the default footer
-\fancyhead[C]{Running title $\bullet$ Dezembro 2014 $\bullet$ } % Custom header text
+\fancyhead[C]{Artigo aí de Machine Learning title $\bullet$ Dezembro 2014 $\bullet$ } % Custom header text
 \fancyfoot[RO,LE]{\thepage} % Custom footer text
 
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
 
-\title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{Article Title}} % Article title
+\title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{Artigo aí de Machine Learning}} % Article title
 
 \author{
 \large
@@ -78,16 +52,6 @@
 \thispagestyle{fancy} % All pages have headers and footers
 
 %----------------------------------------------------------------------------------------
-%	ABSTRACT
-%----------------------------------------------------------------------------------------
-
-\begin{abstract}
-
-\noindent Fazer uma geral do artigo. % Dummy abstract text
-
-\end{abstract}
-
-%----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
 
@@ -96,13 +60,13 @@
 \section{Introdução}
 
 \lettrine[nindent=0em,lines=3]
-{L} orem ipsum dolor sit amet, consectetur adipiscing elit.
-Contextualização (falar que tem muitos dados)
-Motivação (Motivação particular de você se interessar)
-Breve Estado da arte.
-Solução Proposta.
-Resultados
-Estrutura
+A indústria cinematográfica é um dos setores de entretenimento mais populares e lucrativos do mundo. Segundo dados da \textit{Motion Picture Association of America} (MPAA), a receita de bilheteria nos Estados Unidos aproxima-se da cifra de US\$ $9.5$ bilhões no ano de 2006 \cite{cinema_livro}. No entanto, a produção de um curta ou longa metragem requer valores altos de investimento inicial. Um filme pertencente a uma companhia integrante da MPAA, por exemplo, custa em média US\$ $100.3$ milhões, incluindo os custos de produção, comercialização e \textit{marketing} \cite{cinema_livro}. Contudo, como toda atividade de empresa, a produção de filmes é uma atividade de risco, tendo em vista a relativa imprevisibilidade da preferência do público.
+
+Este trabalho procura analisar os perfis de diferentes filmes, suas características e avaliações de usuários, para identificar possíveis padrões e informações que possivelmente caracterizam se um filme será um sucesso ou um fracasso. Tais informações minimizariam o risco na produção de filmes e auxiliariam diretores e produtores nesse processo, guiando-os por parâmetros que aumentariam significativamente as chances de sucesso no empreendimento.
+
+A maioria das pesquisas nessa área busca analisar as críticas e \textit{reviews}, classificando-as como positivas ou negativas, para compreender a opinião do público quanto ao filme \cite{artigo1, artigo2, artigo3}. Outra abordagem comum são os sistemas de recomendação que tentam, através das críticas e \textit{reviews} prévias de um determinado usuário, identificar possíveis filmes recomendáveis \cite{artigo4}. Trabalhos com o foco na recepção do público aos filmes são raros e escassos.
+
+Partindo doe dados coletados na \textit{Internet Movies Database} (IMDb), nós coletamos diferentes variáveis (gênero, duração, faixa etária, etc.) e, a partir destas e de algoritmos de \textit{machine learning}, classificá-los como "Bom", "Regular" ou "Ruim". As classificações foram definidas a partir das avaliações médias dos usuários (\textit{rating} no site. Utilizando árvores de decisão conseguimos uma média de 66\% de acerto, indicando possíveis padrões e variáveis a serem mais profundamente estudadas.
 
 %------------------------------------------------
 
@@ -110,8 +74,8 @@ Estrutura
 
 Conceitos Básicos.
 \begin{compactitem}
-\item Árvore de decisão
-\item Outros algoritmos
+\item Árvore de decisão.
+\item Outros algoritmos.
 \end{compactitem}
 Falar dos trabalhos relacionados.
 
@@ -121,21 +85,33 @@ Falar dos trabalhos relacionados.
 
 Solução conceitual
 \begin{compactitem}
-\item Instanciação
-\item Falar sobre a evolução do modelo
+\item Instanciação.
+\item Falar sobre a evolução do modelo.
 \end{compactitem}
 
 %------------------------------------------------
 
-\section{Discussion}
+\section{Resultados da Avaliação}
 
-\subsection{Subsection One}
+\subsection{Prova de Conceito}
 
-\lipsum[7] % Dummy text
+Metodologia.
 
-\subsection{Subsection Two}
+Resultados.
 
-\lipsum[8] % Dummy text
+Avaliação.
+
+Limitações.
+
+\subsection{Discussão}
+
+Discussão dos resultados.
+
+Gráficos.
+
+\section{Conclusão}
+
+Conclusão geral do trabalho.
 
 %----------------------------------------------------------------------------------------
 %	REFERENCE LIST

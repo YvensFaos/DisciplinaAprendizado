@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             this.panel1 = new System.Windows.Forms.Panel();
             this.checkBoxTempFile = new System.Windows.Forms.CheckBox();
             this.buttonExecuteAction = new System.Windows.Forms.Button();
@@ -76,6 +76,8 @@
             this.comboBoxCharts = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.chartArea = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.textBoxGenre = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -87,6 +89,8 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label14);
+            this.panel1.Controls.Add(this.textBoxGenre);
             this.panel1.Controls.Add(this.checkBoxTempFile);
             this.panel1.Controls.Add(this.buttonExecuteAction);
             this.panel1.Controls.Add(this.comboBoxAction);
@@ -127,7 +131,8 @@
             "Exportar para Weka",
             "Buscar tags",
             "Arimética dos Filmes",
-            "Remover excessos"});
+            "Remover excessos",
+            "Por Gênero"});
             this.comboBoxAction.Location = new System.Drawing.Point(6, 26);
             this.comboBoxAction.Name = "comboBoxAction";
             this.comboBoxAction.Size = new System.Drawing.Size(168, 21);
@@ -563,16 +568,33 @@
             // 
             // chartArea
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartArea.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartArea.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chartArea.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartArea.Legends.Add(legend2);
             this.chartArea.Location = new System.Drawing.Point(3, 53);
             this.chartArea.Name = "chartArea";
             this.chartArea.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
             this.chartArea.Size = new System.Drawing.Size(419, 275);
             this.chartArea.TabIndex = 0;
             this.chartArea.Text = "chart1";
+            // 
+            // textBoxGenre
+            // 
+            this.textBoxGenre.Location = new System.Drawing.Point(6, 126);
+            this.textBoxGenre.Name = "textBoxGenre";
+            this.textBoxGenre.Size = new System.Drawing.Size(168, 20);
+            this.textBoxGenre.TabIndex = 4;
+            this.textBoxGenre.Text = "Drama";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(6, 109);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(42, 13);
+            this.label14.TabIndex = 5;
+            this.label14.Text = "Gênero";
             // 
             // ICMainWindow
             // 
@@ -646,6 +668,8 @@
         private System.Windows.Forms.TextBox textBoxThreads;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.CheckBox checkBoxTempFile;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox textBoxGenre;
     }
 }
 
